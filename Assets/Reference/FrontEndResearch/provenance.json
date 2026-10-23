@@ -1,0 +1,294 @@
+{
+  "schema_version": 1,
+  "retrieved_at_utc": "2026-10-18T04:56:42.915087+00:00",
+  "scope": "Only new files under Assets/Reference/FrontEndResearch; no existing project/C# files edited; no Godot/build actions; no game binaries downloaded; no credentials used.",
+  "inspection": "All retained reference images directly inspected via browser screenshot result or read_image.",
+  "records": [
+    {
+      "id": "S1-pdf",
+      "file": "ra2-2000-english-manual.pdf",
+      "source_page_url": "http://nyerguds.arsaneus-design.com/manuals/Red%20Alert%202/",
+      "asset_url": "http://nyerguds.arsaneus-design.com/manuals/Red%20Alert%202/Red%20Alert%202%20-%20English.pdf",
+      "kind": "retail_manual",
+      "method": "direct_http_download",
+      "version": "Original RA2 retail English UK manual, 2000",
+      "confidence": "high",
+      "direct_image_inspection": false,
+      "notes": [
+        "33 PDF pages; most pages are two printed manual pages.",
+        "Printed pp6-14: menus/options/setup; printed pp52-53: Westwood Online create/join, not LAN."
+      ],
+      "bytes": 322035,
+      "sha256": "d709e9e9927de5fb676fb7040b0ed7d5d0f2bf099a848903a0ad191369085f8e"
+    },
+    {
+      "id": "S1-text",
+      "file": "ra2-2000-english-manual-extracted.txt",
+      "source_page_url": "http://nyerguds.arsaneus-design.com/manuals/Red%20Alert%202/Red%20Alert%202%20-%20English.pdf",
+      "asset_url": "http://nyerguds.arsaneus-design.com/manuals/Red%20Alert%202/Red%20Alert%202%20-%20English.pdf",
+      "kind": "derived_manual_text",
+      "method": "pypdf extraction in TemporaryDirectory under TMPDIR; dependency removed automatically",
+      "version": "Original RA2 retail English UK manual, 2000",
+      "confidence": "high",
+      "direct_image_inspection": false,
+      "notes": [
+        "Page-order text reflects two printed pages per PDF page and sometimes interleaves columns. Use PDF page markers plus printed page numbers."
+      ],
+      "bytes": 124202,
+      "sha256": "9149eaa1d0426bf0ce9cd3b4c95dd8305986e56425b08455afe0847e9f5de44e"
+    },
+    {
+      "id": "S2",
+      "file": "ra2-main-menu-mobygames-20001029.png",
+      "source_page_url": "https://www.mobygames.com/game/2544/command-conquer-red-alert-2/screenshots/windows/10837/",
+      "asset_url": "https://cdn.mobygames.com/screenshots/10853432-command-conquer-red-alert-2-windows-main-menu.png",
+      "kind": "game_screenshot",
+      "method": "browser element screenshot of figure img; no surrounding webpage",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "browser_device_scale": 1.9,
+      "source_contributor": "emil",
+      "source_added_date": "2000-10-29",
+      "version": "Version 1.0 visibly printed in screenshot",
+      "confidence": "high",
+      "direct_image_inspection": true,
+      "notes": [
+        "Direct HTTP download returned 403; rendered public screenshot captured instead.",
+        "Saved image is browser-rasterized at 1.9x source dimensions, not an original-resolution download.",
+        "Visible buttons: Single Player, Internet, Network, Movies & Credits, Options, Exit Game."
+      ],
+      "bytes": 1358179,
+      "sha256": "9df463614cb06eafcbbe5e033f64c25e62a835deb522942b1a272e5d4bc6b694",
+      "saved_dimensions": [
+        1216,
+        912
+      ]
+    },
+    {
+      "id": "S3",
+      "file": "ra2-options-mobygames-20010410.png",
+      "source_page_url": "https://www.mobygames.com/game/2544/command-conquer-red-alert-2/screenshots/windows/14417/",
+      "asset_url": "https://cdn.mobygames.com/screenshots/10133152-command-conquer-red-alert-2-windows-game-options-screen.jpg",
+      "kind": "game_screenshot",
+      "method": "browser element screenshot of figure img; no surrounding webpage",
+      "source_dimensions": [
+        800,
+        600
+      ],
+      "browser_device_scale": 1.9,
+      "source_contributor": "Andrew Hartnett",
+      "source_added_date": "2001-04-10",
+      "version": "Original RA2 before Yuri release; patch not visible",
+      "confidence": "high for visible original layout; patch unknown",
+      "direct_image_inspection": true,
+      "notes": [
+        "All Display, Game, UI, Audio sections are on the same Options root.",
+        "Rail Keyboard, Network, Main Menu; no separate Display/Audio/Game dialog buttons.",
+        "Difficulty slider visible; Game Speed slider not visible here although manual discusses it.",
+        "Saved image is browser-rasterized at 1.9x source dimensions."
+      ],
+      "bytes": 1446509,
+      "sha256": "65c0fe95cb6f5e85d2f57bf6b6a53ad789df41cefd1621e5d64673d2e4157bd2",
+      "saved_dimensions": [
+        1520,
+        1140
+      ]
+    },
+    {
+      "id": "S4",
+      "file": "ra2-skirmish-setup-mobygames-20040208.png",
+      "source_page_url": "https://www.mobygames.com/game/2544/command-conquer-red-alert-2/screenshots/windows/61176/",
+      "asset_url": "https://cdn.mobygames.com/screenshots/10135099-command-conquer-red-alert-2-windows-customizing-the-skirmish-mod.jpg",
+      "kind": "game_screenshot",
+      "method": "browser element screenshot of figure img; no surrounding webpage",
+      "source_dimensions": [
+        640,
+        480
+      ],
+      "browser_device_scale": 1.9,
+      "source_contributor": "Indra was here",
+      "source_added_date": "2004-02-08",
+      "version": "Base RA2 gallery; exact patch not visible",
+      "confidence": "high for skirmish; medium for shared LAN control geometry",
+      "direct_image_inspection": true,
+      "notes": [
+        "Title says Skirmish Game. This is NOT a LAN room screenshot.",
+        "Manual describes shared network/skirmish setup semantics; do not infer guest readiness controls or LAN chat from this image.",
+        "Saved image is browser-rasterized at 1.9x source dimensions."
+      ],
+      "bytes": 1060979,
+      "sha256": "bf02c63235a3c308f7f0bbea5b872ab6ed77cd81a97db118d384e11adc0d5a77",
+      "saved_dimensions": [
+        1216,
+        912
+      ]
+    },
+    {
+      "id": "S5-lobby",
+      "file": "ra2-lan-lobby-tlukas-2013.png",
+      "source_page_url": "https://www.tlukas.eu/uvod/red-alert-2-multiplayer",
+      "asset_url": "https://lh4.googleusercontent.com/-FmIAm3z0xu8/UT7qZ3BuUuI/AAAAAAAAHJc/B2GWw-SjHrA/s640/ra2_lobby.png",
+      "kind": "native_game_lobby_screenshot",
+      "method": "direct_small_image_download",
+      "version": "Source specifies RA2 1.006 plus wsock32 shim/Hamachi; patch not printed on lobby itself",
+      "confidence": "high visible layout; medium-high version attribution",
+      "direct_image_inspection": true,
+      "source_publication_date": "Not exposed; comments show page existed by 2013-04-04; current page downloaded during research",
+      "notes": [
+        "No CnCNet launcher. Native Lobby before joining/hosting.",
+        "Visible Your Name, Players, Games (Lobby and Martasw’s Game), chat log/input, New, Join, Main Menu.",
+        "Does not establish stock IPX transport behavior or actual post-New room layout."
+      ],
+      "source_excerpt_original": "Po spuštění vybere jeden hráč možnost Network a dále možnost New. Ostatní hráči vyberou taktéž Network, ale dále v lobby vyberou hru vytvořenou hráčem, který zakládá server a dají možnost Join.",
+      "source_excerpt_english": "After launch one player chooses Network then New. The others choose Network, select the host-created game in the lobby, and choose Join.",
+      "bytes": 298832,
+      "sha256": "5370d3d6ab3b83a666997edc4006d9d7d8e3208f05212d4e32656906592f91b4",
+      "saved_dimensions": [
+        640,
+        483
+      ]
+    },
+    {
+      "id": "S5-version",
+      "file": "ra2-version-1006-tlukas-2013.jpg",
+      "source_page_url": "https://www.tlukas.eu/uvod/red-alert-2-multiplayer",
+      "asset_url": "https://lh4.googleusercontent.com/-8kApr2gqDwg/UTow0p1rQ2I/AAAAAAAAHJA/gXIhseli5Ns/s305/RA2_version.jpg",
+      "kind": "game_version_crop",
+      "method": "direct_small_image_download",
+      "version": "Version 1.006 visibly printed",
+      "confidence": "high for version crop; linkage to lobby by same tutorial",
+      "direct_image_inspection": true,
+      "bytes": 12020,
+      "sha256": "e3cce91538b4a044e6ac42fc141a53a8d0dae9af1e30bca84dc66b6aed4e324a",
+      "saved_dimensions": [
+        305,
+        134
+      ]
+    },
+    {
+      "id": "S6-main",
+      "file": "ra2-main-menu-chinese-baidu-20121222.png",
+      "source_page_url": "https://jingyan.baidu.com/article/4dc40848f90995c8d946f19a.html",
+      "asset_url": "https://exp-picture.cdn.bcebos.com/e076d77622bc7dc56200ebeb5e460596b91429fc.jpg",
+      "kind": "localized_game_screenshot",
+      "method": "direct_small_image_download; extension corrected to actual PNG magic",
+      "source_updated_date": "2012-12-22",
+      "version": "Original RA2 logo, Traditional Chinese; appears Version 1.0, exact distribution/subbuild unverified",
+      "confidence": "medium supplementary evidence",
+      "direct_image_inspection": true,
+      "notes": [
+        "500-pixel watermarked source.",
+        "Retained to link the IPX Options source to an original-game-branded main menu.",
+        "Logo and screenshot cannot independently rule out every possible unbranded modification."
+      ],
+      "bytes": 286054,
+      "sha256": "c648d5d7b0789f4b03280df6711445d137bf5489b9fa2bce56a52ba1cb340061",
+      "saved_dimensions": [
+        500,
+        362
+      ]
+    },
+    {
+      "id": "S6-ipx",
+      "file": "ra2-ipx-options-chinese-baidu-20121222.png",
+      "source_page_url": "https://jingyan.baidu.com/article/4dc40848f90995c8d946f19a.html",
+      "asset_url": "https://exp-picture.cdn.bcebos.com/2db6c1b2dc19ce2c9e7cde6a7fdca039121f11fc.jpg",
+      "kind": "localized_game_screenshot",
+      "method": "direct_small_image_download; extension corrected to actual PNG magic",
+      "source_updated_date": "2012-12-22",
+      "version": "Base-game Chinese front end; exact subbuild unverified",
+      "confidence": "medium geometry; English labels corroborated by S7",
+      "direct_image_inspection": true,
+      "notes": [
+        "Actual image inspected: title IPX 選項; adapter dropdown, Socket field, destination network field.",
+        "Top-right 確定 confirmation button visible. Bottom-right label obscured/low-resolution; do not assert exact English return operation.",
+        "Not modern TCP/IP server address UI; do not treat destination-network field as an Internet IP."
+      ],
+      "bytes": 273988,
+      "sha256": "63eb0b10ff57d88fecbb952e39ec26c8f046b9f8d57f44cb5a2ade26d3a4d1a9",
+      "saved_dimensions": [
+        500,
+        376
+      ]
+    },
+    {
+      "id": "S6-ipx-crop",
+      "file": "ra2-ipx-fields-crop-chinese-baidu-20121222.png",
+      "source_page_url": "https://jingyan.baidu.com/article/4dc40848f90995c8d946f19a.html",
+      "asset_url": "https://exp-picture.cdn.bcebos.com/486884883913e8e535896d08352f477047187dfc.jpg",
+      "kind": "localized_game_screenshot_crop",
+      "method": "direct_small_image_download; extension corrected to actual PNG magic",
+      "source_updated_date": "2012-12-22",
+      "version": "Base-game Chinese front end; exact subbuild unverified",
+      "confidence": "medium",
+      "direct_image_inspection": true,
+      "notes": [
+        "The tutorial positions this near its lobby step, but the actual image is another IPX form crop. It is NOT a lobby image.",
+        "No facts were inferred from its filename or article step number."
+      ],
+      "bytes": 238195,
+      "sha256": "330482353adf6a90837ad34e48ca9e8f119f8ad42f83deea13d2b219651bae73",
+      "saved_dimensions": [
+        500,
+        454
+      ]
+    }
+  ],
+  "corroborating_text_sources": [
+    {
+      "id": "S7",
+      "url": "https://forums.cncnz.com/topic/1470-ra2-lanipx-specific-help-please/",
+      "date": "2004-06-09/10",
+      "version": "RA2; exact patch unknown",
+      "confidence": "medium",
+      "supports": [
+        "Options > Network",
+        "adapter selector, Socket, Destination Network",
+        "network Lobby, player-name changes, chat, joining hosted game"
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.onlinedown.net/article/10044334.htm",
+      "reason": "Article explicitly discusses Republic of China mod and contains generic instructions inconsistent with retail UI; no layout facts used."
+    },
+    {
+      "url": "https://forums.cncnet.org/topic/4518-anyway-to-make-the-cncnet-client-look-more-like-this/",
+      "reason": "Contains Yuri LAN images and explicitly identified Photoshop/CnCNet mockup. Not used as original vanilla authority."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Jd9rh2PJk-8",
+      "reason": "Original RA2 LAN 1.006 tutorial metadata found, but playback unplayable. Inspected hq and numbered small stills show startup/end card, not room setup; discarded local stills."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=1QSX2TzB43o",
+      "reason": "Actual inspected thumbnail visibly says Yuri’s Revenge Version 1.001 despite generic RA2 title; discarded."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=n_xWvNxO55c",
+      "reason": "Actual inspected thumbnail branded Blitz mod; discarded."
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Red_Alert_2_Teams.png",
+      "reason": "Description is a fan countries/world map, not a UI capture; not downloaded."
+    },
+    {
+      "url": "https://www.neoseeker.com/Articles/Games/Reviews/redalert2/4.html",
+      "reason": "Security check prevented inspecting screenshot content; no facts inferred."
+    },
+    {
+      "url": "https://strategywiki.org/wiki/Command_%26_Conquer:_Red_Alert_2",
+      "reason": "HTTP403; no facts inferred."
+    }
+  ],
+  "evidence_limits": [
+    "No directly inspected post-New vanilla LAN host-room capture obtained.",
+    "Guest Ready/Accept behavior unverified.",
+    "IPX exact English confirm/cancel labels and return operation unverified.",
+    "Root Options persistence timing and resolution confirmation sequence unverified.",
+    "No hover/pressed-state measurements or radar timing measurements."
+  ]
+}

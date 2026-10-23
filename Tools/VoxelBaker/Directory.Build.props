@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <VoxelBakerCache Condition="'$(XDG_CACHE_HOME)' != ''">$(XDG_CACHE_HOME)/redalert-voxel-baker</VoxelBakerCache>
+    <VoxelBakerCache Condition="'$(VoxelBakerCache)' == '' and '$(TMPDIR)' != ''">$(TMPDIR)/redalert-voxel-baker</VoxelBakerCache>
+    <BaseIntermediateOutputPath>$(VoxelBakerCache)/obj/</BaseIntermediateOutputPath>
+    <BaseOutputPath>$(VoxelBakerCache)/bin/</BaseOutputPath>
+  </PropertyGroup>
+  <Target Name="RequireExternalBuildCache" BeforeTargets="Restore;PrepareForBuild" Condition="'$(VoxelBakerCache)' == ''">
+    <Error Text="Set XDG_CACHE_HOME or TMPDIR; build products must stay outside the checkout." />
+  </Target>
+</Project>

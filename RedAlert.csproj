@@ -1,0 +1,14 @@
+<Project Sdk="Godot.NET.Sdk/4.7.2-ohos.3">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>RedAlert</RootNamespace>
+    <AssemblyName>RedAlert</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Simulation/**/*.cs;Tests/**/*.cs;Tools/**/*.cs" />
+    <ProjectReference Include="Simulation/RedAlert.Simulation.csproj" />
+  </ItemGroup>
+</Project>

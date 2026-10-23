@@ -1,0 +1,7 @@
+<Project>
+  <!-- Do not import repository-wide Godot settings into this standalone CLI. -->
+  <PropertyGroup>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <ArtifactsPath Condition="'$(ArtifactsPath)' == '' and '$(XDG_CACHE_HOME)' != ''">$(XDG_CACHE_HOME)/redalert-godot-csharp/terrain-pipeline</ArtifactsPath>
+  </PropertyGroup>
+</Project>

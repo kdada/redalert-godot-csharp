@@ -1,0 +1,490 @@
+{
+  "schemaVersion": 1,
+  "format": "RA2 TMP 60x30",
+  "source": {
+    "fileName": "droads08.tem",
+    "byteLength": 14896,
+    "sha256": "ef719265c5cdb95cc50467a96bca742efa88b6a226ff0872cefd782f45ca4cf7"
+  },
+  "palette": {
+    "fileName": "isotem.pal",
+    "componentBits": 6,
+    "sha256": "5d6e40fcd11a592a31494c635d93c21796cfe86a2743f0258b1f7d0aff850795",
+    "expansion": "channel \u003C\u003C 2 (63 -\u003E 252)"
+  },
+  "template": {
+    "blocksX": 4,
+    "blocksY": 4,
+    "tileWidth": 60,
+    "tileHeight": 30,
+    "maxHeight": 0,
+    "frameCount": 8,
+    "emptyIndices": [
+      0,
+      1,
+      3,
+      4,
+      11,
+      12,
+      14,
+      15
+    ]
+  },
+  "conventions": {
+    "indexHash": "SHA256 over original packed indices, in source order; diamond exactly 900 bytes, extra width*height bytes.",
+    "diamondAlpha": "All 900 encoded diamond pixels are opaque, including palette index 0; outside the shape is transparent black. Last row is empty.",
+    "extraAlpha": "Index 0 is transparent black; other extra pixels are opaque. Extra is a separate layer, not composited onto the diamond.",
+    "offset": "Raw signed top-left pixel coordinates from block header, relative to template origin; unmodified.",
+    "gridOffset": "Isometric top-left implied by table cell: ((cellX-cellY)*30, (cellX\u002BcellY)*15).",
+    "heightAdjustedOffset": "Raw offset with Y \u002B= (template.maxHeight - height)*15, per ra2ff description; supplied separately, no resampling.",
+    "extraOffset": "Raw template pixel coordinates; offsetFromDiamond = extra.offset - diamond.offset. Same height adjustment as base.",
+    "terrainType": "Raw block terrain index byte; theater tile-set IDs and terrain name/rules mappings are not present in a standalone TMP.",
+    "zData": "Raw depth bytes preserved; no claims about renderer depth or damaged-data semantics."
+  },
+  "formatSources": [
+    "https://github.com/tcrs/ra2ff/blob/3800e3636c43d2a8a7331b2d7dbcd888c215d6af/ra2ff.txt",
+    "https://github.com/OpenRA/OpenRA/blob/e180e3225f3930272dd451917467631618f8976f/OpenRA.Mods.Cnc/SpriteLoaders/TmpTSLoader.cs"
+  ],
+  "frames": [
+    {
+      "index": 2,
+      "cellX": 2,
+      "cellY": 0,
+      "sourceOffset": 80,
+      "offset": {
+        "x": 60,
+        "y": 30
+      },
+      "gridOffset": {
+        "x": 60,
+        "y": 30
+      },
+      "heightAdjustedOffset": {
+        "x": 60,
+        "y": 30
+      },
+      "height": 0,
+      "terrainType": 13,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "o6pR",
+      "radarRight": "mKFP",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 60,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0002.diamond.png",
+        "indicesFile": "tile-0002.diamond.indices.bin",
+        "indicesSha256": "ea401a7b41f7abb4136183488f2939e7e7de255ebb42c1da576d03acc78eac50",
+        "indexCount": 900,
+        "zFile": "tile-0002.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 5,
+      "cellX": 1,
+      "cellY": 1,
+      "sourceOffset": 1932,
+      "offset": {
+        "x": 0,
+        "y": 30
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 30
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 30
+      },
+      "height": 0,
+      "terrainType": 12,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "pqFO",
+      "radarRight": "paRN",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0005.diamond.png",
+        "indicesFile": "tile-0005.diamond.indices.bin",
+        "indicesSha256": "51761569dc7d49337c360e8fde10ca4b18442c72904785416cbf4ca38069df87",
+        "indexCount": 900,
+        "zFile": "tile-0005.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 6,
+      "cellX": 2,
+      "cellY": 1,
+      "sourceOffset": 3784,
+      "offset": {
+        "x": 30,
+        "y": 45
+      },
+      "gridOffset": {
+        "x": 30,
+        "y": 45
+      },
+      "heightAdjustedOffset": {
+        "x": 30,
+        "y": 45
+      },
+      "height": 0,
+      "terrainType": 13,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "qpdI",
+      "radarRight": "oJpN",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 30,
+          "y": 45
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0006.diamond.png",
+        "indicesFile": "tile-0006.diamond.indices.bin",
+        "indicesSha256": "19555b1a3cb02863be45bd8f467429619d4be59ec02eea73b5f4bc0eec9416bd",
+        "indexCount": 900,
+        "zFile": "tile-0006.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 7,
+      "cellX": 3,
+      "cellY": 1,
+      "sourceOffset": 5636,
+      "offset": {
+        "x": 60,
+        "y": 60
+      },
+      "gridOffset": {
+        "x": 60,
+        "y": 60
+      },
+      "heightAdjustedOffset": {
+        "x": 60,
+        "y": 60
+      },
+      "height": 0,
+      "terrainType": 13,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "q6ZW",
+      "radarRight": "qata",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 60,
+          "y": 60
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0007.diamond.png",
+        "indicesFile": "tile-0007.diamond.indices.bin",
+        "indicesSha256": "68f3b44ab7c8c6ca15193e0a27f68feb8387066ac8aa41627ad2a6ae0e2cac90",
+        "indexCount": 900,
+        "zFile": "tile-0007.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 8,
+      "cellX": 0,
+      "cellY": 2,
+      "sourceOffset": 7488,
+      "offset": {
+        "x": -60,
+        "y": 30
+      },
+      "gridOffset": {
+        "x": -60,
+        "y": 30
+      },
+      "heightAdjustedOffset": {
+        "x": -60,
+        "y": 30
+      },
+      "height": 0,
+      "terrainType": 12,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "o5dM",
+      "radarRight": "pJdI",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -60,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0008.diamond.png",
+        "indicesFile": "tile-0008.diamond.indices.bin",
+        "indicesSha256": "69a444af0d5fa4f0f310ac504c423256dd99c888871d0164cd53f8ed68e598e6",
+        "indexCount": 900,
+        "zFile": "tile-0008.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 9,
+      "cellX": 1,
+      "cellY": 2,
+      "sourceOffset": 9340,
+      "offset": {
+        "x": -30,
+        "y": 45
+      },
+      "gridOffset": {
+        "x": -30,
+        "y": 45
+      },
+      "heightAdjustedOffset": {
+        "x": -30,
+        "y": 45
+      },
+      "height": 0,
+      "terrainType": 12,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "r5FA",
+      "radarRight": "sZlG",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -30,
+          "y": 45
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0009.diamond.png",
+        "indicesFile": "tile-0009.diamond.indices.bin",
+        "indicesSha256": "2c4e21c310a9487121f85d06806cf1e1ac0b167faacb28a1d2d419425d409bc4",
+        "indexCount": 900,
+        "zFile": "tile-0009.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 10,
+      "cellX": 2,
+      "cellY": 2,
+      "sourceOffset": 11192,
+      "offset": {
+        "x": 0,
+        "y": 60
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 60
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 60
+      },
+      "height": 0,
+      "terrainType": 12,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "qKhP",
+      "radarRight": "nqBO",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 60
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0010.diamond.png",
+        "indicesFile": "tile-0010.diamond.indices.bin",
+        "indicesSha256": "39275622e619e21ad719ccbecd20723bc2ae7abacf749f207ccf5f2d389d5bb3",
+        "indexCount": 900,
+        "zFile": "tile-0010.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 13,
+      "cellX": 1,
+      "cellY": 3,
+      "sourceOffset": 13044,
+      "offset": {
+        "x": -60,
+        "y": 60
+      },
+      "gridOffset": {
+        "x": -60,
+        "y": 60
+      },
+      "heightAdjustedOffset": {
+        "x": -60,
+        "y": 60
+      },
+      "height": 0,
+      "terrainType": 12,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "uKJP",
+      "radarRight": "tqhR",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -60,
+          "y": 60
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0013.diamond.png",
+        "indicesFile": "tile-0013.diamond.indices.bin",
+        "indicesSha256": "518268dbc436b3a6d83b4ecf5add8fb0c05fc600c93f484629b2deb705ceb201",
+        "indexCount": 900,
+        "zFile": "tile-0013.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    }
+  ]
+}

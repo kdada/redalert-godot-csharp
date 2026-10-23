@@ -1,0 +1,701 @@
+{
+  "schemaVersion": 1,
+  "format": "RA2 TMP 60x30",
+  "source": {
+    "fileName": "ovrps03.tem",
+    "byteLength": 29720,
+    "sha256": "8fa335d99f237919a8099b0bae9ef25e3cb13c374448ed30b7e2fff82b2f4353"
+  },
+  "palette": {
+    "fileName": "isotem.pal",
+    "componentBits": 6,
+    "sha256": "5d6e40fcd11a592a31494c635d93c21796cfe86a2743f0258b1f7d0aff850795",
+    "expansion": "channel \u003C\u003C 2 (63 -\u003E 252)"
+  },
+  "template": {
+    "blocksX": 2,
+    "blocksY": 5,
+    "tileWidth": 60,
+    "tileHeight": 30,
+    "maxHeight": 4,
+    "frameCount": 10,
+    "emptyIndices": []
+  },
+  "conventions": {
+    "indexHash": "SHA256 over original packed indices, in source order; diamond exactly 900 bytes, extra width*height bytes.",
+    "diamondAlpha": "All 900 encoded diamond pixels are opaque, including palette index 0; outside the shape is transparent black. Last row is empty.",
+    "extraAlpha": "Index 0 is transparent black; other extra pixels are opaque. Extra is a separate layer, not composited onto the diamond.",
+    "offset": "Raw signed top-left pixel coordinates from block header, relative to template origin; unmodified.",
+    "gridOffset": "Isometric top-left implied by table cell: ((cellX-cellY)*30, (cellX\u002BcellY)*15).",
+    "heightAdjustedOffset": "Raw offset with Y \u002B= (template.maxHeight - height)*15, per ra2ff description; supplied separately, no resampling.",
+    "extraOffset": "Raw template pixel coordinates; offsetFromDiamond = extra.offset - diamond.offset. Same height adjustment as base.",
+    "terrainType": "Raw block terrain index byte; theater tile-set IDs and terrain name/rules mappings are not present in a standalone TMP.",
+    "zData": "Raw depth bytes preserved; no claims about renderer depth or damaged-data semantics."
+  },
+  "formatSources": [
+    "https://github.com/tcrs/ra2ff/blob/3800e3636c43d2a8a7331b2d7dbcd888c215d6af/ra2ff.txt",
+    "https://github.com/OpenRA/OpenRA/blob/e180e3225f3930272dd451917467631618f8976f/OpenRA.Mods.Cnc/SpriteLoaders/TmpTSLoader.cs"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "cellX": 0,
+      "cellY": 0,
+      "sourceOffset": 56,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 60
+      },
+      "height": 0,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816846,
+      "flagsHex": "0xCDCDCDCE",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "AAAA",
+      "radarRight": "AAAA",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0000.diamond.png",
+        "indicesFile": "tile-0000.diamond.indices.bin",
+        "indicesSha256": "fa807c957eafe34b850cb453a096df2e5899f0902a837fccd59f9aafa869fb44",
+        "indexCount": 900,
+        "zFile": "tile-0000.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced.",
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 1,
+      "cellX": 1,
+      "cellY": 0,
+      "sourceOffset": 1908,
+      "offset": {
+        "x": 30,
+        "y": 15
+      },
+      "gridOffset": {
+        "x": 30,
+        "y": 15
+      },
+      "heightAdjustedOffset": {
+        "x": 30,
+        "y": 15
+      },
+      "height": 4,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816847,
+      "flagsHex": "0xCDCDCDCF",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 2300,
+      "radarLeft": "e3NZ",
+      "radarRight": "f3xK",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 30,
+          "y": 15
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0001.diamond.png",
+        "indicesFile": "tile-0001.diamond.indices.bin",
+        "indicesSha256": "8fb548413cc3bc2dd3887ee7d95ce1989e549cf15936fa9ce0b129250d863afb",
+        "indexCount": 900,
+        "zFile": "tile-0001.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 28,
+          "height": 16
+        },
+        "offset": {
+          "x": 30,
+          "y": 13
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": -2
+        },
+        "exported": true,
+        "rgbaPng": "tile-0001.extra.png",
+        "indicesFile": "tile-0001.extra.indices.bin",
+        "indicesSha256": "df9692524496f981fe657ddbb783428aa13796505e2b1199443e0b7d63ffb11a",
+        "indexCount": 448,
+        "zFile": "tile-0001.extra.z.bin",
+        "zSha256": "727404223ea9e64e1fc22698a03223757425f8ac1a277586ad1718366e9c0aed"
+      },
+      "warnings": [
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 2,
+      "cellX": 0,
+      "cellY": 1,
+      "sourceOffset": 4656,
+      "offset": {
+        "x": -30,
+        "y": 15
+      },
+      "gridOffset": {
+        "x": -30,
+        "y": 15
+      },
+      "heightAdjustedOffset": {
+        "x": -30,
+        "y": 15
+      },
+      "height": 4,
+      "terrainType": 11,
+      "rampType": 0,
+      "flags": 3452816847,
+      "flagsHex": "0xCDCDCDCF",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 2662,
+      "radarLeft": "PT9B",
+      "radarRight": "bW5t",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -30,
+          "y": 15
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0002.diamond.png",
+        "indicesFile": "tile-0002.diamond.indices.bin",
+        "indicesSha256": "64c2338b8e83f9ad2ed382738b36310be80a85ee625a467ce013c11d6f2c72ab",
+        "indexCount": 900,
+        "zFile": "tile-0002.diamond.z.bin",
+        "zSha256": "1e689f76723db38f1405ffc081a7f0af764c93e175cd5fa610bdf1294a357051"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 30,
+          "height": 27
+        },
+        "offset": {
+          "x": 0,
+          "y": 2
+        },
+        "offsetFromDiamond": {
+          "x": 30,
+          "y": -13
+        },
+        "exported": true,
+        "rgbaPng": "tile-0002.extra.png",
+        "indicesFile": "tile-0002.extra.indices.bin",
+        "indicesSha256": "8f74bd3f71ffcd060d421dd7dbf07b95c6d66f84ac338e25074dd8a0a52320c5",
+        "indexCount": 810,
+        "zFile": "tile-0002.extra.z.bin",
+        "zSha256": "91a8da3311a25e100bb876177d553c74b476a3c83ac04d83bb3cef88e55e8083"
+      },
+      "warnings": [
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 3,
+      "cellX": 1,
+      "cellY": 1,
+      "sourceOffset": 8128,
+      "offset": {
+        "x": 0,
+        "y": 30
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 30
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 30
+      },
+      "height": 4,
+      "terrainType": 11,
+      "rampType": 0,
+      "flags": 3452816846,
+      "flagsHex": "0xCDCDCDCE",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "PD9B",
+      "radarRight": "YmNh",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0003.diamond.png",
+        "indicesFile": "tile-0003.diamond.indices.bin",
+        "indicesSha256": "c042b8746e7964f7c45b61bb70fb462b2e635a20a522f362243afa487629cac1",
+        "indexCount": 900,
+        "zFile": "tile-0003.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced.",
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 4,
+      "cellX": 0,
+      "cellY": 2,
+      "sourceOffset": 9980,
+      "offset": {
+        "x": -60,
+        "y": 30
+      },
+      "gridOffset": {
+        "x": -60,
+        "y": 30
+      },
+      "heightAdjustedOffset": {
+        "x": -60,
+        "y": 30
+      },
+      "height": 4,
+      "terrainType": 11,
+      "rampType": 0,
+      "flags": 3452816846,
+      "flagsHex": "0xCDCDCDCE",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "MTMx",
+      "radarRight": "LzEx",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -60,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0004.diamond.png",
+        "indicesFile": "tile-0004.diamond.indices.bin",
+        "indicesSha256": "7d36b0e671b67b64df9d7026430051224753609a25e90bed3bc5e6b286ecf45f",
+        "indexCount": 900,
+        "zFile": "tile-0004.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced.",
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 5,
+      "cellX": 1,
+      "cellY": 2,
+      "sourceOffset": 11832,
+      "offset": {
+        "x": -30,
+        "y": 45
+      },
+      "gridOffset": {
+        "x": -30,
+        "y": 45
+      },
+      "heightAdjustedOffset": {
+        "x": -30,
+        "y": 45
+      },
+      "height": 4,
+      "terrainType": 11,
+      "rampType": 0,
+      "flags": 3452816846,
+      "flagsHex": "0xCDCDCDCE",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "MTMx",
+      "radarRight": "MDIy",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -30,
+          "y": 45
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0005.diamond.png",
+        "indicesFile": "tile-0005.diamond.indices.bin",
+        "indicesSha256": "176474d0db41e32d698d4124c48a257ff4eed11233f13db3aca3d146903682b9",
+        "indexCount": 900,
+        "zFile": "tile-0005.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced.",
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 6,
+      "cellX": 0,
+      "cellY": 3,
+      "sourceOffset": 13684,
+      "offset": {
+        "x": -90,
+        "y": 45
+      },
+      "gridOffset": {
+        "x": -90,
+        "y": 45
+      },
+      "heightAdjustedOffset": {
+        "x": -90,
+        "y": 45
+      },
+      "height": 4,
+      "terrainType": 11,
+      "rampType": 0,
+      "flags": 3452816847,
+      "flagsHex": "0xCDCDCDCF",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 1856,
+      "radarLeft": "UlRS",
+      "radarRight": "Njk8",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -90,
+          "y": 45
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0006.diamond.png",
+        "indicesFile": "tile-0006.diamond.indices.bin",
+        "indicesSha256": "bd55d8b488bfa69c7108bff88df0a20a4b58f2b768bfc0180f10ef4160f7cac6",
+        "indexCount": 900,
+        "zFile": "tile-0006.diamond.z.bin",
+        "zSha256": "1e689f76723db38f1405ffc081a7f0af764c93e175cd5fa610bdf1294a357051"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 2,
+          "height": 2
+        },
+        "offset": {
+          "x": -90,
+          "y": 57
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 12
+        },
+        "exported": true,
+        "rgbaPng": "tile-0006.extra.png",
+        "indicesFile": "tile-0006.extra.indices.bin",
+        "indicesSha256": "b186a94adef020e98d22ec18e499a7e1181007050749b3404a7dcbdac338751a",
+        "indexCount": 4,
+        "zFile": "tile-0006.extra.z.bin",
+        "zSha256": "ba458c12003d7a23207f1b27c4ddbbe57298f7ad243f0ddb45d6bdf068761858"
+      },
+      "warnings": [
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 7,
+      "cellX": 1,
+      "cellY": 3,
+      "sourceOffset": 15544,
+      "offset": {
+        "x": -60,
+        "y": 60
+      },
+      "gridOffset": {
+        "x": -60,
+        "y": 60
+      },
+      "heightAdjustedOffset": {
+        "x": -60,
+        "y": 60
+      },
+      "height": 4,
+      "terrainType": 11,
+      "rampType": 0,
+      "flags": 3452816846,
+      "flagsHex": "0xCDCDCDCE",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "XF1b",
+      "radarRight": "ODo9",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -60,
+          "y": 60
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0007.diamond.png",
+        "indicesFile": "tile-0007.diamond.indices.bin",
+        "indicesSha256": "c34f3d40bfcbb81f7ab872a0d62104659492319a9f4abb3404e163e646e204a2",
+        "indexCount": 900,
+        "zFile": "tile-0007.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced.",
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 8,
+      "cellX": 0,
+      "cellY": 4,
+      "sourceOffset": 17396,
+      "offset": {
+        "x": -120,
+        "y": 60
+      },
+      "gridOffset": {
+        "x": -120,
+        "y": 60
+      },
+      "heightAdjustedOffset": {
+        "x": -120,
+        "y": 120
+      },
+      "height": 0,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816847,
+      "flagsHex": "0xCDCDCDCF",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 5292,
+      "radarLeft": "nqKE",
+      "radarRight": "kJKE",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -120,
+          "y": 60
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0008.diamond.png",
+        "indicesFile": "tile-0008.diamond.indices.bin",
+        "indicesSha256": "a37b32ade898e7573a03c89fa088f7efbb7deb2fc3b6cc8bad0de405082f87a7",
+        "indexCount": 900,
+        "zFile": "tile-0008.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 43,
+          "height": 80
+        },
+        "offset": {
+          "x": -119,
+          "y": -6
+        },
+        "offsetFromDiamond": {
+          "x": 1,
+          "y": -66
+        },
+        "exported": true,
+        "rgbaPng": "tile-0008.extra.png",
+        "indicesFile": "tile-0008.extra.indices.bin",
+        "indicesSha256": "0661af1a18e05eead4c6487b86f1674dd61c959d68880d9f591a2985b6eeed92",
+        "indexCount": 3440,
+        "zFile": "tile-0008.extra.z.bin",
+        "zSha256": "96682804201f2b6cef3417439483803c63be7b4ecd7a341870ecae0dccaf060a"
+      },
+      "warnings": [
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    },
+    {
+      "index": 9,
+      "cellX": 1,
+      "cellY": 4,
+      "sourceOffset": 26128,
+      "offset": {
+        "x": -90,
+        "y": 75
+      },
+      "gridOffset": {
+        "x": -90,
+        "y": 75
+      },
+      "heightAdjustedOffset": {
+        "x": -90,
+        "y": 75
+      },
+      "height": 4,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816847,
+      "flagsHex": "0xCDCDCDCF",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 2722,
+      "radarLeft": "fnVL",
+      "radarRight": "fXhg",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -90,
+          "y": 75
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0009.diamond.png",
+        "indicesFile": "tile-0009.diamond.indices.bin",
+        "indicesSha256": "1efb0833e8e2dbed8c3c4c06ee3dabd59a06a3310b92c5a74e5ff65f6855b9cf",
+        "indexCount": 900,
+        "zFile": "tile-0009.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 30,
+          "height": 29
+        },
+        "offset": {
+          "x": -90,
+          "y": 60
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": -15
+        },
+        "exported": true,
+        "rgbaPng": "tile-0009.extra.png",
+        "indicesFile": "tile-0009.extra.indices.bin",
+        "indicesSha256": "54794254ca17801e36e6aeae6a933766d0c9fdc4ff0bad23c5c366fe1c7656cc",
+        "indexCount": 870,
+        "zFile": "tile-0009.extra.z.bin",
+        "zSha256": "0594b18801718892051a6d1f0bfe5d4bbe749e7fd1afb6c72df9eaf7b72a683a"
+      },
+      "warnings": [
+        "Damaged-data flag is set; damaged variants are not decoded by this converter."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "format": "shp-ts-ra2",
+  "sourceSha256": "56bc1e4e5927ea0ccf8efa3844c5ca79d89da7dcc569d4a3a74d67079d17c315",
+  "canvasWidth": 180,
+  "canvasHeight": 120,
+  "frames": [
+    {
+      "index": 0,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "centerOffset": {
+        "x": -90.0,
+        "y": -60.0
+      },
+      "compression": 4,
+      "dataOffset": 0,
+      "hasData": false,
+      "role": "unspecified",
+      "indicesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 1,
+      "sourceRect": {
+        "x": 30,
+        "y": 19,
+        "width": 117,
+        "height": 70
+      },
+      "centerOffset": {
+        "x": -1.5,
+        "y": -6.0
+      },
+      "compression": 3,
+      "dataOffset": 152,
+      "hasData": true,
+      "role": "unspecified",
+      "indicesSha256": "1f69ce62cf0afc6c532f09d2235192b85b8b21e135fe07dd88fd214bd7b1f49d",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 117,
+        "y": 0,
+        "width": 117,
+        "height": 70
+      }
+    },
+    {
+      "index": 2,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "centerOffset": {
+        "x": -90.0,
+        "y": -60.0
+      },
+      "compression": 3,
+      "dataOffset": 0,
+      "hasData": false,
+      "role": "unspecified",
+      "indicesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 234,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 3,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "centerOffset": {
+        "x": -90.0,
+        "y": -60.0
+      },
+      "compression": 3,
+      "dataOffset": 0,
+      "hasData": false,
+      "role": "unspecified",
+      "indicesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 0,
+        "y": 70,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 4,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "centerOffset": {
+        "x": -90.0,
+        "y": -60.0
+      },
+      "compression": 3,
+      "dataOffset": 0,
+      "hasData": false,
+      "role": "unspecified",
+      "indicesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 117,
+        "y": 70,
+        "width": 0,
+        "height": 0
+      }
+    },
+    {
+      "index": 5,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "centerOffset": {
+        "x": -90.0,
+        "y": -60.0
+      },
+      "compression": 3,
+      "dataOffset": 0,
+      "hasData": false,
+      "role": "unspecified",
+      "indicesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 234,
+        "y": 70,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "images": [
+    {
+      "color": "atlas.png",
+      "width": 351,
+      "height": 140
+    }
+  ],
+  "notes": [
+    "Unused zero-offset frames retain their original headers, including compression 4; no pixels exist to decode.",
+    "Only populated format-3 frames are decoded, preserving palette indices and native canvas coordinates."
+  ]
+}

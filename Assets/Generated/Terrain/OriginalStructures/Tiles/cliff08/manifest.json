@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "format": "RA2 TMP 60x30",
+  "source": {
+    "fileName": "cliff08.tem",
+    "byteLength": 11424,
+    "sha256": "1b83b3ec9a38a4ccf3da8e4f21a0cf5977eb8006e126e9d30a64a588c64e8385"
+  },
+  "palette": {
+    "fileName": "isotem.pal",
+    "componentBits": 6,
+    "sha256": "5d6e40fcd11a592a31494c635d93c21796cfe86a2743f0258b1f7d0aff850795",
+    "expansion": "channel \u003C\u003C 2 (63 -\u003E 252)"
+  },
+  "template": {
+    "blocksX": 1,
+    "blocksY": 2,
+    "tileWidth": 60,
+    "tileHeight": 30,
+    "maxHeight": 4,
+    "frameCount": 2,
+    "emptyIndices": []
+  },
+  "conventions": {
+    "indexHash": "SHA256 over original packed indices, in source order; diamond exactly 900 bytes, extra width*height bytes.",
+    "diamondAlpha": "All 900 encoded diamond pixels are opaque, including palette index 0; outside the shape is transparent black. Last row is empty.",
+    "extraAlpha": "Index 0 is transparent black; other extra pixels are opaque. Extra is a separate layer, not composited onto the diamond.",
+    "offset": "Raw signed top-left pixel coordinates from block header, relative to template origin; unmodified.",
+    "gridOffset": "Isometric top-left implied by table cell: ((cellX-cellY)*30, (cellX\u002BcellY)*15).",
+    "heightAdjustedOffset": "Raw offset with Y \u002B= (template.maxHeight - height)*15, per ra2ff description; supplied separately, no resampling.",
+    "extraOffset": "Raw template pixel coordinates; offsetFromDiamond = extra.offset - diamond.offset. Same height adjustment as base.",
+    "terrainType": "Raw block terrain index byte; theater tile-set IDs and terrain name/rules mappings are not present in a standalone TMP.",
+    "zData": "Raw depth bytes preserved; no claims about renderer depth or damaged-data semantics."
+  },
+  "formatSources": [
+    "https://github.com/tcrs/ra2ff/blob/3800e3636c43d2a8a7331b2d7dbcd888c215d6af/ra2ff.txt",
+    "https://github.com/OpenRA/OpenRA/blob/e180e3225f3930272dd451917467631618f8976f/OpenRA.Mods.Cnc/SpriteLoaders/TmpTSLoader.cs"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "cellX": 0,
+      "cellY": 0,
+      "sourceOffset": 24,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "height": 4,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816842,
+      "flagsHex": "0xCDCDCDCA",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 3452816845,
+      "radarLeft": "iGo3",
+      "radarRight": "fns3",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0000.diamond.png",
+        "indicesFile": "tile-0000.diamond.indices.bin",
+        "indicesSha256": "35530a78120b8c33c03146c0817187bfc387f9b813f55b82732eb2091d5655f1",
+        "indexCount": 900,
+        "zFile": "tile-0000.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": null,
+      "warnings": [
+        "Extra flag is clear: unused extra pointer fields are retained, not dereferenced."
+      ]
+    },
+    {
+      "index": 1,
+      "cellX": 0,
+      "cellY": 1,
+      "sourceOffset": 1876,
+      "offset": {
+        "x": -30,
+        "y": 15
+      },
+      "gridOffset": {
+        "x": -30,
+        "y": 15
+      },
+      "heightAdjustedOffset": {
+        "x": -30,
+        "y": 75
+      },
+      "height": 0,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816843,
+      "flagsHex": "0xCDCDCDCB",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 5700,
+      "radarLeft": "rn08",
+      "radarRight": "xYU9",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -30,
+          "y": 15
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0001.diamond.png",
+        "indicesFile": "tile-0001.diamond.indices.bin",
+        "indicesSha256": "5c8882b2512dd68100ca07d8a3b9719ba017fefb03fc0cb09a88257e5b8cf4a6",
+        "indexCount": 900,
+        "zFile": "tile-0001.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 52,
+          "height": 74
+        },
+        "offset": {
+          "x": -22,
+          "y": -45
+        },
+        "offsetFromDiamond": {
+          "x": 8,
+          "y": -60
+        },
+        "exported": true,
+        "rgbaPng": "tile-0001.extra.png",
+        "indicesFile": "tile-0001.extra.indices.bin",
+        "indicesSha256": "cdfe7228c4b23ccc2895c81e437fee0bfb883dfc9bd2505d77cd3f7bbbe2e017",
+        "indexCount": 3848,
+        "zFile": "tile-0001.extra.z.bin",
+        "zSha256": "3ba55c7f25bf797d94147a6b605ce346942b81d76e18aac14435f5e74e8576df"
+      },
+      "warnings": []
+    }
+  ]
+}

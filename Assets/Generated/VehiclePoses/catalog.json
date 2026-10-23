@@ -1,0 +1,4763 @@
+{
+  "schema": 1,
+  "format": "RAVP1",
+  "models": {
+    "aegis": {
+      "file": "aegis.vpm.gz",
+      "faces": 18552,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/aegis.json",
+      "manifestSha256": "cbf6226761745e6d60421a1bb2d9c900c2f3e5d9fa20b14cf86806bd7ff9c1e4",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "aegis.vxl": "d3c6f1446c3121d839fcfb25972978f261e57bc3832a20a9f0bd55a4a0109892",
+        "aegis.hva": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 18552,
+          "source": "Assets/Reference/ClassicExpansion/Original/aegis.vxl",
+          "sourceSha256": "d3c6f1446c3121d839fcfb25972978f261e57bc3832a20a9f0bd55a4a0109892",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                97,
+                42,
+                39
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -44.70030975341797,
+                -20.43243980407715,
+                -0.12705421447753906
+              ],
+              "max": [
+                51.75756072998047,
+                20.63226890563965,
+                37.898529052734375
+              ],
+              "normalType": 4,
+              "voxels": 10137
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/aegis.hva",
+          "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1132469,
+      "rawSha256": "a1027bfef2c2c0ebe55649c5abccd42c1ef298a83b45aa56832edf6981af11be",
+      "compressedBytes": 175046,
+      "sha256": "5cf94db757f172858b5d8fedcbd973f460e21ec847e2ce7f5f663aa1fa6244ab"
+    },
+    "apocalypse": {
+      "file": "apocalypse.vpm.gz",
+      "faces": 13270,
+      "parts": 3,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/apocalypse.json",
+      "manifestSha256": "88f80602d72aba679cfd21a0cf486ef85573927b5130986733d1bcfaef919d67",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "mtnk.vxl": "fe82e553014591635d708e30d1b5088aad4c621ec820fe7c330c052bb188cf77",
+        "mtnk.hva": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+        "mtnktur.vxl": "1f16b4ba31c910e791d7db894c33a1554afe0918fd51df8d814000c4af672a4c",
+        "mtnktur.hva": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+        "mtnkbarl.vxl": "fba8930030b65873227b4e1bab29af286f0ab588ddac6ae2a4e6e73f53050822",
+        "mtnkbarl.hva": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 9504,
+          "source": "Assets/Reference/Battlefield/Voxels/mtnk.vxl",
+          "sourceSha256": "fe82e553014591635d708e30d1b5088aad4c621ec820fe7c330c052bb188cf77",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                59,
+                32,
+                14
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -27.89393424987793,
+                -15.767817497253418,
+                0.3366039991378784
+              ],
+              "max": [
+                30.337467193603516,
+                15.979400634765625,
+                13.892900466918945
+              ],
+              "normalType": 4,
+              "voxels": 6354
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/mtnk.hva",
+          "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 2924,
+          "source": "Assets/Reference/Battlefield/Voxels/mtnktur.vxl",
+          "sourceSha256": "1f16b4ba31c910e791d7db894c33a1554afe0918fd51df8d814000c4af672a4c",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                25,
+                25,
+                17
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -13.159320831298828,
+                -12.136850357055664,
+                11.607287406921387
+              ],
+              "max": [
+                11.506206512451172,
+                12.298412322998047,
+                28.395008087158203
+              ],
+              "normalType": 4,
+              "voxels": 1360
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/mtnktur.hva",
+          "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+        },
+        {
+          "name": "barrel",
+          "role": 2,
+          "faces": 842,
+          "source": "Assets/Reference/Battlefield/Voxels/mtnkbarl.vxl",
+          "sourceSha256": "fba8930030b65873227b4e1bab29af286f0ab588ddac6ae2a4e6e73f53050822",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                27,
+                12,
+                3
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                7.646458625793457,
+                -5.5439276695251465,
+                14.02808666229248
+              ],
+              "max": [
+                33.88336181640625,
+                5.728433132171631,
+                16.87006378173828
+              ],
+              "normalType": 4,
+              "voxels": 443
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/mtnkbarl.hva",
+          "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 810277,
+      "rawSha256": "254938f1824fe1d3e52d56e507b0a956d222c9681982b7192e3b0b80bcc7c191",
+      "compressedBytes": 122143,
+      "sha256": "50317049ba3d33444d701edc5b5278bf020424af9991dc4e6b9e4163651cefa0"
+    },
+    "asw": {
+      "file": "asw.vpm.gz",
+      "faces": 4876,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/asw.json",
+      "manifestSha256": "c0885b9ebb328408e50af33e3cb981c1d9d93941d7ab4f24169af7fc36ae21fc",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "asw.vxl": "9778e48e1ee9e5167619ad0c0f6252a0b7da0463474988e459508dad064a765d",
+        "asw.hva": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 4876,
+          "source": "Assets/Reference/ClassicExpansion/Original/asw.vxl",
+          "sourceSha256": "9778e48e1ee9e5167619ad0c0f6252a0b7da0463474988e459508dad064a765d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                35,
+                46,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -19.09575080871582,
+                -22.65499496459961,
+                8.086429595947266
+              ],
+              "max": [
+                15.128702163696289,
+                22.68305015563965,
+                27.14283561706543
+              ],
+              "normalType": 2,
+              "voxels": 2751
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/asw.hva",
+          "hvaSha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 298233,
+      "rawSha256": "acd2a7d42cc083bd83a604929a8b03f27d15e48f4bff3d353499bde8215b0ef3",
+      "compressedBytes": 46945,
+      "sha256": "fd01cf6bb50b9869e96d0a836e289d1727622e98ba01a3d0f6cbe852cae36f19"
+    },
+    "beag": {
+      "file": "beag.vpm.gz",
+      "faces": 6138,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/beag.json",
+      "manifestSha256": "f133a0c1168bb00b75cffc88299a373264a36b715982677555d111726a49bbab",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "beag.vxl": "a061f70c5e8381d6d203db83ec035a3adcceef7432ee7ba011658cf61982c320",
+        "beag.hva": "d297d7ec3ed352ca52286a4565d2ac5960904810369b20549cc376beaf2adf9c"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 6138,
+          "source": "Assets/Reference/ClassicExpansion/Original/beag.vxl",
+          "sourceSha256": "a061f70c5e8381d6d203db83ec035a3adcceef7432ee7ba011658cf61982c320",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                62,
+                47,
+                17
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -29.7088623046875,
+                -23.36858367919922,
+                0.02906106971204281
+              ],
+              "max": [
+                31.989818572998047,
+                23.328388214111328,
+                16.131696701049805
+              ],
+              "normalType": 2,
+              "voxels": 3641
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/beag.hva",
+          "hvaSha256": "d297d7ec3ed352ca52286a4565d2ac5960904810369b20549cc376beaf2adf9c"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 375215,
+      "rawSha256": "af6fc319fbe502db78ee49e5a18e5b1d5d724ecd635332119a9f8a5e1a5c398f",
+      "compressedBytes": 57493,
+      "sha256": "f2e8ede6c549e4ca25fb15f0fdbb798c0d172312d2b05a0dc06ab103e1164f1c"
+    },
+    "carrier": {
+      "file": "carrier.vpm.gz",
+      "faces": 34718,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/carrier.json",
+      "manifestSha256": "0918977414f183f531d6f34e0594690efef6b1dc3639e0d35b877d2af9ab3ea0",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "carrier.vxl": "41e7ae6e9315747aa2f26df688e0648aba17b4d4e575546110076f2c62ec4c33",
+        "carrier.hva": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 34718,
+          "source": "Assets/Reference/ClassicExpansion/Original/carrier.vxl",
+          "sourceSha256": "41e7ae6e9315747aa2f26df688e0648aba17b4d4e575546110076f2c62ec4c33",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                144,
+                43,
+                55
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -73.65727233886719,
+                -22.066364288330078,
+                -0.0800648108124733
+              ],
+              "max": [
+                69.89060974121094,
+                20.302284240722656,
+                54.67234802246094
+              ],
+              "normalType": 4,
+              "voxels": 19247
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/carrier.hva",
+          "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 2118595,
+      "rawSha256": "ba785d02870ee1c0b51c5ba8ec387bb57cf42f08ba994bdd2fb721731094d3a0",
+      "compressedBytes": 318828,
+      "sha256": "8eb3ebc3ae6f4e3f30cf1924425ec2ef5503f5f244147cc20b00ec55cf6fa7b0"
+    },
+    "chrono-miner": {
+      "file": "chrono-miner.vpm.gz",
+      "faces": 20520,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/chrono-miner.json",
+      "manifestSha256": "f9dbb4e4baa1118084cda62f69694af2035ad906e084f1e73f8883ebf3aa5276",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "cmin.vxl": "f9ab81a01eb3019e62f0eb2aa68d19b4cb25290b5886b491d020aa9bd2784e9c",
+        "cmin.hva": "83acad38f7755df0a5197992df05b810e274704917279039e0f681d0aa900498"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 20520,
+          "source": "Assets/Reference/Battlefield/Voxels/cmin.vxl",
+          "sourceSha256": "f9ab81a01eb3019e62f0eb2aa68d19b4cb25290b5886b491d020aa9bd2784e9c",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                58,
+                29,
+                31
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.866806030273438,
+                -14.169413566589355,
+                0.2093401402235031
+              ],
+              "max": [
+                28.59176254272461,
+                14.18634033203125,
+                30.7799129486084
+              ],
+              "normalType": 4,
+              "voxels": 11942
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/cmin.hva",
+          "hvaSha256": "83acad38f7755df0a5197992df05b810e274704917279039e0f681d0aa900498"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1252517,
+      "rawSha256": "2abcf4fe58f3bfdf9222d679b296665bd466678a543b16ddccd4bd5a6a678b21",
+      "compressedBytes": 189911,
+      "sha256": "0364cda5f74cd5cf2fa9b7e4e154ef2baf72b956584a380d9160748b6c44d5ab"
+    },
+    "dest": {
+      "file": "dest.vpm.gz",
+      "faces": 26722,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/dest.json",
+      "manifestSha256": "50fe7f2d04dec570e5655346f6bdb0f37d0ebf2cad37e2b95b09667b260e2e66",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "dest.vxl": "e8067578fd5ec47cca18389a29df7de03d338f06df688eee83db0ff8b642b10b",
+        "dest.hva": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 26722,
+          "source": "Assets/Reference/ClassicExpansion/Original/dest.vxl",
+          "sourceSha256": "e8067578fd5ec47cca18389a29df7de03d338f06df688eee83db0ff8b642b10b",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                102,
+                46,
+                43
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -53.118316650390625,
+                -22.654996871948242,
+                -0.06286094337701797
+              ],
+              "max": [
+                48.376434326171875,
+                22.683048248291016,
+                42.70887756347656
+              ],
+              "normalType": 4,
+              "voxels": 14287
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/dest.hva",
+          "hvaSha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1630839,
+      "rawSha256": "5eab0c6916b39b2b26357f8ed3e9edaed842e31b8068a9d71354cdac571d4a4c",
+      "compressedBytes": 250944,
+      "sha256": "c18233542bd8104f38ba59bb12434dae9cc0f5b5d0baef5df2dc8807e6a825ec"
+    },
+    "dest_empty": {
+      "file": "dest_empty.vpm.gz",
+      "faces": 22046,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/dest_empty.json",
+      "manifestSha256": "dc0df8380085ab8698dac2d6d99b28a78a80cc0744393e192e473543171c92bc",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "destwo.vxl": "725d93344939c23ef4152659b4a75861b78a2f4ae2d3ea34863762c6690a5c7d",
+        "destwo.hva": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 22046,
+          "source": "Assets/Reference/ClassicExpansion/Original/destwo.vxl",
+          "sourceSha256": "725d93344939c23ef4152659b4a75861b78a2f4ae2d3ea34863762c6690a5c7d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                102,
+                26,
+                43
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -53.1063346862793,
+                -12.956392288208008,
+                -0.06286094337701797
+              ],
+              "max": [
+                48.376434326171875,
+                12.963690757751465,
+                42.70887756347656
+              ],
+              "normalType": 4,
+              "voxels": 11627
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/destwo.hva",
+          "hvaSha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1345603,
+      "rawSha256": "2d46b69f0c4a7e5234626839704a6cdaff6aa9dec110dedb34405c2985649c52",
+      "compressedBytes": 202837,
+      "sha256": "8f627b5ac5d37985b7a561cd3a6ae44290295ec98ba51c34106e0a43a165d9d7"
+    },
+    "dmisl": {
+      "file": "dmisl.vpm.gz",
+      "faces": 1546,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/dmisl.json",
+      "manifestSha256": "582d9a89fafcdd8e211445ede42f2afe556a194aacdb1b0d38945847d3e57731",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "dmisl.vxl": "0cc017768c70fb08bbf29ee35396d770bbb270c9572f08411cb2aad6cb22569a",
+        "dmisl.hva": "78f4041017c6d4686ec09397a8be45db92f5d5dc007828072611219fe4963332"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 1546,
+          "source": "Assets/Reference/ClassicExpansion/Original/dmisl.vxl",
+          "sourceSha256": "0cc017768c70fb08bbf29ee35396d770bbb270c9572f08411cb2aad6cb22569a",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                34,
+                12,
+                12
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                0.011642969213426113,
+                -5.70689582824707,
+                -3.334530830383301
+              ],
+              "max": [
+                33.01164245605469,
+                5.691015243530273,
+                8.15625
+              ],
+              "normalType": 4,
+              "voxels": 723
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/dmisl.hva",
+          "hvaSha256": "78f4041017c6d4686ec09397a8be45db92f5d5dc007828072611219fe4963332"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 95103,
+      "rawSha256": "e5fff890f24b8f273ea14e088ecb979396fba4a97f5acceb52c3db8cdad9469b",
+      "compressedBytes": 14771,
+      "sha256": "412b555804f85f6fba2b9c2d110257c6820225f01b3be4e9733f18db0e15a1f9"
+    },
+    "dred": {
+      "file": "dred.vpm.gz",
+      "faces": 36242,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/dred.json",
+      "manifestSha256": "caeb27f3c2cb3093ef4324a7fd62568ad8f14b511f2c04efc4d83cc3bf2f9c85",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "dred.vxl": "857eff8b607610bd4600466554839d36e4407940c247b9d08aee4c14ac546a1a",
+        "dred.hva": "810dae94db5ae67cef0866897da63f20d3b8d36ff2b73769abc0f5664ff4a2fe"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 36242,
+          "source": "Assets/Reference/ClassicExpansion/Original/dred.vxl",
+          "sourceSha256": "857eff8b607610bd4600466554839d36e4407940c247b9d08aee4c14ac546a1a",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                133,
+                38,
+                46
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -67.43850708007812,
+                -19.017822265625,
+                0.0032852450385689735
+              ],
+              "max": [
+                65.30825805664062,
+                18.970006942749023,
+                45.80973434448242
+              ],
+              "normalType": 4,
+              "voxels": 20494
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/dred.hva",
+          "hvaSha256": "810dae94db5ae67cef0866897da63f20d3b8d36ff2b73769abc0f5664ff4a2fe"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 2211559,
+      "rawSha256": "2b1f1ef51e16bfbbc2b700751f3079b3c9a56163028f5f9304ae17a3ab9e0ae1",
+      "compressedBytes": 334094,
+      "sha256": "340f2a4e19cb59cfadfff51d6dd20b6345ce0adbb3e2999ab7bb17a5320f6411"
+    },
+    "dred_empty": {
+      "file": "dred_empty.vpm.gz",
+      "faces": 34136,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/dred_empty.json",
+      "manifestSha256": "929eb31838bdb854bcada369d8aefc56665b07e64fd7ee73703670f3c85ba175",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "dredwo.vxl": "793f2d514f6997995e767a9e0d59e66dbfa7e07e7e2c4636ea8ea170470177da",
+        "dredwo.hva": "8ae40169cd8f731cb040347293bcd1c49b612bfeb50c433abda119c1d88bc2f1"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 34136,
+          "source": "Assets/Reference/ClassicExpansion/Original/dredwo.vxl",
+          "sourceSha256": "793f2d514f6997995e767a9e0d59e66dbfa7e07e7e2c4636ea8ea170470177da",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                133,
+                38,
+                46
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -67.43850708007812,
+                -19.017822265625,
+                0.0032852450385689735
+              ],
+              "max": [
+                65.30825805664062,
+                18.970006942749023,
+                45.80973434448242
+              ],
+              "normalType": 4,
+              "voxels": 19204
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/dredwo.hva",
+          "hvaSha256": "8ae40169cd8f731cb040347293bcd1c49b612bfeb50c433abda119c1d88bc2f1"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 2083093,
+      "rawSha256": "c69f505733f75eaa189566ea6c555ab4d1d7e5474927a80d213cef6490a9df24",
+      "compressedBytes": 313158,
+      "sha256": "46626bbbddc94bc701f6d96694771479326657a2015dfdd1ed4ff235199743c6"
+    },
+    "falc": {
+      "file": "falc.vpm.gz",
+      "faces": 4362,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/falc.json",
+      "manifestSha256": "eb2665d9122dcce5c33102281b8b61c681ea9288c1d368e61e6c74bdfe41d333",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "falc.vxl": "1594b9766bf624bffc75887fa5cef70029b63882cf057572a31e19848c1f1d1c",
+        "falc.hva": "b73a3390ffcd11c0755fc23135b12b0df8203444cd1dbb04211bdcab0667cc4e"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 4362,
+          "source": "Assets/Reference/ClassicExpansion/Original/falc.vxl",
+          "sourceSha256": "1594b9766bf624bffc75887fa5cef70029b63882cf057572a31e19848c1f1d1c",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                52,
+                43,
+                15
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -24.3958797454834,
+                -21.244165420532227,
+                -0.24444679915905
+              ],
+              "max": [
+                27.27802085876465,
+                21.207622528076172,
+                14.3834228515625
+              ],
+              "normalType": 4,
+              "voxels": 2239
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/falc.hva",
+          "hvaSha256": "b73a3390ffcd11c0755fc23135b12b0df8203444cd1dbb04211bdcab0667cc4e"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 266879,
+      "rawSha256": "87592dbcff4c09db2a956aeb0d0144e4fa0f184555ecbcd6491fe67099eaf0ee",
+      "compressedBytes": 41822,
+      "sha256": "54ab2929ea6797f9b4936f4de44934277cb64be43467b63177ab1d51e17e74be"
+    },
+    "flak-track": {
+      "file": "flak-track.vpm.gz",
+      "faces": 10868,
+      "parts": 3,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/flak-track.json",
+      "manifestSha256": "d0708de070d87a78e0f0dd5402fa238dfa4f73777de7b1f289e3d2c8f8809150",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "htk.vxl": "b679002b9bb2a73706f74507032983b3ef2aff4dea540a33e08b549b22299339",
+        "htk.hva": "b7d3c838ed7f02ecfdcbc0dc8c3699db59d547b262b6ace72687bf5846fd99a8",
+        "htktur.vxl": "895c9c20bc66a33aea0a109c727f4a10ab0bc8b75bdf2aff7a2c28dd1d17907c",
+        "htktur.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "htkbarl.vxl": "4e03e449f8a0575757b466a56a32d6019f976b03fc313b37b7e814a92a89813d",
+        "htkbarl.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 9376,
+          "source": "Assets/Reference/Battlefield/Voxels/htk.vxl",
+          "sourceSha256": "b679002b9bb2a73706f74507032983b3ef2aff4dea540a33e08b549b22299339",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "MDUMMY01",
+              "size": [
+                45,
+                28,
+                38
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -22.570476531982422,
+                -13.660552024841309,
+                0.019140571355819702
+              ],
+              "max": [
+                21.84527587890625,
+                14.090816497802734,
+                38.00578308105469
+              ],
+              "normalType": 4,
+              "voxels": 5230
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/htk.hva",
+          "hvaSha256": "b7d3c838ed7f02ecfdcbc0dc8c3699db59d547b262b6ace72687bf5846fd99a8"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1190,
+          "source": "Assets/Reference/Battlefield/Voxels/htktur.vxl",
+          "sourceSha256": "895c9c20bc66a33aea0a109c727f4a10ab0bc8b75bdf2aff7a2c28dd1d17907c",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "MDUMMY01",
+              "size": [
+                18,
+                9,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -5.248281478881836,
+                -4.125866413116455,
+                19.38182830810547
+              ],
+              "max": [
+                12.608373641967773,
+                4.1765947341918945,
+                39.14045715332031
+              ],
+              "normalType": 4,
+              "voxels": 799
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/htktur.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "barrel",
+          "role": 2,
+          "faces": 302,
+          "source": "Assets/Reference/Battlefield/Voxels/htkbarl.vxl",
+          "sourceSha256": "4e03e449f8a0575757b466a56a32d6019f976b03fc313b37b7e814a92a89813d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                14,
+                4,
+                6
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                3.283370018005371,
+                -1.9399603605270386,
+                17.68606948852539
+              ],
+              "max": [
+                16.926734924316406,
+                1.8016079664230347,
+                23.42245101928711
+              ],
+              "normalType": 2,
+              "voxels": 155
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/htkbarl.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 663755,
+      "rawSha256": "c922826e24eb8276d6932ca9d184c959f84b6b698e66190f2a4ca805f6431fd3",
+      "compressedBytes": 100857,
+      "sha256": "d10f85ff342b0b11a1ccf4c855b42d2223cf046de8de004ecd7e7d2cb1289b0b"
+    },
+    "fv_turret1": {
+      "file": "fv_turret1.vpm.gz",
+      "faces": 14998,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/fv_turret1.json",
+      "manifestSha256": "1a2b546b27b612464eb6f160c727323df291250235b14d91128c006d80bb9c52",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "fv.vxl": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+        "fv.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "fvtur1.vxl": "ffca0c67ae647262cbe39ceba68f8f00c6be182881f48de84f229d99a65598d2",
+        "fvtur1.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 11510,
+          "source": "Assets/Reference/Battlefield/Voxels/fv.vxl",
+          "sourceSha256": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                42,
+                31,
+                21
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -20.442272186279297,
+                -15.524984359741211,
+                -0.056760918349027634
+              ],
+              "max": [
+                21.266094207763672,
+                15.442815780639648,
+                20.22703742980957
+              ],
+              "normalType": 4,
+              "voxels": 6667
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/fv.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 3488,
+          "source": "Assets/Reference/ClassicExpansion/Original/fvtur1.vxl",
+          "sourceSha256": "ffca0c67ae647262cbe39ceba68f8f00c6be182881f48de84f229d99a65598d2",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                29,
+                22,
+                12
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -10.76999568939209,
+                -10.578978538513184,
+                17.278972625732422
+              ],
+              "max": [
+                18.146499633789062,
+                10.605260848999023,
+                28.724050521850586
+              ],
+              "normalType": 4,
+              "voxels": 2054
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/fvtur1.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 915680,
+      "rawSha256": "d9bedeb970e1ae4e62af98b599d3ec6e597e7de3b5b0c057f782dff1e2ea2432",
+      "compressedBytes": 136269,
+      "sha256": "8bc6e1d446ce84cb8b8ea9d57761bd0235ea6bc7bd8b998d24c51672596abb05"
+    },
+    "fv_turret2": {
+      "file": "fv_turret2.vpm.gz",
+      "faces": 14834,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/fv_turret2.json",
+      "manifestSha256": "c2386f484896665e9db5b5f76f94f788a98ede3c43952dccd8bf7d3f5fb173bb",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "fv.vxl": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+        "fv.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "fvtur2.vxl": "5f8b5e27adc3859eb78ac1280e89b1e03763ea8866fa3f62d2bc730a33181fef",
+        "fvtur2.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 11510,
+          "source": "Assets/Reference/Battlefield/Voxels/fv.vxl",
+          "sourceSha256": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                42,
+                31,
+                21
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -20.442272186279297,
+                -15.524984359741211,
+                -0.056760918349027634
+              ],
+              "max": [
+                21.266094207763672,
+                15.442815780639648,
+                20.22703742980957
+              ],
+              "normalType": 4,
+              "voxels": 6667
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/fv.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 3324,
+          "source": "Assets/Reference/ClassicExpansion/Original/fvtur2.vxl",
+          "sourceSha256": "5f8b5e27adc3859eb78ac1280e89b1e03763ea8866fa3f62d2bc730a33181fef",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                31,
+                11,
+                31
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -15.738250732421875,
+                -4.9448747634887695,
+                13.338778495788574
+              ],
+              "max": [
+                14.884496688842773,
+                5.401789665222168,
+                43.86135482788086
+              ],
+              "normalType": 4,
+              "voxels": 1977
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/fvtur2.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 905676,
+      "rawSha256": "8efa8b8edf8217f4fff2dc46323f722735942581f841b0e261a0a79359758db9",
+      "compressedBytes": 135448,
+      "sha256": "1c260a3750b6b3ef88ae22e94e742d24a8836bfa68666f5b802e866dc28421a1"
+    },
+    "fv_turret3": {
+      "file": "fv_turret3.vpm.gz",
+      "faces": 14476,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/fv_turret3.json",
+      "manifestSha256": "1d496869b764f79ffd97ccb5ed15e97288dceee6b3168f13f484e9cd4e87f21d",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "fv.vxl": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+        "fv.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "fvtur3.vxl": "3f42cbdf6b82d2717b4cbaff328e066ae19ac15cf008d0b43095142a8d75a887",
+        "fvtur3.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 11510,
+          "source": "Assets/Reference/Battlefield/Voxels/fv.vxl",
+          "sourceSha256": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                42,
+                31,
+                21
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -20.442272186279297,
+                -15.524984359741211,
+                -0.056760918349027634
+              ],
+              "max": [
+                21.266094207763672,
+                15.442815780639648,
+                20.22703742980957
+              ],
+              "normalType": 4,
+              "voxels": 6667
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/fv.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 2966,
+          "source": "Assets/Reference/ClassicExpansion/Original/fvtur3.vxl",
+          "sourceSha256": "3f42cbdf6b82d2717b4cbaff328e066ae19ac15cf008d0b43095142a8d75a887",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                21,
+                21,
+                10
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -10.492229461669922,
+                -10.47056770324707,
+                18.472999572753906
+              ],
+              "max": [
+                10.500579833984375,
+                10.522241592407227,
+                27.998653411865234
+              ],
+              "normalType": 4,
+              "voxels": 1570
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/fvtur3.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 883838,
+      "rawSha256": "d73f14d83f8015cf1d98fb27e69d791dd85f0182139e08ca7b4f784cd6f383dd",
+      "compressedBytes": 131330,
+      "sha256": "a488af483c1c3c5f44b74f6f38522ef432819b7640f28b916485c39dc7501241"
+    },
+    "grizzly": {
+      "file": "grizzly.vpm.gz",
+      "faces": 10398,
+      "parts": 3,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/grizzly.json",
+      "manifestSha256": "ef0519c7827a7d6b9c6f1457de1b4b8afd25e5d7b38cd30a68b79ee339548905",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "gtnk.vxl": "88b326908acb5c2a98860d8f65169e8745ae858c5cbfe98e0bb2f283f49a3b81",
+        "gtnk.hva": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4",
+        "gtnktur.vxl": "deaee48689e1413a264c8945c5d943d1acb39eb3ab26aad93850901af4d7dffe",
+        "gtnktur.hva": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4",
+        "gtnkbarl.vxl": "04c7ffd68d8f12589bf02767c0617014042c3a255567cf939cd6908c36c0d852",
+        "gtnkbarl.hva": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 8272,
+          "source": "Assets/Reference/Battlefield/Voxels/gtnk.vxl",
+          "sourceSha256": "88b326908acb5c2a98860d8f65169e8745ae858c5cbfe98e0bb2f283f49a3b81",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                41,
+                30,
+                12
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -24.93770408630371,
+                -15.054774284362793,
+                0.5619817972183228
+              ],
+              "max": [
+                15.974146842956543,
+                14.768636703491211,
+                12.350157737731934
+              ],
+              "normalType": 4,
+              "voxels": 4508
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/gtnk.hva",
+          "hvaSha256": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1758,
+          "source": "Assets/Reference/Battlefield/Voxels/gtnktur.vxl",
+          "sourceSha256": "deaee48689e1413a264c8945c5d943d1acb39eb3ab26aad93850901af4d7dffe",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                30,
+                16,
+                7
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -16.163990020751953,
+                -7.544148921966553,
+                11.571434020996094
+              ],
+              "max": [
+                13.71859359741211,
+                7.553062438964844,
+                18.539194107055664
+              ],
+              "normalType": 4,
+              "voxels": 727
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/gtnktur.hva",
+          "hvaSha256": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4"
+        },
+        {
+          "name": "barrel",
+          "role": 2,
+          "faces": 368,
+          "source": "Assets/Reference/Battlefield/Voxels/gtnkbarl.vxl",
+          "sourceSha256": "04c7ffd68d8f12589bf02767c0617014042c3a255567cf939cd6908c36c0d852",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                26,
+                4,
+                4
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                7.476012229919434,
+                -1.5414990186691284,
+                11.730890274047852
+              ],
+              "max": [
+                32.50709533691406,
+                1.9727699756622314,
+                15.25275993347168
+              ],
+              "normalType": 4,
+              "voxels": 202
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/gtnkbarl.hva",
+          "hvaSha256": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 635085,
+      "rawSha256": "dcfd6428d0eaf3781cde8695231da870e2b79a630d1dea9768d11af60e1290f6",
+      "compressedBytes": 93894,
+      "sha256": "9eacfb9876aa6dc71f5c0047792c7aec5901ad8334fe11630f4776f2e4fa6f2f"
+    },
+    "hornet": {
+      "file": "hornet.vpm.gz",
+      "faces": 1254,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/hornet.json",
+      "manifestSha256": "8aac8dbb279d073b5889e7c7e519a8325730d592e01935b68b3dde6a687956b4",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "hornet.vxl": "dedf4d35a0b7fcedefeced629ec91c4f4248b0d5f2f6644bb598db4eac342ea1",
+        "hornet.hva": "03e54f922a662410bf02af818a9569b0fc43cb85e3855d162789d334c3920aef"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 1254,
+          "source": "Assets/Reference/ClassicExpansion/Original/hornet.vxl",
+          "sourceSha256": "dedf4d35a0b7fcedefeced629ec91c4f4248b0d5f2f6644bb598db4eac342ea1",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                27,
+                25,
+                10
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -12.411243438720703,
+                -11.981879234313965,
+                -0.23640672862529755
+              ],
+              "max": [
+                13.877573013305664,
+                12.114496231079102,
+                8.928962707519531
+              ],
+              "normalType": 2,
+              "voxels": 583
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/hornet.hva",
+          "hvaSha256": "03e54f922a662410bf02af818a9569b0fc43cb85e3855d162789d334c3920aef"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 77291,
+      "rawSha256": "527d823c142445c690e8f130c8c5256c8bd246b0adc4a47bd65bf0ba4a00fece",
+      "compressedBytes": 12437,
+      "sha256": "51cacafe6d11a7789be8d54ba85cf57c2588f9d45e5a0911b69a75362f550b60"
+    },
+    "hyd": {
+      "file": "hyd.vpm.gz",
+      "faces": 8210,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/hyd.json",
+      "manifestSha256": "912fc15c1a9bcaca155914b74ca481f5bf942e77d1f34ffe6f3bb7082377a424",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "hyd.vxl": "0dad9b2ae16a8607dacbdd604056dae601828c2027bd3b571be063dd15d97a6e",
+        "hyd.hva": "3e740a64abf078b26806289c7557494d7e31a5b2bc0836143b6ea84743654c51"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 8210,
+          "source": "Assets/Reference/ClassicExpansion/Original/hyd.vxl",
+          "sourceSha256": "0dad9b2ae16a8607dacbdd604056dae601828c2027bd3b571be063dd15d97a6e",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                60,
+                18,
+                34
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -26.34893798828125,
+                -8.513469696044922,
+                -0.003545632353052497
+              ],
+              "max": [
+                32.6999626159668,
+                8.540117263793945,
+                33.4055290222168
+              ],
+              "normalType": 4,
+              "voxels": 4599
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/hyd.hva",
+          "hvaSha256": "3e740a64abf078b26806289c7557494d7e31a5b2bc0836143b6ea84743654c51"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 501607,
+      "rawSha256": "23e454f86e27c02fb3035d55594d4a3b71665c50d27d0bd4cb15bdb4c601b9cf",
+      "compressedBytes": 76564,
+      "sha256": "420aa65d3c0298ef3eed7165f1ade9205e79e1c353af9c41674e6f7da60f3864"
+    },
+    "ifv": {
+      "file": "ifv.vpm.gz",
+      "faces": 16508,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/ifv.json",
+      "manifestSha256": "2f4e606c40562fca7794bd78f29ca235385f4ba82da83bd566b7b4f334609c54",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "fv.vxl": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+        "fv.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "fvtur.vxl": "4569b2ae0ddd8ef64f487cc22a35b257bd8a617e75745ff48d6695fbbff8db8a",
+        "fvtur.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 11510,
+          "source": "Assets/Reference/Battlefield/Voxels/fv.vxl",
+          "sourceSha256": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                42,
+                31,
+                21
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -20.442272186279297,
+                -15.524984359741211,
+                -0.056760918349027634
+              ],
+              "max": [
+                21.266094207763672,
+                15.442815780639648,
+                20.22703742980957
+              ],
+              "normalType": 4,
+              "voxels": 6667
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/fv.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 4998,
+          "source": "Assets/Reference/Battlefield/Voxels/fvtur.vxl",
+          "sourceSha256": "4569b2ae0ddd8ef64f487cc22a35b257bd8a617e75745ff48d6695fbbff8db8a",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                22,
+                22,
+                24
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -11.641790390014648,
+                -10.619985580444336,
+                12.161907196044922
+              ],
+              "max": [
+                10.151266098022461,
+                10.702554702758789,
+                35.97923278808594
+              ],
+              "normalType": 4,
+              "voxels": 2782
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/fvtur.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1007790,
+      "rawSha256": "c181fe8819552c4620234b18547ce5f10393d5311961fe2b798d1fc09b0cf8dd",
+      "compressedBytes": 150283,
+      "sha256": "2b846fbd7714efa831ca766d3eaefce51d3684dea8eabc2c35617bc1ccdeeb8f"
+    },
+    "lcrf": {
+      "file": "lcrf.vpm.gz",
+      "faces": 28512,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/lcrf.json",
+      "manifestSha256": "30fe002610683078f23737d0fef1d92b7bac035419c9d57b9e073a29fae56c4c",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "lcrf.vxl": "01608134ed663b1923ed8406a2b5f11274a362f55f7c0ea896afd68b991f6b7e",
+        "lcrf.hva": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 28512,
+          "source": "Assets/Reference/ClassicExpansion/Original/lcrf.vxl",
+          "sourceSha256": "01608134ed663b1923ed8406a2b5f11274a362f55f7c0ea896afd68b991f6b7e",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                63,
+                47,
+                25
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -30.450660705566406,
+                -23.48047637939453,
+                0.0960298627614975
+              ],
+              "max": [
+                32.500064849853516,
+                23.49618911743164,
+                24.600040435791016
+              ],
+              "normalType": 4,
+              "voxels": 15150
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/lcrf.hva",
+          "hvaSha256": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1740029,
+      "rawSha256": "7a0e0ba7e535ec101d51c5ced3004387c3449c3b6899389122aee584bd3d999e",
+      "compressedBytes": 257278,
+      "sha256": "ca22094a542359968c58a3913897fa1255a11a8e687d08d1bb69e5d2b8624d9c"
+    },
+    "mcv": {
+      "file": "mcv.vpm.gz",
+      "faces": 34072,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/mcv.json",
+      "manifestSha256": "fb6e19e0293f98a27c6c207d4047b2467eb695092f9854081448ad06cb2d82af",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "mcv.vxl": "4a19444ca2b4a0366fd4fa85de709efa9e431adb366698ad541c019af97288e4",
+        "mcv.hva": "790b8ae4b6543cdd1969bf2e48246caf8ea9ab48b4d79ef2c2f87444ee20312c"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 34072,
+          "source": "Assets/Reference/ClassicExpansion/Original/mcv.vxl",
+          "sourceSha256": "4a19444ca2b4a0366fd4fa85de709efa9e431adb366698ad541c019af97288e4",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                77,
+                29,
+                33
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -36.002479553222656,
+                -14.423853874206543,
+                0.017139533534646034
+              ],
+              "max": [
+                40.553348541259766,
+                14.486124992370605,
+                32.59810256958008
+              ],
+              "normalType": 4,
+              "voxels": 21119
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/mcv.hva",
+          "hvaSha256": "790b8ae4b6543cdd1969bf2e48246caf8ea9ab48b4d79ef2c2f87444ee20312c"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 2079189,
+      "rawSha256": "c49dcd0249e319e94691b32b7376973ab3da3c0b964c3e627b149ccb88734349",
+      "compressedBytes": 318135,
+      "sha256": "300c35df6f55ad1f2de4416077f5f9919236bd0fdd58438ad597056c12da0b51"
+    },
+    "prism-tank": {
+      "file": "prism-tank.vpm.gz",
+      "faces": 17192,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/prism-tank.json",
+      "manifestSha256": "30755e62fc20990e193bf619f680c938186711ac4501ec28474bd544d996e2ea",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "sref.vxl": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+        "sref.hva": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+        "sreftur.vxl": "dbdf90aa9002796555450b6aa0ae05cb4926d83a2d6b21a4ed0cbe37e4af057b",
+        "sreftur.hva": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 15436,
+          "source": "Assets/Reference/Battlefield/Voxels/sref.vxl",
+          "sourceSha256": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                50,
+                34,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.601516723632812,
+                -16.29602813720703,
+                -0.17679446935653687
+              ],
+              "max": [
+                20.783092498779297,
+                17.198875427246094,
+                19.147096633911133
+              ],
+              "normalType": 4,
+              "voxels": 9716
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/sref.hva",
+          "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1756,
+          "source": "Assets/Reference/Battlefield/Voxels/sreftur.vxl",
+          "sourceSha256": "dbdf90aa9002796555450b6aa0ae05cb4926d83a2d6b21a4ed0cbe37e4af057b",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                18,
+                9,
+                22
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -8.695207595825195,
+                -3.936572551727295,
+                14.961482048034668
+              ],
+              "max": [
+                8.674437522888184,
+                4.567505836486816,
+                36.470733642578125
+              ],
+              "normalType": 4,
+              "voxels": 1149
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/sreftur.hva",
+          "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1049514,
+      "rawSha256": "938835a646f22d784389de2c9de534417281b6bd9a8434a57c457a9b2fdd2923",
+      "compressedBytes": 156253,
+      "sha256": "666d774a207730bb07de3d16cf5d309f829d4e54a177a0589a4486dd1f588e7b"
+    },
+    "ptruck": {
+      "file": "ptruck.vpm.gz",
+      "faces": 6070,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/MapObjects/Voxels/ptruck.json",
+      "manifestSha256": "e0f1a08e71a8e4f5b25ed549acf986e9cb4d3d914ee78512bfd88c8efaaf553b",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "ptruck.vxl": "c3a7a8b117a49af493f99c7423a59802cf061aadddd5ab0fb467a36f6f6947ec",
+        "ptruck.hva": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 6070,
+          "source": "Assets/Reference/Visual/MapObjects/Original/ptruck.vxl",
+          "sourceSha256": "c3a7a8b117a49af493f99c7423a59802cf061aadddd5ab0fb467a36f6f6947ec",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                46,
+                17,
+                18
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -23.01637840270996,
+                -8.45762825012207,
+                -0.09943821281194687
+              ],
+              "max": [
+                22.309825897216797,
+                8.452838897705078,
+                17.578025817871094
+              ],
+              "normalType": 4,
+              "voxels": 3258
+            }
+          ],
+          "hva": "Assets/Reference/Visual/MapObjects/Original/ptruck.hva",
+          "hvaSha256": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 371067,
+      "rawSha256": "03c8a3f17ef6a4e337135facf9ae94d8d584232d8e50968f1c2025a9c394d748",
+      "compressedBytes": 57063,
+      "sha256": "787e7fa3716b67b015b0cf09678129e7388e058747bede52706c5d82369b1817"
+    },
+    "rhino": {
+      "file": "rhino.vpm.gz",
+      "faces": 11632,
+      "parts": 3,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/rhino.json",
+      "manifestSha256": "a22c72ec85a73327a84448248994f20dd75faa1ef5e1a7adaf25264fd2c26ee1",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "htnk.vxl": "0ca8517c29f8bed26c3a3f0138bb36bae01fbb751fc9eaa30bfa1fba352923a2",
+        "htnk.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "htnktur.vxl": "4fc6ca0efb803621ae4dc99357f81eb4bc524cc70a90e386831fa0e63a416451",
+        "htnktur.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+        "htnkbarl.vxl": "42a3a41fdc52a5491b172bddcd8aac5b9baedec1d7703f95a68a9b96f8531398",
+        "htnkbarl.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 8722,
+          "source": "Assets/Reference/Battlefield/Voxels/htnk.vxl",
+          "sourceSha256": "0ca8517c29f8bed26c3a3f0138bb36bae01fbb751fc9eaa30bfa1fba352923a2",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                46,
+                34,
+                12
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -18.877635955810547,
+                -17.079124450683594,
+                0.21354012191295624
+              ],
+              "max": [
+                26.134572982788086,
+                16.51570701599121,
+                11.427901268005371
+              ],
+              "normalType": 2,
+              "voxels": 4816
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/htnk.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 2596,
+          "source": "Assets/Reference/Battlefield/Voxels/htnktur.vxl",
+          "sourceSha256": "4fc6ca0efb803621ae4dc99357f81eb4bc524cc70a90e386831fa0e63a416451",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                28,
+                18,
+                9
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -15.585855484008789,
+                -8.906843185424805,
+                11.67503547668457
+              ],
+              "max": [
+                11.46383285522461,
+                8.750513076782227,
+                19.973485946655273
+              ],
+              "normalType": 2,
+              "voxels": 1501
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/htnktur.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        },
+        {
+          "name": "barrel",
+          "role": 2,
+          "faces": 314,
+          "source": "Assets/Reference/Battlefield/Voxels/htnkbarl.vxl",
+          "sourceSha256": "42a3a41fdc52a5491b172bddcd8aac5b9baedec1d7703f95a68a9b96f8531398",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                19,
+                3,
+                3
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                11.837340354919434,
+                -1.4874329566955566,
+                13.087939262390137
+              ],
+              "max": [
+                30.66187286376953,
+                1.4761297702789307,
+                16.051502227783203
+              ],
+              "normalType": 4,
+              "voxels": 155
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/htnkbarl.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 710359,
+      "rawSha256": "810fd4398bf039765a7f3827b5e86878d5aca742c3f6b7876937919d1555a309",
+      "compressedBytes": 108150,
+      "sha256": "1912f581507ce27c5e3354805009eec5c43240cc4f21173fdfe61fdd297ea8b3"
+    },
+    "rtnk": {
+      "file": "rtnk.vpm.gz",
+      "faces": 17902,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/rtnk.json",
+      "manifestSha256": "9b10988405dae1136365c081138a28b90e7105b8f6394004f059969216882d8b",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "rtnk.vxl": "5ffa424b33fbb14a51743c69a02d9fe0137922e19b474e32402f5aba0f00f985",
+        "rtnk.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 17902,
+          "source": "Assets/Reference/ClassicExpansion/Original/rtnk.vxl",
+          "sourceSha256": "5ffa424b33fbb14a51743c69a02d9fe0137922e19b474e32402f5aba0f00f985",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                44,
+                34,
+                28
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -22.162281036376953,
+                -17.025524139404297,
+                -0.1767944097518921
+              ],
+              "max": [
+                21.66809844970703,
+                16.870830535888672,
+                27.223819732666016
+              ],
+              "normalType": 4,
+              "voxels": 11151
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/rtnk.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1092819,
+      "rawSha256": "0c4676152091f72dd07880f3e65505cc9f39d370870a4a40b9ac02a38c2cce37",
+      "compressedBytes": 166855,
+      "sha256": "c31ef111683e092492655631c893503496fee1b3158e79e21ff9223bc593c778"
+    },
+    "shad": {
+      "file": "shad.vpm.gz",
+      "faces": 15104,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/shad.json",
+      "manifestSha256": "027ccbaa39652cc6ec579ac1916f264cc51f7f90d85294d6a3ec80c249f90651",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "shad.vxl": "2631eb06cdf90b3a2932ffeba8de48e349b2fab3b9b17d70a6f18a76c0371636",
+        "shad.hva": "008ae1ea5f4b1c928aaffa4dcb86a3ee748af6d9396bdbdb528f8da8db0a3b0b"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 15104,
+          "source": "Assets/Reference/ClassicExpansion/Original/shad.vxl",
+          "sourceSha256": "2631eb06cdf90b3a2932ffeba8de48e349b2fab3b9b17d70a6f18a76c0371636",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "CYLINDER18",
+              "size": [
+                65,
+                68,
+                5
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.994918823242188,
+                -33.10083770751953,
+                -0.47264763712882996
+              ],
+              "max": [
+                35.61383819580078,
+                34.17610168457031,
+                4.459585189819336
+              ],
+              "normalType": 4,
+              "voxels": 665
+            },
+            {
+              "name": "CYLINDER09",
+              "size": [
+                65,
+                68,
+                5
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -29.009260177612305,
+                -33.162841796875,
+                -2.4661169052124023
+              ],
+              "max": [
+                35.59949493408203,
+                34.114097595214844,
+                2.466115713119507
+              ],
+              "normalType": 4,
+              "voxels": 665
+            },
+            {
+              "name": "DUMMY01",
+              "size": [
+                77,
+                29,
+                26
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -38.130496978759766,
+                -14.087778091430664,
+                0.10473676025867462
+              ],
+              "max": [
+                38.28803253173828,
+                14.05246353149414,
+                25.608985900878906
+              ],
+              "normalType": 4,
+              "voxels": 5973
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/shad.hva",
+          "hvaSha256": "008ae1ea5f4b1c928aaffa4dcb86a3ee748af6d9396bdbdb528f8da8db0a3b0b"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 922141,
+      "rawSha256": "4290e44ff299554505f6a0338758e17bcc23947c4ce0dc1d4d65af46b99f8c67",
+      "compressedBytes": 138045,
+      "sha256": "f737f844683c4ebda757c9aa4f4a75c8f014de0a9ebe639627357288f918da92"
+    },
+    "smcv": {
+      "file": "smcv.vpm.gz",
+      "faces": 30390,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/smcv.json",
+      "manifestSha256": "a52c7b0c1a8cee3d1dbde39938ccf8c4cdcff1c38dd410e54410ac7e4aea0299",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "smcv.vxl": "5df9009d9d5dbd320530e8485a82d17f888e04aad8a4b69a35687dcb7fdcdb1d",
+        "smcv.hva": "57667fe8ed4b3e3b934d0d34ed735458b1fba6a15b56743a2d7b5c42587d0275"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 30390,
+          "source": "Assets/Reference/ClassicExpansion/Original/smcv.vxl",
+          "sourceSha256": "5df9009d9d5dbd320530e8485a82d17f888e04aad8a4b69a35687dcb7fdcdb1d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                75,
+                35,
+                29
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -37.21650314331055,
+                -17.452274322509766,
+                0.12885186076164246
+              ],
+              "max": [
+                37.4515495300293,
+                17.478879928588867,
+                29.034175872802734
+              ],
+              "normalType": 4,
+              "voxels": 19426
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/smcv.hva",
+          "hvaSha256": "57667fe8ed4b3e3b934d0d34ed735458b1fba6a15b56743a2d7b5c42587d0275"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1854587,
+      "rawSha256": "011b9a01b72646a8d26817acc9e987c7082cee4a8325e9ed98115165bf644502",
+      "compressedBytes": 277435,
+      "sha256": "4399f6cbadc471e1e2821a313f4f7004d6214250691556b2e4905aabba0fbf71"
+    },
+    "sref_turret1": {
+      "file": "sref_turret1.vpm.gz",
+      "faces": 17180,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/sref_turret1.json",
+      "manifestSha256": "e1b011ac35cd71649865a4536308a2dedcdacb67a6c50dd79af10aae87d3b99a",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "sref.vxl": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+        "sref.hva": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+        "sreftur1.vxl": "13eea10c5395da2760c6cd0bf01611dd59116c45cc5321b569415ab3ec433fdf",
+        "sreftur1.hva": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 15436,
+          "source": "Assets/Reference/Battlefield/Voxels/sref.vxl",
+          "sourceSha256": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                50,
+                34,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.601516723632812,
+                -16.29602813720703,
+                -0.17679446935653687
+              ],
+              "max": [
+                20.783092498779297,
+                17.198875427246094,
+                19.147096633911133
+              ],
+              "normalType": 4,
+              "voxels": 9716
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/sref.hva",
+          "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1744,
+          "source": "Assets/Reference/ClassicExpansion/Original/sreftur1.vxl",
+          "sourceSha256": "13eea10c5395da2760c6cd0bf01611dd59116c45cc5321b569415ab3ec433fdf",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                19,
+                9,
+                23
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -9.577884674072266,
+                -3.936572551727295,
+                14.961482048034668
+              ],
+              "max": [
+                8.6744384765625,
+                4.567505836486816,
+                36.96574783325195
+              ],
+              "normalType": 4,
+              "voxels": 1122
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/sreftur1.hva",
+          "hvaSha256": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1048782,
+      "rawSha256": "6604579aa13e474f1fafca43b56ec91f9eff4286eae74f8df16bd190f93d658a",
+      "compressedBytes": 156289,
+      "sha256": "83419859cc304b2e92e23e0efcf6042a01d204a1de49760f5f60ab155f6445be"
+    },
+    "sref_turret2": {
+      "file": "sref_turret2.vpm.gz",
+      "faces": 17142,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/sref_turret2.json",
+      "manifestSha256": "649e587c1351a9d4fb4e060bbf3595cc41b1a5ff316fe25245a9d6c7ad651a09",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "sref.vxl": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+        "sref.hva": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+        "sreftur2.vxl": "2f90e8585fc90c15f6ee086f28241382d012f631d7559afbcda1bc8ec08aa8e6",
+        "sreftur2.hva": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 15436,
+          "source": "Assets/Reference/Battlefield/Voxels/sref.vxl",
+          "sourceSha256": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                50,
+                34,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.601516723632812,
+                -16.29602813720703,
+                -0.17679446935653687
+              ],
+              "max": [
+                20.783092498779297,
+                17.198875427246094,
+                19.147096633911133
+              ],
+              "normalType": 4,
+              "voxels": 9716
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/sref.hva",
+          "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1706,
+          "source": "Assets/Reference/ClassicExpansion/Original/sreftur2.vxl",
+          "sourceSha256": "2f90e8585fc90c15f6ee086f28241382d012f631d7559afbcda1bc8ec08aa8e6",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                22,
+                9,
+                22
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -12.852449417114258,
+                -3.936572551727295,
+                14.961482048034668
+              ],
+              "max": [
+                8.674437522888184,
+                4.567505836486816,
+                36.470733642578125
+              ],
+              "normalType": 4,
+              "voxels": 1134
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/sreftur2.hva",
+          "hvaSha256": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1046464,
+      "rawSha256": "f5da37e3db37b7fcf92be7ee0bfad34256abd2cb8ae47d750b7cb17cf7b5e36a",
+      "compressedBytes": 155783,
+      "sha256": "6a56cdf122c1eea5d865d32392b7243722dc8cc43cae35a28992c0a33403df45"
+    },
+    "sref_turret3": {
+      "file": "sref_turret3.vpm.gz",
+      "faces": 17118,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/sref_turret3.json",
+      "manifestSha256": "197922da81fd3158bad53808018da1097ecae42d8783c688f3f5485c32ce97b2",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "sref.vxl": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+        "sref.hva": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+        "sreftur3.vxl": "5e3ad05ac7dde18ebc814c4dbd5c3ad3e74e1b48730500bfa53d82cba1d516c5",
+        "sreftur3.hva": "c9e156df427bc5955cf5e99723c965fbd2ffadaef6c0299a4b2d2e51c9723f48"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 15436,
+          "source": "Assets/Reference/Battlefield/Voxels/sref.vxl",
+          "sourceSha256": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                50,
+                34,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.601516723632812,
+                -16.29602813720703,
+                -0.17679446935653687
+              ],
+              "max": [
+                20.783092498779297,
+                17.198875427246094,
+                19.147096633911133
+              ],
+              "normalType": 4,
+              "voxels": 9716
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/sref.hva",
+          "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1682,
+          "source": "Assets/Reference/ClassicExpansion/Original/sreftur3.vxl",
+          "sourceSha256": "5e3ad05ac7dde18ebc814c4dbd5c3ad3e74e1b48730500bfa53d82cba1d516c5",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                24,
+                9,
+                22
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -15.109752655029297,
+                -3.936572551727295,
+                14.961482048034668
+              ],
+              "max": [
+                8.674437522888184,
+                4.567505836486816,
+                36.470733642578125
+              ],
+              "normalType": 4,
+              "voxels": 1118
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/sreftur3.hva",
+          "hvaSha256": "c9e156df427bc5955cf5e99723c965fbd2ffadaef6c0299a4b2d2e51c9723f48"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1045000,
+      "rawSha256": "a6d675e4712e0819a1f79c7634d85e91d62f0a60540c559b0113edc7b97d09a6",
+      "compressedBytes": 155561,
+      "sha256": "07e88cdbdb7b9f96608e759f3caddcf69a801c28fac6e9ec312f538006352f5e"
+    },
+    "stang": {
+      "file": "stang.vpm.gz",
+      "faces": 4088,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/MapObjects/Voxels/stang.json",
+      "manifestSha256": "6a91bdac881b83d0faace9d0d12b4e4e6966497ad89bf9e5da6e03f8ab28b663",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "stang.vxl": "a35db9c7bb8c7e877c27394b383ac1c247b9d47f6c0df9676757af76665deca2",
+        "stang.hva": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 4088,
+          "source": "Assets/Reference/Visual/MapObjects/Original/stang.vxl",
+          "sourceSha256": "a35db9c7bb8c7e877c27394b383ac1c247b9d47f6c0df9676757af76665deca2",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                43,
+                19,
+                13
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -21.364482879638672,
+                -8.88306999206543,
+                0.06411158293485641
+              ],
+              "max": [
+                21.043716430664062,
+                9.148263931274414,
+                12.904627799987793
+              ],
+              "normalType": 2,
+              "voxels": 2038
+            }
+          ],
+          "hva": "Assets/Reference/Visual/MapObjects/Original/stang.hva",
+          "hvaSha256": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 250165,
+      "rawSha256": "d05f75578e72fbcd5c7f762b17f188c480ef2a2d65724d6ad90e09f5c19eafd4",
+      "compressedBytes": 38777,
+      "sha256": "5668ca415d2305fc50c469b5661309394a938400216f6cdaf320510623466b48"
+    },
+    "sub": {
+      "file": "sub.vpm.gz",
+      "faces": 10908,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/sub.json",
+      "manifestSha256": "ac14de21621b9ddffc7cd16482b6365a5b491cae83c999757f80ec52a882b0a9",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "sub.vxl": "450cd09a67e112c329707a465eaa6d7142ebcdb8d57640cf48abb60f3d0a5e89",
+        "sub.hva": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 10908,
+          "source": "Assets/Reference/ClassicExpansion/Original/sub.vxl",
+          "sourceSha256": "450cd09a67e112c329707a465eaa6d7142ebcdb8d57640cf48abb60f3d0a5e89",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                81,
+                29,
+                29
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -39.58656311035156,
+                -14.085516929626465,
+                -4.557284355163574
+              ],
+              "max": [
+                41.33551788330078,
+                14.10763931274414,
+                24.33558464050293
+              ],
+              "normalType": 4,
+              "voxels": 6637
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/sub.hva",
+          "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 666185,
+      "rawSha256": "de4adf691e2b7d0627cb942865f38bb6106264ca52ad399f0ee0cdf7e67d3ff9",
+      "compressedBytes": 99553,
+      "sha256": "1d2f25b72b0227e2a4887ad307ead8d06394174421ce6548722a781ad0c55529"
+    },
+    "suvb": {
+      "file": "suvb.vpm.gz",
+      "faces": 6132,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/MapObjects/Voxels/suvb.json",
+      "manifestSha256": "b6b4a86672e5302c4ec3bd7a5f3330111d4fdf9237e51296a59b7d0523b1d69b",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "suvb.vxl": "a8e418da9f52bcda735781c2c7d3508473b05f4e5b0fc9c478991fd302a38316",
+        "suvb.hva": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 6132,
+          "source": "Assets/Reference/Visual/MapObjects/Original/suvb.vxl",
+          "sourceSha256": "a8e418da9f52bcda735781c2c7d3508473b05f4e5b0fc9c478991fd302a38316",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                41,
+                18,
+                17
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -19.665233612060547,
+                -8.766790390014648,
+                0.02118358574807644
+              ],
+              "max": [
+                21.329547882080078,
+                8.941673278808594,
+                16.884361267089844
+              ],
+              "normalType": 2,
+              "voxels": 3322
+            }
+          ],
+          "hva": "Assets/Reference/Visual/MapObjects/Original/suvb.hva",
+          "hvaSha256": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 374849,
+      "rawSha256": "0a3c9cf829c02d5b7f99bdf742ea1c01fd8f0f35b77b39c063c5afb4fabe47d4",
+      "compressedBytes": 56721,
+      "sha256": "9607d49b0dc49ecfbf24d7199d043c22563691c7e5044655c47eef7b31d7d6f5"
+    },
+    "suvw": {
+      "file": "suvw.vpm.gz",
+      "faces": 6132,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/MapObjects/Voxels/suvw.json",
+      "manifestSha256": "8054356cb8c5dd2745d77897c90252465b7a4bc8a81235595d7019dbfa4751f8",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "suvw.vxl": "d981a788d749aac095e1acf631e41b29f6b97e4ced1a22ce538871cb4c421a0b",
+        "suvw.hva": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 6132,
+          "source": "Assets/Reference/Visual/MapObjects/Original/suvw.vxl",
+          "sourceSha256": "d981a788d749aac095e1acf631e41b29f6b97e4ced1a22ce538871cb4c421a0b",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                41,
+                18,
+                17
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -19.665233612060547,
+                -8.766790390014648,
+                0.02118358574807644
+              ],
+              "max": [
+                21.329547882080078,
+                8.941673278808594,
+                16.884361267089844
+              ],
+              "normalType": 4,
+              "voxels": 3322
+            }
+          ],
+          "hva": "Assets/Reference/Visual/MapObjects/Original/suvw.hva",
+          "hvaSha256": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 374849,
+      "rawSha256": "4248f4d0191b9aedb5a2483ffdd72c19916f790f83b78a3705c35c2db9f76861",
+      "compressedBytes": 56928,
+      "sha256": "99d0ee23c151d0984636c12b4eed57a4cf8647058d56574d2cf37c730b438731"
+    },
+    "taxi": {
+      "file": "taxi.vpm.gz",
+      "faces": 3292,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/MapObjects/Voxels/taxi.json",
+      "manifestSha256": "765005d1aaef6b5dbc76638377b4d17209c77ca74adc112d6075c76c6a786d34",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "taxi.vxl": "4d49df77fb434203e56cc381bcb3e773f0348b886c6802c74a565c43cdeb5c2f",
+        "taxi.hva": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 3292,
+          "source": "Assets/Reference/Visual/MapObjects/Original/taxi.vxl",
+          "sourceSha256": "4d49df77fb434203e56cc381bcb3e773f0348b886c6802c74a565c43cdeb5c2f",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                37,
+                15,
+                12
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -17.907930374145508,
+                -7.304051876068115,
+                0.024276461452245712
+              ],
+              "max": [
+                18.155364990234375,
+                6.888576507568359,
+                11.809165000915527
+              ],
+              "normalType": 2,
+              "voxels": 1573
+            }
+          ],
+          "hva": "Assets/Reference/Visual/MapObjects/Original/taxi.hva",
+          "hvaSha256": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 201609,
+      "rawSha256": "892cf3a1aa56b8b486d5ee8e8874abab82f9b6dff53b05b679a7a4137a9922b0",
+      "compressedBytes": 30867,
+      "sha256": "b4970f12c6a54bc193e3bc41551e3c064f1ceb8fbf6ce9eddc3d4d0be0ad8499"
+    },
+    "tesla-tank": {
+      "file": "tesla-tank.vpm.gz",
+      "faces": 14444,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/tesla-tank.json",
+      "manifestSha256": "5e53161ca8a17db94775223f9efd6bb14860a8ffdb856dc45cb5a5e80f84516d",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "ttnk.vxl": "9ad57394e667f3d555d48ab6bc7aa537658af4aa5ad1de5729840aa0758c797d",
+        "ttnk.hva": "8328e2797e58451c0b68865bcfef13f935ffb260e60083fe323a05c752c558a9",
+        "ttnktur.vxl": "7f5a8bd5b12e800b1edd7ce8f593e791857ffaf82341cc6e1c7c8ff93a78b4b7",
+        "ttnktur.hva": "8328e2797e58451c0b68865bcfef13f935ffb260e60083fe323a05c752c558a9"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 10854,
+          "source": "Assets/Reference/Battlefield/Voxels/ttnk.vxl",
+          "sourceSha256": "9ad57394e667f3d555d48ab6bc7aa537658af4aa5ad1de5729840aa0758c797d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                48,
+                31,
+                15
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -23.624128341674805,
+                -15.113767623901367,
+                0.0688905119895935
+              ],
+              "max": [
+                23.516950607299805,
+                15.033369064331055,
+                14.296541213989258
+              ],
+              "normalType": 4,
+              "voxels": 6526
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/ttnk.hva",
+          "hvaSha256": "8328e2797e58451c0b68865bcfef13f935ffb260e60083fe323a05c752c558a9"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 3590,
+          "source": "Assets/Reference/Battlefield/Voxels/ttnktur.vxl",
+          "sourceSha256": "7f5a8bd5b12e800b1edd7ce8f593e791857ffaf82341cc6e1c7c8ff93a78b4b7",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                26,
+                28,
+                12
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -10.311956405639648,
+                -13.783021926879883,
+                10.909576416015625
+              ],
+              "max": [
+                15.030044555664062,
+                13.677611351013184,
+                22.237293243408203
+              ],
+              "normalType": 4,
+              "voxels": 2197
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/ttnktur.hva",
+          "hvaSha256": "8328e2797e58451c0b68865bcfef13f935ffb260e60083fe323a05c752c558a9"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 881886,
+      "rawSha256": "cabe34e802dc47e1be058a057e0deb79777a4292f48bb338031bfd269c195365",
+      "compressedBytes": 133741,
+      "sha256": "fc038a1496ff7e6ea2d99379cc69be627c26c729e3f0dc3c1eff9ed90d50c84e"
+    },
+    "tnkd": {
+      "file": "tnkd.vpm.gz",
+      "faces": 16054,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/tnkd.json",
+      "manifestSha256": "f39ae09a5a9b832fa36a0e1f0ee3e33c361e39d13b2ef4cd751e5b44b0e5a67e",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "tnkd.vxl": "e5eadd502cd64aad8d751622a24156b8d0c06ef533afaf5a6f8e340fea28d94a",
+        "tnkd.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 16054,
+          "source": "Assets/Reference/Battlefield/Voxels/tnkd.vxl",
+          "sourceSha256": "e5eadd502cd64aad8d751622a24156b8d0c06ef533afaf5a6f8e340fea28d94a",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                58,
+                32,
+                26
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -22.59052085876465,
+                -15.36856460571289,
+                -0.1592743694782257
+              ],
+              "max": [
+                35.128150939941406,
+                15.65732479095459,
+                24.87710189819336
+              ],
+              "normalType": 2,
+              "voxels": 9417
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/tnkd.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 980091,
+      "rawSha256": "f26de3afbd08dae16368b50b86847587d72ae9eb91ed486098f03dc3f34a50b5",
+      "compressedBytes": 147173,
+      "sha256": "6729ea2e3fb94f06f7ebd8fe23e6a49308219845a48923ea665a0ba5400d03bd"
+    },
+    "trs": {
+      "file": "trs.vpm.gz",
+      "faces": 33998,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/trs.json",
+      "manifestSha256": "c1a28e699fc8c088cc0fc31ade181fca7826028da2fa1e2dc7fed9bd87743440",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "trs.vxl": "2f954e765e62a15092e810ba7662d43136f7d74fc426d2227c58b70ef56eaaf9",
+        "trs.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 33998,
+          "source": "Assets/Reference/ClassicExpansion/Original/trs.vxl",
+          "sourceSha256": "2f954e765e62a15092e810ba7662d43136f7d74fc426d2227c58b70ef56eaaf9",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                77,
+                47,
+                28
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -38.79216766357422,
+                -23.013328552246094,
+                0.00033299048664048314
+              ],
+              "max": [
+                37.80205154418945,
+                23.197757720947266,
+                27.910003662109375
+              ],
+              "normalType": 4,
+              "voxels": 22110
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/trs.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 2074675,
+      "rawSha256": "92f4497953adbc02d791b8382f1860999bf5ea67418849a1da5a7d9ccc978658",
+      "compressedBytes": 300016,
+      "sha256": "d893cc3defeae96d4b6c6a009718f13c67a0c829d0490cbbaeafb5e303600994"
+    },
+    "trucka": {
+      "file": "trucka.vpm.gz",
+      "faces": 11366,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/trucka.json",
+      "manifestSha256": "90d212a26c20c60e3b55c279bb9de662155ad01d8e77e314e9ee23451b35a095",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "trucka.vxl": "d535a5cff4f3f62d8aefa2edd01eda931d63933f38b08f708787843a8f6f1cf7",
+        "trucka.hva": "2deba143c6e9bca86e1ca357873082ec8e47f40e13eaacfc647e1e3fb63c21f3"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 11366,
+          "source": "Assets/Reference/ClassicExpansion/Original/trucka.vxl",
+          "sourceSha256": "d535a5cff4f3f62d8aefa2edd01eda931d63933f38b08f708787843a8f6f1cf7",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                48,
+                21,
+                21
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -22.936803817749023,
+                -10.42534065246582,
+                -0.0002528381301090121
+              ],
+              "max": [
+                24.926387786865234,
+                10.47673225402832,
+                20.715728759765625
+              ],
+              "normalType": 4,
+              "voxels": 7893
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/trucka.hva",
+          "hvaSha256": "2deba143c6e9bca86e1ca357873082ec8e47f40e13eaacfc647e1e3fb63c21f3"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 694123,
+      "rawSha256": "cda827347af1e914ab3a3884c6c8e8f49b46053786359df2ad99c66f18fc348d",
+      "compressedBytes": 106391,
+      "sha256": "e580a06e4b8531902324704d82836414412ad6a5c803cebd594566fdf74914dc"
+    },
+    "v3": {
+      "file": "v3.vpm.gz",
+      "faces": 13600,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/v3.json",
+      "manifestSha256": "d4719a7c4de09aa90505c0f1f3f25bd716832965292bb9fe187bf7da811f98f6",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "v3.vxl": "0bec1774299ab54471e0aec3b49c467832fe19e5c19fcaa3b2bb4964b31903c1",
+        "v3.hva": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 13600,
+          "source": "Assets/Reference/ClassicExpansion/Original/v3.vxl",
+          "sourceSha256": "0bec1774299ab54471e0aec3b49c467832fe19e5c19fcaa3b2bb4964b31903c1",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                64,
+                19,
+                36
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -29.277372360229492,
+                -9.01431941986084,
+                0.17887645959854126
+              ],
+              "max": [
+                34.09101867675781,
+                9.277498245239258,
+                35.401676177978516
+              ],
+              "normalType": 4,
+              "voxels": 7974
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/v3.hva",
+          "hvaSha256": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 830397,
+      "rawSha256": "1f75755168b774fb050114aec69b4202f3fb08f2d3911b74d160b3ac5f659089",
+      "compressedBytes": 126568,
+      "sha256": "2c50b9f836d0dd05f9500d9ac9d9378d1db1172afbe74d639a4d64778ca39506"
+    },
+    "v3_empty": {
+      "file": "v3_empty.vpm.gz",
+      "faces": 9160,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/v3_empty.json",
+      "manifestSha256": "f39de83a9232fe604ec86e6310db87ac2b947c5ebab23127a0c7fd9847df4b52",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "v3wo.vxl": "e7bc69e8bf43e2a96e355dfa72e4ff574e17f8f104e8802da0e9787bf31990b9",
+        "v3wo.hva": "b79f88d50a6caa564c10cfd17fed61f7e8335e6a57b7578cc114558eefe57165"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 9160,
+          "source": "Assets/Reference/ClassicExpansion/Original/v3wo.vxl",
+          "sourceSha256": "e7bc69e8bf43e2a96e355dfa72e4ff574e17f8f104e8802da0e9787bf31990b9",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                58,
+                19,
+                26
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -26.064559936523438,
+                -8.837057113647461,
+                0.17887645959854126
+              ],
+              "max": [
+                31.72182846069336,
+                9.277497291564941,
+                26.113248825073242
+              ],
+              "normalType": 4,
+              "voxels": 5294
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/v3wo.hva",
+          "hvaSha256": "b79f88d50a6caa564c10cfd17fed61f7e8335e6a57b7578cc114558eefe57165"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 559557,
+      "rawSha256": "e03e05b9dcbf9fe9768773afc2ca9c96898f728343579ed2c7f5b3968ad6d471",
+      "compressedBytes": 86117,
+      "sha256": "24985e6136ba3b3f93a3140d80cb470506709b4596b09742bda901bcd7b606f3"
+    },
+    "v3rocket": {
+      "file": "v3rocket.vpm.gz",
+      "faces": 4380,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/v3rocket.json",
+      "manifestSha256": "cece310bd27ab3b1300865609c502a995fd30f537d2bc935550c551487092700",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "v3rocket.vxl": "fd13949b0728d3543df1dd4fd39c9e6bfb65d322abec663819b42f51e141510d",
+        "v3rocket.hva": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 4380,
+          "source": "Assets/Reference/ClassicExpansion/Original/v3rocket.vxl",
+          "sourceSha256": "fd13949b0728d3543df1dd4fd39c9e6bfb65d322abec663819b42f51e141510d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                66,
+                18,
+                20
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                0.041626811027526855,
+                -9.014318466186523,
+                -8.731432914733887
+              ],
+              "max": [
+                65.38424682617188,
+                8.548494338989258,
+                11.144220352172852
+              ],
+              "normalType": 4,
+              "voxels": 2547
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/v3rocket.hva",
+          "hvaSha256": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 267977,
+      "rawSha256": "f9ba5674274a493eab1568ecf930b4d64e2d956a4a12d4bf3a6f658b27503e4f",
+      "compressedBytes": 40404,
+      "sha256": "4d85f793c736bfe091fedf26129d037ff3d3ae9970b02feb18e7f87379bfb477"
+    },
+    "war-miner": {
+      "file": "war-miner.vpm.gz",
+      "faces": 17226,
+      "parts": 2,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/Vehicles/war-miner.json",
+      "manifestSha256": "44b007366da7d3367973d2777bd4e3579785c34bcf20227ac126be693b75b1a6",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "harv.vxl": "b51aa74470b8495d9484a8085c88624ce53116dac20ba886b89bbe251913503a",
+        "harv.hva": "6de96bd28d717ad4c4f51e36692a7f32f8f5e10836347fe7c4964e57f9da6581",
+        "harvtur.vxl": "bc7a2ab31a50c4c08bfc3cc72e42724891b139f352f5fad7fca01f96922e8b4d",
+        "harvtur.hva": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 16080,
+          "source": "Assets/Reference/Battlefield/Voxels/harv.vxl",
+          "sourceSha256": "b51aa74470b8495d9484a8085c88624ce53116dac20ba886b89bbe251913503a",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                62,
+                27,
+                26
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -28.378562927246094,
+                -13.566802978515625,
+                0.15525245666503906
+              ],
+              "max": [
+                33.40888214111328,
+                12.935420036315918,
+                25.697078704833984
+              ],
+              "normalType": 4,
+              "voxels": 10726
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/harv.hva",
+          "hvaSha256": "6de96bd28d717ad4c4f51e36692a7f32f8f5e10836347fe7c4964e57f9da6581"
+        },
+        {
+          "name": "turret",
+          "role": 1,
+          "faces": 1146,
+          "source": "Assets/Reference/Battlefield/Voxels/harvtur.vxl",
+          "sourceSha256": "bc7a2ab31a50c4c08bfc3cc72e42724891b139f352f5fad7fca01f96922e8b4d",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                20,
+                11,
+                7
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -5.471488952636719,
+                -5.381722927093506,
+                21.767675399780273
+              ],
+              "max": [
+                13.870920181274414,
+                5.418720245361328,
+                28.586828231811523
+              ],
+              "normalType": 4,
+              "voxels": 626
+            }
+          ],
+          "hva": "Assets/Reference/Battlefield/Voxels/harvtur.hva",
+          "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 1051588,
+      "rawSha256": "a9405ea805ee05f2685b2c539d5981f334dc7653eb4736a6d6e3e292df2ecb8c",
+      "compressedBytes": 162043,
+      "sha256": "aea44d08960d3237ef840d08fa54150c7a731e4da195e08c3166da5573095fbc"
+    },
+    "zep": {
+      "file": "zep.vpm.gz",
+      "faces": 53152,
+      "parts": 1,
+      "scale": 12.0,
+      "elevation": 30.0,
+      "azimuth": 0.0,
+      "animationFrame": 0,
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/zep.json",
+      "manifestSha256": "70349060822cd0570fcec277ca8a98dee5e1c0362c7fd99b156ffa9387e75475",
+      "sourceHashes": {
+        "unittem.pal": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+        "zep.vxl": "29d1b0812553fb09889f41481b8315c65740b09b11d6c799e03562f6a91de1ba",
+        "zep.hva": "4d9feb87009d48a3bdd2b143fe410e785be149d93c1d0b6765d3edbc9dac82fa"
+      },
+      "partDetails": [
+        {
+          "name": "body",
+          "role": 0,
+          "faces": 53152,
+          "source": "Assets/Reference/ClassicExpansion/Original/zep.vxl",
+          "sourceSha256": "29d1b0812553fb09889f41481b8315c65740b09b11d6c799e03562f6a91de1ba",
+          "identityPose": false,
+          "limbs": [
+            {
+              "name": "DUMMY01",
+              "size": [
+                136,
+                60,
+                68
+              ],
+              "scale": 0.0833333358168602,
+              "min": [
+                -65.18717956542969,
+                -29.86400604248047,
+                -25.02796173095703
+              ],
+              "max": [
+                70.45198059082031,
+                29.941471099853516,
+                42.33525085449219
+              ],
+              "normalType": 4,
+              "voxels": 35841
+            }
+          ],
+          "hva": "Assets/Reference/ClassicExpansion/Original/zep.hva",
+          "hvaSha256": "4d9feb87009d48a3bdd2b143fe410e785be149d93c1d0b6765d3edbc9dac82fa"
+        }
+      ],
+      "teamColor": {
+        "startIndex": 16,
+        "count": 16
+      },
+      "origin": "original VXL/HVA model origin retained",
+      "rawBytes": 3243069,
+      "rawSha256": "826d54aa13ce0833d51f6794a8f46538b8b5eabf3d89b04280149902a650f262",
+      "compressedBytes": 505876,
+      "sha256": "3bd93367f482d290fb60d8c259bb3c0efd26b9af2c3827a2a8306294e1d74c4d"
+    }
+  },
+  "totals": {
+    "models": 45,
+    "parts": 63,
+    "faces": 730920,
+    "compressedBytes": 6743096,
+    "rawBytes": 44622075
+  },
+  "generationSeconds": 72.453,
+  "generator": "Tools/VehiclePose/prepare_models.py",
+  "generatorSha256": "e4cafa71c9aac13ed27fe482caa22320cfefc7053ef97d655554e5c31dc1b91c",
+  "portedSources": {
+    "Tools/VoxelBaker/Formats.cs": "af275f426fd04e33f043dec54cc6e4119c854e063ea4bab41b2b44234af2530f",
+    "Tools/VoxelBaker/Renderer.cs": "0c16c42c083bd774bf434c984ebc4b11af5bb8119026e96e54309974c653f0d8"
+  },
+  "skipped": [
+    {
+      "name": "grand-cannon",
+      "manifest": "Assets/Generated/Vehicles/grand-cannon.json",
+      "reason": "no body part (building turret/barrel)"
+    },
+    {
+      "name": "naflak",
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/naflak.json",
+      "reason": "no body part (building turret/barrel)"
+    },
+    {
+      "name": "nalasr",
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/nalasr.json",
+      "reason": "no body part (building turret/barrel)"
+    },
+    {
+      "name": "nasam",
+      "manifest": "Assets/Generated/ClassicExpansion/Voxels/nasam.json",
+      "reason": "no body part (building turret/barrel)"
+    }
+  ],
+  "verification": {
+    "allManifestHashesMatched": true,
+    "voxelManifests": 49,
+    "manifestSourceReferences": 185,
+    "uniqueReferencedBasenameHashes": 125,
+    "indexedReferenceFiles": 221,
+    "indexedVxlFiles": 103,
+    "indexedHvaFiles": 103,
+    "allGeneratedModelsReadBack": true,
+    "checks": [
+      "source basename+sha256",
+      "source PAL expansion equals expandedRgb",
+      "checked VXL spans",
+      "all HVA frames validated; frame0 positional binding",
+      "gzip CRC",
+      "all VPM headers/records",
+      "finite coordinates/unit normals",
+      "61-byte face records",
+      "compressed/raw lengths+sha256"
+    ]
+  },
+  "sourceFiles": [
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/cmin.hva",
+      "basename": "cmin.hva",
+      "sha256": "83acad38f7755df0a5197992df05b810e274704917279039e0f681d0aa900498",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/cmin.vxl",
+      "basename": "cmin.vxl",
+      "sha256": "f9ab81a01eb3019e62f0eb2aa68d19b4cb25290b5886b491d020aa9bd2784e9c",
+      "bytes": 55059
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/fv.hva",
+      "basename": "fv.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/fv.vxl",
+      "basename": "fv.vxl",
+      "sha256": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+      "bytes": 35583
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/fvtur.hva",
+      "basename": "fvtur.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/fvtur.vxl",
+      "basename": "fvtur.vxl",
+      "sha256": "4569b2ae0ddd8ef64f487cc22a35b257bd8a617e75745ff48d6695fbbff8db8a",
+      "bytes": 14177
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtgcanbarl.hva",
+      "basename": "gtgcanbarl.hva",
+      "sha256": "8f0d6c304ea663dfd632b81c85ebc567f781752fb98d15c06e832d3403173049",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtgcanbarl.vxl",
+      "basename": "gtgcanbarl.vxl",
+      "sha256": "6f90d6bd920cd3f3f91d247c7bf70390504c616c37dc2384a02ddd3b19e7cc25",
+      "bytes": 21417
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtgcantur.hva",
+      "basename": "gtgcantur.hva",
+      "sha256": "8f0d6c304ea663dfd632b81c85ebc567f781752fb98d15c06e832d3403173049",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtgcantur.vxl",
+      "basename": "gtgcantur.vxl",
+      "sha256": "6dfdc77eb7635b0601f6ce8e5a8ded3f13129af74426b66ff55321664154d72a",
+      "bytes": 89541
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtnk.hva",
+      "basename": "gtnk.hva",
+      "sha256": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtnk.vxl",
+      "basename": "gtnk.vxl",
+      "sha256": "88b326908acb5c2a98860d8f65169e8745ae858c5cbfe98e0bb2f283f49a3b81",
+      "bytes": 29258
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtnkbarl.hva",
+      "basename": "gtnkbarl.hva",
+      "sha256": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtnkbarl.vxl",
+      "basename": "gtnkbarl.vxl",
+      "sha256": "04c7ffd68d8f12589bf02767c0617014042c3a255567cf939cd6908c36c0d852",
+      "bytes": 2602
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtnktur.hva",
+      "basename": "gtnktur.hva",
+      "sha256": "4a15fc9c2633667812465c4b08f28cab5d595ae4f80eddbb77d1a9f9ed0480a4",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/gtnktur.vxl",
+      "basename": "gtnktur.vxl",
+      "sha256": "deaee48689e1413a264c8945c5d943d1acb39eb3ab26aad93850901af4d7dffe",
+      "bytes": 8652
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/harv.hva",
+      "basename": "harv.hva",
+      "sha256": "6de96bd28d717ad4c4f51e36692a7f32f8f5e10836347fe7c4964e57f9da6581",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/harv.vxl",
+      "basename": "harv.vxl",
+      "sha256": "b51aa74470b8495d9484a8085c88624ce53116dac20ba886b89bbe251913503a",
+      "bytes": 50469
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/harvtur.hva",
+      "basename": "harvtur.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/harvtur.vxl",
+      "basename": "harvtur.vxl",
+      "sha256": "bc7a2ab31a50c4c08bfc3cc72e42724891b139f352f5fad7fca01f96922e8b4d",
+      "bytes": 4921
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htk.hva",
+      "basename": "htk.hva",
+      "sha256": "b7d3c838ed7f02ecfdcbc0dc8c3699db59d547b262b6ace72687bf5846fd99a8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htk.vxl",
+      "basename": "htk.vxl",
+      "sha256": "b679002b9bb2a73706f74507032983b3ef2aff4dea540a33e08b549b22299339",
+      "bytes": 30492
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htkbarl.hva",
+      "basename": "htkbarl.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htkbarl.vxl",
+      "basename": "htkbarl.vxl",
+      "sha256": "4e03e449f8a0575757b466a56a32d6019f976b03fc313b37b7e814a92a89813d",
+      "bytes": 2004
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htktur.hva",
+      "basename": "htktur.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htktur.vxl",
+      "basename": "htktur.vxl",
+      "sha256": "895c9c20bc66a33aea0a109c727f4a10ab0bc8b75bdf2aff7a2c28dd1d17907c",
+      "bytes": 4743
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htnk.hva",
+      "basename": "htnk.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htnk.vxl",
+      "basename": "htnk.vxl",
+      "sha256": "0ca8517c29f8bed26c3a3f0138bb36bae01fbb751fc9eaa30bfa1fba352923a2",
+      "bytes": 34550
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htnkbarl.hva",
+      "basename": "htnkbarl.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htnkbarl.vxl",
+      "basename": "htnkbarl.vxl",
+      "sha256": "42a3a41fdc52a5491b172bddcd8aac5b9baedec1d7703f95a68a9b96f8531398",
+      "bytes": 1907
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htnktur.hva",
+      "basename": "htnktur.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/htnktur.vxl",
+      "basename": "htnktur.vxl",
+      "sha256": "4fc6ca0efb803621ae4dc99357f81eb4bc524cc70a90e386831fa0e63a416451",
+      "bytes": 11694
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/mtnk.hva",
+      "basename": "mtnk.hva",
+      "sha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/mtnk.vxl",
+      "basename": "mtnk.vxl",
+      "sha256": "fe82e553014591635d708e30d1b5088aad4c621ec820fe7c330c052bb188cf77",
+      "bytes": 41073
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/mtnkbarl.hva",
+      "basename": "mtnkbarl.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/mtnkbarl.vxl",
+      "basename": "mtnkbarl.vxl",
+      "sha256": "fba8930030b65873227b4e1bab29af286f0ab588ddac6ae2a4e6e73f53050822",
+      "bytes": 5177
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/mtnktur.hva",
+      "basename": "mtnktur.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/mtnktur.vxl",
+      "basename": "mtnktur.vxl",
+      "sha256": "1f16b4ba31c910e791d7db894c33a1554afe0918fd51df8d814000c4af672a4c",
+      "bytes": 12119
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/sref.hva",
+      "basename": "sref.hva",
+      "sha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/sref.vxl",
+      "basename": "sref.vxl",
+      "sha256": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+      "bytes": 50277
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/sreftur.hva",
+      "basename": "sreftur.hva",
+      "sha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/sreftur.vxl",
+      "basename": "sreftur.vxl",
+      "sha256": "dbdf90aa9002796555450b6aa0ae05cb4926d83a2d6b21a4ed0cbe37e4af057b",
+      "bytes": 5482
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/tnkd.hva",
+      "basename": "tnkd.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/tnkd.vxl",
+      "basename": "tnkd.vxl",
+      "sha256": "e5eadd502cd64aad8d751622a24156b8d0c06ef533afaf5a6f8e340fea28d94a",
+      "bytes": 51014
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/ttnk.hva",
+      "basename": "ttnk.hva",
+      "sha256": "8328e2797e58451c0b68865bcfef13f935ffb260e60083fe323a05c752c558a9",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/ttnk.vxl",
+      "basename": "ttnk.vxl",
+      "sha256": "9ad57394e667f3d555d48ab6bc7aa537658af4aa5ad1de5729840aa0758c797d",
+      "bytes": 39873
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/ttnktur.hva",
+      "basename": "ttnktur.hva",
+      "sha256": "8328e2797e58451c0b68865bcfef13f935ffb260e60083fe323a05c752c558a9",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Battlefield/Voxels/ttnktur.vxl",
+      "basename": "ttnktur.vxl",
+      "sha256": "7f5a8bd5b12e800b1edd7ce8f593e791857ffaf82341cc6e1c7c8ff93a78b4b7",
+      "bytes": 14305
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/aegis.hva",
+      "basename": "aegis.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/aegis.vxl",
+      "basename": "aegis.vxl",
+      "sha256": "d3c6f1446c3121d839fcfb25972978f261e57bc3832a20a9f0bd55a4a0109892",
+      "bytes": 69223
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/asw.hva",
+      "basename": "asw.hva",
+      "sha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/asw.vxl",
+      "basename": "asw.vxl",
+      "sha256": "9778e48e1ee9e5167619ad0c0f6252a0b7da0463474988e459508dad064a765d",
+      "bytes": 23453
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/beag.hva",
+      "basename": "beag.hva",
+      "sha256": "d297d7ec3ed352ca52286a4565d2ac5960904810369b20549cc376beaf2adf9c",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/beag.vxl",
+      "basename": "beag.vxl",
+      "sha256": "a061f70c5e8381d6d203db83ec035a3adcceef7432ee7ba011658cf61982c320",
+      "bytes": 39652
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/cameo.pal",
+      "basename": "cameo.pal",
+      "sha256": "0618a1c94a4248de26deff70b21dec01581886eb24853e49650eba3ee60aac76",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/carrier.hva",
+      "basename": "carrier.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/carrier.vxl",
+      "basename": "carrier.vxl",
+      "sha256": "41e7ae6e9315747aa2f26df688e0648aba17b4d4e575546110076f2c62ec4c33",
+      "bytes": 130121
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dest.hva",
+      "basename": "dest.hva",
+      "sha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dest.vxl",
+      "basename": "dest.vxl",
+      "sha256": "e8067578fd5ec47cca18389a29df7de03d338f06df688eee83db0ff8b642b10b",
+      "bytes": 93336
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/destwo.hva",
+      "basename": "destwo.hva",
+      "sha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/destwo.vxl",
+      "basename": "destwo.vxl",
+      "sha256": "725d93344939c23ef4152659b4a75861b78a2f4ae2d3ea34863762c6690a5c7d",
+      "bytes": 69095
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dmisl.hva",
+      "basename": "dmisl.hva",
+      "sha256": "78f4041017c6d4686ec09397a8be45db92f5d5dc007828072611219fe4963332",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dmisl.vxl",
+      "basename": "dmisl.vxl",
+      "sha256": "0cc017768c70fb08bbf29ee35396d770bbb270c9572f08411cb2aad6cb22569a",
+      "bytes": 7444
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dred.hva",
+      "basename": "dred.hva",
+      "sha256": "810dae94db5ae67cef0866897da63f20d3b8d36ff2b73769abc0f5664ff4a2fe",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dred.vxl",
+      "basename": "dred.vxl",
+      "sha256": "857eff8b607610bd4600466554839d36e4407940c247b9d08aee4c14ac546a1a",
+      "bytes": 116773
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dredwo.hva",
+      "basename": "dredwo.hva",
+      "sha256": "8ae40169cd8f731cb040347293bcd1c49b612bfeb50c433abda119c1d88bc2f1",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/dredwo.vxl",
+      "basename": "dredwo.vxl",
+      "sha256": "793f2d514f6997995e767a9e0d59e66dbfa7e07e7e2c4636ea8ea170470177da",
+      "bytes": 113110
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/falc.hva",
+      "basename": "falc.hva",
+      "sha256": "b73a3390ffcd11c0755fc23135b12b0df8203444cd1dbb04211bdcab0667cc4e",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/falc.vxl",
+      "basename": "falc.vxl",
+      "sha256": "1594b9766bf624bffc75887fa5cef70029b63882cf057572a31e19848c1f1d1c",
+      "bytes": 29033
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/flaktur.hva",
+      "basename": "flaktur.hva",
+      "sha256": "810dae94db5ae67cef0866897da63f20d3b8d36ff2b73769abc0f5664ff4a2fe",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/flaktur.vxl",
+      "basename": "flaktur.vxl",
+      "sha256": "02b122f944a4154efc15fb554e46703a437467b99d728b2914fa51a0c44a99c4",
+      "bytes": 14781
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/fvtur1.hva",
+      "basename": "fvtur1.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/fvtur1.vxl",
+      "basename": "fvtur1.vxl",
+      "sha256": "ffca0c67ae647262cbe39ceba68f8f00c6be182881f48de84f229d99a65598d2",
+      "bytes": 14070
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/fvtur2.hva",
+      "basename": "fvtur2.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/fvtur2.vxl",
+      "basename": "fvtur2.vxl",
+      "sha256": "5f8b5e27adc3859eb78ac1280e89b1e03763ea8866fa3f62d2bc730a33181fef",
+      "bytes": 10154
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/fvtur3.hva",
+      "basename": "fvtur3.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/fvtur3.vxl",
+      "basename": "fvtur3.vxl",
+      "sha256": "3f42cbdf6b82d2717b4cbaff328e066ae19ac15cf008d0b43095142a8d75a887",
+      "bytes": 10803
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/hornet.hva",
+      "basename": "hornet.hva",
+      "sha256": "03e54f922a662410bf02af818a9569b0fc43cb85e3855d162789d334c3920aef",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/hornet.vxl",
+      "basename": "hornet.vxl",
+      "sha256": "dedf4d35a0b7fcedefeced629ec91c4f4248b0d5f2f6644bb598db4eac342ea1",
+      "bytes": 9162
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/hyd.hva",
+      "basename": "hyd.hva",
+      "sha256": "3e740a64abf078b26806289c7557494d7e31a5b2bc0836143b6ea84743654c51",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/hyd.vxl",
+      "basename": "hyd.vxl",
+      "sha256": "0dad9b2ae16a8607dacbdd604056dae601828c2027bd3b571be063dd15d97a6e",
+      "bytes": 25984
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/laser.hva",
+      "basename": "laser.hva",
+      "sha256": "6341bcf07f7c0a6df8926b9c6303e220bd16951e44743491dff9823471f3bfcd",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/laser.vxl",
+      "basename": "laser.vxl",
+      "sha256": "286dac78239c1ebbecd2f97dd64236d304a5e4ddc93397092842153a5d354b6f",
+      "bytes": 16618
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/lcrf.hva",
+      "basename": "lcrf.hva",
+      "sha256": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/lcrf.vxl",
+      "basename": "lcrf.vxl",
+      "sha256": "01608134ed663b1923ed8406a2b5f11274a362f55f7c0ea896afd68b991f6b7e",
+      "bytes": 88900
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/mcv.hva",
+      "basename": "mcv.hva",
+      "sha256": "790b8ae4b6543cdd1969bf2e48246caf8ea9ab48b4d79ef2c2f87444ee20312c",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/mcv.vxl",
+      "basename": "mcv.vxl",
+      "sha256": "4a19444ca2b4a0366fd4fa85de709efa9e431adb366698ad541c019af97288e4",
+      "bytes": 88210
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/rtnk.hva",
+      "basename": "rtnk.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/rtnk.vxl",
+      "basename": "rtnk.vxl",
+      "sha256": "5ffa424b33fbb14a51743c69a02d9fe0137922e19b474e32402f5aba0f00f985",
+      "bytes": 53459
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sam.hva",
+      "basename": "sam.hva",
+      "sha256": "17cdede3aae9ab4115c60c7df162d68aa03eaccfd4b111661d32853e169558c8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sam.vxl",
+      "basename": "sam.vxl",
+      "sha256": "33ce1bf91cd968ac9b52f66686e57ca7581d5ea1e69df4620979b5fdcbb36c34",
+      "bytes": 25161
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/shad.hva",
+      "basename": "shad.hva",
+      "sha256": "008ae1ea5f4b1c928aaffa4dcb86a3ee748af6d9396bdbdb528f8da8db0a3b0b",
+      "bytes": 360
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/shad.vxl",
+      "basename": "shad.vxl",
+      "sha256": "2631eb06cdf90b3a2932ffeba8de48e349b2fab3b9b17d70a6f18a76c0371636",
+      "bytes": 121914
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/smcv.hva",
+      "basename": "smcv.hva",
+      "sha256": "57667fe8ed4b3e3b934d0d34ed735458b1fba6a15b56743a2d7b5c42587d0275",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/smcv.vxl",
+      "basename": "smcv.vxl",
+      "sha256": "5df9009d9d5dbd320530e8485a82d17f888e04aad8a4b69a35687dcb7fdcdb1d",
+      "bytes": 87327
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sreftur1.hva",
+      "basename": "sreftur1.hva",
+      "sha256": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sreftur1.vxl",
+      "basename": "sreftur1.vxl",
+      "sha256": "13eea10c5395da2760c6cd0bf01611dd59116c45cc5321b569415ab3ec433fdf",
+      "bytes": 5569
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sreftur2.hva",
+      "basename": "sreftur2.hva",
+      "sha256": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sreftur2.vxl",
+      "basename": "sreftur2.vxl",
+      "sha256": "2f90e8585fc90c15f6ee086f28241382d012f631d7559afbcda1bc8ec08aa8e6",
+      "bytes": 5809
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sreftur3.hva",
+      "basename": "sreftur3.hva",
+      "sha256": "c9e156df427bc5955cf5e99723c965fbd2ffadaef6c0299a4b2d2e51c9723f48",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sreftur3.vxl",
+      "basename": "sreftur3.vxl",
+      "sha256": "5e3ad05ac7dde18ebc814c4dbd5c3ad3e74e1b48730500bfa53d82cba1d516c5",
+      "bytes": 6008
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sub.hva",
+      "basename": "sub.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/sub.vxl",
+      "basename": "sub.vxl",
+      "sha256": "450cd09a67e112c329707a465eaa6d7142ebcdb8d57640cf48abb60f3d0a5e89",
+      "bytes": 45546
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/trs.hva",
+      "basename": "trs.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/trs.vxl",
+      "basename": "trs.vxl",
+      "sha256": "2f954e765e62a15092e810ba7662d43136f7d74fc426d2227c58b70ef56eaaf9",
+      "bytes": 117003
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/trucka.hva",
+      "basename": "trucka.hva",
+      "sha256": "2deba143c6e9bca86e1ca357873082ec8e47f40e13eaacfc647e1e3fb63c21f3",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/trucka.vxl",
+      "basename": "trucka.vxl",
+      "sha256": "d535a5cff4f3f62d8aefa2edd01eda931d63933f38b08f708787843a8f6f1cf7",
+      "bytes": 33454
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/v3.hva",
+      "basename": "v3.hva",
+      "sha256": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/v3.vxl",
+      "basename": "v3.vxl",
+      "sha256": "0bec1774299ab54471e0aec3b49c467832fe19e5c19fcaa3b2bb4964b31903c1",
+      "bytes": 37581
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/v3rocket.hva",
+      "basename": "v3rocket.hva",
+      "sha256": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/v3rocket.vxl",
+      "basename": "v3rocket.vxl",
+      "sha256": "fd13949b0728d3543df1dd4fd39c9e6bfb65d322abec663819b42f51e141510d",
+      "bytes": 20491
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/v3wo.hva",
+      "basename": "v3wo.hva",
+      "sha256": "b79f88d50a6caa564c10cfd17fed61f7e8335e6a57b7578cc114558eefe57165",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/v3wo.vxl",
+      "basename": "v3wo.vxl",
+      "sha256": "e7bc69e8bf43e2a96e355dfa72e4ff574e17f8f104e8802da0e9787bf31990b9",
+      "bytes": 28714
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/zep.hva",
+      "basename": "zep.hva",
+      "sha256": "4d9feb87009d48a3bdd2b143fe410e785be149d93c1d0b6765d3edbc9dac82fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/Original/zep.vxl",
+      "basename": "zep.vxl",
+      "sha256": "29d1b0812553fb09889f41481b8315c65740b09b11d6c799e03562f6a91de1ba",
+      "bytes": 177637
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/aegis.hva",
+      "basename": "aegis.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/aegis.vxl",
+      "basename": "aegis.vxl",
+      "sha256": "d3c6f1446c3121d839fcfb25972978f261e57bc3832a20a9f0bd55a4a0109892",
+      "bytes": 69223
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/asw.hva",
+      "basename": "asw.hva",
+      "sha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/asw.vxl",
+      "basename": "asw.vxl",
+      "sha256": "9778e48e1ee9e5167619ad0c0f6252a0b7da0463474988e459508dad064a765d",
+      "bytes": 23453
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/beag.hva",
+      "basename": "beag.hva",
+      "sha256": "d297d7ec3ed352ca52286a4565d2ac5960904810369b20549cc376beaf2adf9c",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/beag.vxl",
+      "basename": "beag.vxl",
+      "sha256": "a061f70c5e8381d6d203db83ec035a3adcceef7432ee7ba011658cf61982c320",
+      "bytes": 39652
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/carrier.hva",
+      "basename": "carrier.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/carrier.vxl",
+      "basename": "carrier.vxl",
+      "sha256": "41e7ae6e9315747aa2f26df688e0648aba17b4d4e575546110076f2c62ec4c33",
+      "bytes": 130121
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dest.hva",
+      "basename": "dest.hva",
+      "sha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dest.vxl",
+      "basename": "dest.vxl",
+      "sha256": "e8067578fd5ec47cca18389a29df7de03d338f06df688eee83db0ff8b642b10b",
+      "bytes": 93336
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/destwo.hva",
+      "basename": "destwo.hva",
+      "sha256": "f6329725bcb3643e79f3a78411950806b548ec85be90e367b856c47652b4bdd8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/destwo.vxl",
+      "basename": "destwo.vxl",
+      "sha256": "725d93344939c23ef4152659b4a75861b78a2f4ae2d3ea34863762c6690a5c7d",
+      "bytes": 69095
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dmisl.hva",
+      "basename": "dmisl.hva",
+      "sha256": "78f4041017c6d4686ec09397a8be45db92f5d5dc007828072611219fe4963332",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dmisl.vxl",
+      "basename": "dmisl.vxl",
+      "sha256": "0cc017768c70fb08bbf29ee35396d770bbb270c9572f08411cb2aad6cb22569a",
+      "bytes": 7444
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dred.hva",
+      "basename": "dred.hva",
+      "sha256": "810dae94db5ae67cef0866897da63f20d3b8d36ff2b73769abc0f5664ff4a2fe",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dred.vxl",
+      "basename": "dred.vxl",
+      "sha256": "857eff8b607610bd4600466554839d36e4407940c247b9d08aee4c14ac546a1a",
+      "bytes": 116773
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dredwo.hva",
+      "basename": "dredwo.hva",
+      "sha256": "8ae40169cd8f731cb040347293bcd1c49b612bfeb50c433abda119c1d88bc2f1",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/dredwo.vxl",
+      "basename": "dredwo.vxl",
+      "sha256": "793f2d514f6997995e767a9e0d59e66dbfa7e07e7e2c4636ea8ea170470177da",
+      "bytes": 113110
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/falc.hva",
+      "basename": "falc.hva",
+      "sha256": "b73a3390ffcd11c0755fc23135b12b0df8203444cd1dbb04211bdcab0667cc4e",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/falc.vxl",
+      "basename": "falc.vxl",
+      "sha256": "1594b9766bf624bffc75887fa5cef70029b63882cf057572a31e19848c1f1d1c",
+      "bytes": 29033
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/flaktur.hva",
+      "basename": "flaktur.hva",
+      "sha256": "810dae94db5ae67cef0866897da63f20d3b8d36ff2b73769abc0f5664ff4a2fe",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/flaktur.vxl",
+      "basename": "flaktur.vxl",
+      "sha256": "02b122f944a4154efc15fb554e46703a437467b99d728b2914fa51a0c44a99c4",
+      "bytes": 14781
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fv.hva",
+      "basename": "fv.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fv.vxl",
+      "basename": "fv.vxl",
+      "sha256": "31e78a7559bbfb19a8e763550d17366e4e386d934c695188cd7336cef68a8f3e",
+      "bytes": 35583
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fvtur1.hva",
+      "basename": "fvtur1.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fvtur1.vxl",
+      "basename": "fvtur1.vxl",
+      "sha256": "ffca0c67ae647262cbe39ceba68f8f00c6be182881f48de84f229d99a65598d2",
+      "bytes": 14070
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fvtur2.hva",
+      "basename": "fvtur2.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fvtur2.vxl",
+      "basename": "fvtur2.vxl",
+      "sha256": "5f8b5e27adc3859eb78ac1280e89b1e03763ea8866fa3f62d2bc730a33181fef",
+      "bytes": 10154
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fvtur3.hva",
+      "basename": "fvtur3.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/fvtur3.vxl",
+      "basename": "fvtur3.vxl",
+      "sha256": "3f42cbdf6b82d2717b4cbaff328e066ae19ac15cf008d0b43095142a8d75a887",
+      "bytes": 10803
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/hornet.hva",
+      "basename": "hornet.hva",
+      "sha256": "03e54f922a662410bf02af818a9569b0fc43cb85e3855d162789d334c3920aef",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/hornet.vxl",
+      "basename": "hornet.vxl",
+      "sha256": "dedf4d35a0b7fcedefeced629ec91c4f4248b0d5f2f6644bb598db4eac342ea1",
+      "bytes": 9162
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/hyd.hva",
+      "basename": "hyd.hva",
+      "sha256": "3e740a64abf078b26806289c7557494d7e31a5b2bc0836143b6ea84743654c51",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/hyd.vxl",
+      "basename": "hyd.vxl",
+      "sha256": "0dad9b2ae16a8607dacbdd604056dae601828c2027bd3b571be063dd15d97a6e",
+      "bytes": 25984
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/laser.hva",
+      "basename": "laser.hva",
+      "sha256": "6341bcf07f7c0a6df8926b9c6303e220bd16951e44743491dff9823471f3bfcd",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/laser.vxl",
+      "basename": "laser.vxl",
+      "sha256": "286dac78239c1ebbecd2f97dd64236d304a5e4ddc93397092842153a5d354b6f",
+      "bytes": 16618
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/lcrf.hva",
+      "basename": "lcrf.hva",
+      "sha256": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/lcrf.vxl",
+      "basename": "lcrf.vxl",
+      "sha256": "01608134ed663b1923ed8406a2b5f11274a362f55f7c0ea896afd68b991f6b7e",
+      "bytes": 88900
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/mcv.hva",
+      "basename": "mcv.hva",
+      "sha256": "790b8ae4b6543cdd1969bf2e48246caf8ea9ab48b4d79ef2c2f87444ee20312c",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/mcv.vxl",
+      "basename": "mcv.vxl",
+      "sha256": "4a19444ca2b4a0366fd4fa85de709efa9e431adb366698ad541c019af97288e4",
+      "bytes": 88210
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/rtnk.hva",
+      "basename": "rtnk.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/rtnk.vxl",
+      "basename": "rtnk.vxl",
+      "sha256": "5ffa424b33fbb14a51743c69a02d9fe0137922e19b474e32402f5aba0f00f985",
+      "bytes": 53459
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sam.hva",
+      "basename": "sam.hva",
+      "sha256": "17cdede3aae9ab4115c60c7df162d68aa03eaccfd4b111661d32853e169558c8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sam.vxl",
+      "basename": "sam.vxl",
+      "sha256": "33ce1bf91cd968ac9b52f66686e57ca7581d5ea1e69df4620979b5fdcbb36c34",
+      "bytes": 25161
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/shad.hva",
+      "basename": "shad.hva",
+      "sha256": "008ae1ea5f4b1c928aaffa4dcb86a3ee748af6d9396bdbdb528f8da8db0a3b0b",
+      "bytes": 360
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/shad.vxl",
+      "basename": "shad.vxl",
+      "sha256": "2631eb06cdf90b3a2932ffeba8de48e349b2fab3b9b17d70a6f18a76c0371636",
+      "bytes": 121914
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/smcv.hva",
+      "basename": "smcv.hva",
+      "sha256": "57667fe8ed4b3e3b934d0d34ed735458b1fba6a15b56743a2d7b5c42587d0275",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/smcv.vxl",
+      "basename": "smcv.vxl",
+      "sha256": "5df9009d9d5dbd320530e8485a82d17f888e04aad8a4b69a35687dcb7fdcdb1d",
+      "bytes": 87327
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sref.hva",
+      "basename": "sref.hva",
+      "sha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sref.vxl",
+      "basename": "sref.vxl",
+      "sha256": "fa3e79d7e457d9368a77998f5de743e9559bbeb11b917a805aa8f4ee76cad979",
+      "bytes": 50277
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sreftur1.hva",
+      "basename": "sreftur1.hva",
+      "sha256": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sreftur1.vxl",
+      "basename": "sreftur1.vxl",
+      "sha256": "13eea10c5395da2760c6cd0bf01611dd59116c45cc5321b569415ab3ec433fdf",
+      "bytes": 5569
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sreftur2.hva",
+      "basename": "sreftur2.hva",
+      "sha256": "ae4ba7805d0b87dd7b98fa18ba034c36147c51b20cf037a8cf7448dab6a6d25b",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sreftur2.vxl",
+      "basename": "sreftur2.vxl",
+      "sha256": "2f90e8585fc90c15f6ee086f28241382d012f631d7559afbcda1bc8ec08aa8e6",
+      "bytes": 5809
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sreftur3.hva",
+      "basename": "sreftur3.hva",
+      "sha256": "c9e156df427bc5955cf5e99723c965fbd2ffadaef6c0299a4b2d2e51c9723f48",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sreftur3.vxl",
+      "basename": "sreftur3.vxl",
+      "sha256": "5e3ad05ac7dde18ebc814c4dbd5c3ad3e74e1b48730500bfa53d82cba1d516c5",
+      "bytes": 6008
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sub.hva",
+      "basename": "sub.hva",
+      "sha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/sub.vxl",
+      "basename": "sub.vxl",
+      "sha256": "450cd09a67e112c329707a465eaa6d7142ebcdb8d57640cf48abb60f3d0a5e89",
+      "bytes": 45546
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/tnkd.hva",
+      "basename": "tnkd.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/tnkd.vxl",
+      "basename": "tnkd.vxl",
+      "sha256": "e5eadd502cd64aad8d751622a24156b8d0c06ef533afaf5a6f8e340fea28d94a",
+      "bytes": 51014
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/trs.hva",
+      "basename": "trs.hva",
+      "sha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/trs.vxl",
+      "basename": "trs.vxl",
+      "sha256": "2f954e765e62a15092e810ba7662d43136f7d74fc426d2227c58b70ef56eaaf9",
+      "bytes": 117003
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/trucka.hva",
+      "basename": "trucka.hva",
+      "sha256": "2deba143c6e9bca86e1ca357873082ec8e47f40e13eaacfc647e1e3fb63c21f3",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/trucka.vxl",
+      "basename": "trucka.vxl",
+      "sha256": "d535a5cff4f3f62d8aefa2edd01eda931d63933f38b08f708787843a8f6f1cf7",
+      "bytes": 33454
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/v3.hva",
+      "basename": "v3.hva",
+      "sha256": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/v3.vxl",
+      "basename": "v3.vxl",
+      "sha256": "0bec1774299ab54471e0aec3b49c467832fe19e5c19fcaa3b2bb4964b31903c1",
+      "bytes": 37581
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/v3rocket.hva",
+      "basename": "v3rocket.hva",
+      "sha256": "03c5759b2e710f024f78add39e08eeb27040cf200b84b78bd4a0a45a2cd23faa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/v3rocket.vxl",
+      "basename": "v3rocket.vxl",
+      "sha256": "fd13949b0728d3543df1dd4fd39c9e6bfb65d322abec663819b42f51e141510d",
+      "bytes": 20491
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/v3wo.hva",
+      "basename": "v3wo.hva",
+      "sha256": "b79f88d50a6caa564c10cfd17fed61f7e8335e6a57b7578cc114558eefe57165",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/v3wo.vxl",
+      "basename": "v3wo.vxl",
+      "sha256": "e7bc69e8bf43e2a96e355dfa72e4ff574e17f8f104e8802da0e9787bf31990b9",
+      "bytes": 28714
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/zep.hva",
+      "basename": "zep.hva",
+      "sha256": "4d9feb87009d48a3bdd2b143fe410e785be149d93c1d0b6765d3edbc9dac82fa",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/ClassicExpansion/VoxelParts/zep.vxl",
+      "basename": "zep.vxl",
+      "sha256": "29d1b0812553fb09889f41481b8315c65740b09b11d6c799e03562f6a91de1ba",
+      "bytes": 177637
+    },
+    {
+      "file": "Assets/Reference/Cursors/Original/mousepal.pal",
+      "basename": "mousepal.pal",
+      "sha256": "4dcbe78b534a58fc972bce4b25aa58a2a56c9a5bb0ffbfcf5d6194be5dbde60c",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Formats/cameo.pal",
+      "basename": "cameo.pal",
+      "sha256": "0618a1c94a4248de26deff70b21dec01581886eb24853e49650eba3ee60aac76",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Formats/unittem.pal",
+      "basename": "unittem.pal",
+      "sha256": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Menu/Original/cache/mousepal.pal",
+      "basename": "mousepal.pal",
+      "sha256": "4dcbe78b534a58fc972bce4b25aa58a2a56c9a5bb0ffbfcf5d6194be5dbde60c",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Menu/Original/cache/shell.pal",
+      "basename": "shell.pal",
+      "sha256": "96fcff20cd540267d3cc81e6c7b1243d2e0866f09c8b94a32eacb2688c8694ca",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Menu/Original/local/dialog.pal",
+      "basename": "dialog.pal",
+      "sha256": "281445e49ea817a4bc81316a38311e7597e49b8ea127a95ce9de5ba4d59e17b7",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Menu/Original/local/gls.pal",
+      "basename": "gls.pal",
+      "sha256": "e4690b637fcddd93dbf96e2cb4bb9b867b1b9acf224104d16ceb525860c1c173",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Menu/Original/local/mainbttn.pal",
+      "basename": "mainbttn.pal",
+      "sha256": "cd12a2fb930577bddacc8499c91420f67b08f1226088a919baaab827be6479e7",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/ptruck.hva",
+      "basename": "ptruck.hva",
+      "sha256": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/ptruck.vxl",
+      "basename": "ptruck.vxl",
+      "sha256": "c3a7a8b117a49af493f99c7423a59802cf061aadddd5ab0fb467a36f6f6947ec",
+      "bytes": 19205
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/stang.hva",
+      "basename": "stang.hva",
+      "sha256": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/stang.vxl",
+      "basename": "stang.vxl",
+      "sha256": "a35db9c7bb8c7e877c27394b383ac1c247b9d47f6c0df9676757af76665deca2",
+      "bytes": 16067
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/suvb.hva",
+      "basename": "suvb.hva",
+      "sha256": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/suvb.vxl",
+      "basename": "suvb.vxl",
+      "sha256": "a8e418da9f52bcda735781c2c7d3508473b05f4e5b0fc9c478991fd302a38316",
+      "bytes": 19452
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/suvw.hva",
+      "basename": "suvw.hva",
+      "sha256": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/suvw.vxl",
+      "basename": "suvw.vxl",
+      "sha256": "d981a788d749aac095e1acf631e41b29f6b97e4ced1a22ce538871cb4c421a0b",
+      "bytes": 19452
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/taxi.hva",
+      "basename": "taxi.hva",
+      "sha256": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/Original/taxi.vxl",
+      "basename": "taxi.vxl",
+      "sha256": "4d49df77fb434203e56cc381bcb3e773f0348b886c6802c74a565c43cdeb5c2f",
+      "bytes": 12753
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/ptruck.hva",
+      "basename": "ptruck.hva",
+      "sha256": "5e6f85bf2e42fef64b4f53fe7871488269ee8d31c204565233753b2ae616ee9a",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/ptruck.vxl",
+      "basename": "ptruck.vxl",
+      "sha256": "c3a7a8b117a49af493f99c7423a59802cf061aadddd5ab0fb467a36f6f6947ec",
+      "bytes": 19205
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/stang.hva",
+      "basename": "stang.hva",
+      "sha256": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/stang.vxl",
+      "basename": "stang.vxl",
+      "sha256": "a35db9c7bb8c7e877c27394b383ac1c247b9d47f6c0df9676757af76665deca2",
+      "bytes": 16067
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/suvb.hva",
+      "basename": "suvb.hva",
+      "sha256": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/suvb.vxl",
+      "basename": "suvb.vxl",
+      "sha256": "a8e418da9f52bcda735781c2c7d3508473b05f4e5b0fc9c478991fd302a38316",
+      "bytes": 19452
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/suvw.hva",
+      "basename": "suvw.hva",
+      "sha256": "efbd933066037849f205b320f311c1c9b0c011a62fd10afb131c5664d6e44b99",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/suvw.vxl",
+      "basename": "suvw.vxl",
+      "sha256": "d981a788d749aac095e1acf631e41b29f6b97e4ced1a22ce538871cb4c421a0b",
+      "bytes": 19452
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/taxi.hva",
+      "basename": "taxi.hva",
+      "sha256": "bca134005d18bc161009df22e5593f54b92408a24baad64dd824d68a864047b8",
+      "bytes": 88
+    },
+    {
+      "file": "Assets/Reference/Visual/MapObjects/VoxelParts/taxi.vxl",
+      "basename": "taxi.vxl",
+      "sha256": "4d49df77fb434203e56cc381bcb3e773f0348b886c6802c74a565c43cdeb5c2f",
+      "bytes": 12753
+    },
+    {
+      "file": "Assets/Reference/Visual/Terrain/isotem.pal",
+      "basename": "isotem.pal",
+      "sha256": "5d6e40fcd11a592a31494c635d93c21796cfe86a2743f0258b1f7d0aff850795",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Visual/Terrain/unittem.pal",
+      "basename": "unittem.pal",
+      "sha256": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Visual/sidec01/sidebar.pal",
+      "basename": "sidebar.pal",
+      "sha256": "6eec39eef6fbc919c37692aea02dd6f0038e9fa801366268a9231c8c35532f47",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Visual/sidec01/uibkgd.pal",
+      "basename": "uibkgd.pal",
+      "sha256": "06d2508dab3551f9d1a88109f95198707d47e73c7274b1991fcbfedd57a2fb11",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Visual/sidec02/sidebar.pal",
+      "basename": "sidebar.pal",
+      "sha256": "cdc10ac4ba4dbd6b81189bdc961a0ac305e66fae52ef06384d0be88c1eece8f5",
+      "bytes": 768
+    },
+    {
+      "file": "Assets/Reference/Visual/sidec02/uibkgd.pal",
+      "basename": "uibkgd.pal",
+      "sha256": "bf5b21ea4d1b6fbadeeaecf809634f1b8e48997300726f49cf8ecd9069acf4c0",
+      "bytes": 768
+    }
+  ]
+}

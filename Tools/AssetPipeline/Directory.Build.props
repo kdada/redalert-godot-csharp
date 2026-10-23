@@ -1,0 +1,7 @@
+<Project>
+  <!-- Keep this standalone CLI isolated from repository-wide Godot build settings. -->
+  <PropertyGroup>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
+    <ArtifactsPath Condition="'$(ArtifactsPath)' == '' and '$(XDG_CACHE_HOME)' != ''">$(XDG_CACHE_HOME)/redalert-godot-csharp/asset-pipeline</ArtifactsPath>
+  </PropertyGroup>
+</Project>

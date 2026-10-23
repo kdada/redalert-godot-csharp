@@ -1,0 +1,56 @@
+{
+  "schema": 1,
+  "origin": "independent procedural pixel artwork; no original game pixels",
+  "generator": "Tools/prepare_effects.py",
+  "generatorSha256": "1df81f083278ff3470d90edb9e3c551209da41112594df13992452e231fe8ac1",
+  "atlas": "atlas.png",
+  "sha256": "77ae74cbc2013033ef1509183711fc3043316d041331fc25990047f79e80ecff",
+  "width": 768,
+  "height": 512,
+  "cellSize": 64,
+  "columns": 12,
+  "anchor": [
+    32,
+    32
+  ],
+  "filter": "nearest",
+  "sequences": {
+    "muzzle": {
+      "row": 0,
+      "frames": 6
+    },
+    "rifle-impact": {
+      "row": 1,
+      "frames": 8
+    },
+    "explosion": {
+      "row": 2,
+      "frames": 12
+    },
+    "smoke": {
+      "row": 3,
+      "frames": 12
+    },
+    "dust": {
+      "row": 4,
+      "frames": 8
+    },
+    "electric-impact": {
+      "row": 5,
+      "frames": 8
+    },
+    "bite": {
+      "row": 6,
+      "frames": 6
+    },
+    "sniper-flash": {
+      "row": 7,
+      "frames": 6
+    }
+  },
+  "limitations": [
+    "Independent approximation of period pixel effects; not recovered retail weapon animations.",
+    "Cosmetic travel never changes simulation damage or hashes.",
+    "Original DOG/ADOG attack sprites are reused from existing Sprites atlases, not this image."
+  ]
+}

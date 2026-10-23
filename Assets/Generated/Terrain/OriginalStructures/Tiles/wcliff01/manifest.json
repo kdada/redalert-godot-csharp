@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "format": "RA2 TMP 60x30",
+  "source": {
+    "fileName": "wcliff01.tem",
+    "byteLength": 17504,
+    "sha256": "2fb12533611c64d69ea31fce1020819ae6bf7d20745028db817d3db49d778c61"
+  },
+  "palette": {
+    "fileName": "isotem.pal",
+    "componentBits": 6,
+    "sha256": "5d6e40fcd11a592a31494c635d93c21796cfe86a2743f0258b1f7d0aff850795",
+    "expansion": "channel \u003C\u003C 2 (63 -\u003E 252)"
+  },
+  "template": {
+    "blocksX": 2,
+    "blocksY": 3,
+    "tileWidth": 60,
+    "tileHeight": 30,
+    "maxHeight": 4,
+    "frameCount": 4,
+    "emptyIndices": [
+      1,
+      4
+    ]
+  },
+  "conventions": {
+    "indexHash": "SHA256 over original packed indices, in source order; diamond exactly 900 bytes, extra width*height bytes.",
+    "diamondAlpha": "All 900 encoded diamond pixels are opaque, including palette index 0; outside the shape is transparent black. Last row is empty.",
+    "extraAlpha": "Index 0 is transparent black; other extra pixels are opaque. Extra is a separate layer, not composited onto the diamond.",
+    "offset": "Raw signed top-left pixel coordinates from block header, relative to template origin; unmodified.",
+    "gridOffset": "Isometric top-left implied by table cell: ((cellX-cellY)*30, (cellX\u002BcellY)*15).",
+    "heightAdjustedOffset": "Raw offset with Y \u002B= (template.maxHeight - height)*15, per ra2ff description; supplied separately, no resampling.",
+    "extraOffset": "Raw template pixel coordinates; offsetFromDiamond = extra.offset - diamond.offset. Same height adjustment as base.",
+    "terrainType": "Raw block terrain index byte; theater tile-set IDs and terrain name/rules mappings are not present in a standalone TMP.",
+    "zData": "Raw depth bytes preserved; no claims about renderer depth or damaged-data semantics."
+  },
+  "formatSources": [
+    "https://github.com/tcrs/ra2ff/blob/3800e3636c43d2a8a7331b2d7dbcd888c215d6af/ra2ff.txt",
+    "https://github.com/OpenRA/OpenRA/blob/e180e3225f3930272dd451917467631618f8976f/OpenRA.Mods.Cnc/SpriteLoaders/TmpTSLoader.cs"
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "cellX": 0,
+      "cellY": 0,
+      "sourceOffset": 40,
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 0
+      },
+      "height": 4,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816843,
+      "flagsHex": "0xCDCDCDCB",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 2164,
+      "radarLeft": "cVIu",
+      "radarRight": "d2Q0",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0000.diamond.png",
+        "indicesFile": "tile-0000.diamond.indices.bin",
+        "indicesSha256": "1e0e080d24ceac457756ab2c9e30321710732318aa4b9c7c0485593a5c7717dc",
+        "indexCount": 900,
+        "zFile": "tile-0000.diamond.z.bin",
+        "zSha256": "1e689f76723db38f1405ffc081a7f0af764c93e175cd5fa610bdf1294a357051"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 24,
+          "height": 13
+        },
+        "offset": {
+          "x": 1,
+          "y": 1
+        },
+        "offsetFromDiamond": {
+          "x": 1,
+          "y": 1
+        },
+        "exported": true,
+        "rgbaPng": "tile-0000.extra.png",
+        "indicesFile": "tile-0000.extra.indices.bin",
+        "indicesSha256": "0bd7bb012091de364d15c0b1dc42e851da6eb0604b01e723209e783834ee6df1",
+        "indexCount": 312,
+        "zFile": "tile-0000.extra.z.bin",
+        "zSha256": "27bfa7452018683197bd7bca43f4b0d683c3499877cc7ef3e8670854a27c0a0b"
+      },
+      "warnings": []
+    },
+    {
+      "index": 2,
+      "cellX": 0,
+      "cellY": 1,
+      "sourceOffset": 2516,
+      "offset": {
+        "x": -30,
+        "y": 15
+      },
+      "gridOffset": {
+        "x": -30,
+        "y": 15
+      },
+      "heightAdjustedOffset": {
+        "x": -30,
+        "y": 75
+      },
+      "height": 0,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816843,
+      "flagsHex": "0xCDCDCDCB",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 4828,
+      "radarLeft": "dF08",
+      "radarRight": "qHU9",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -30,
+          "y": 15
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0002.diamond.png",
+        "indicesFile": "tile-0002.diamond.indices.bin",
+        "indicesSha256": "6d38697fea9bb649a2d499a6345be561bae45c1cf67225354eccfa174ca8555f",
+        "indexCount": 900,
+        "zFile": "tile-0002.diamond.z.bin",
+        "zSha256": "1e689f76723db38f1405ffc081a7f0af764c93e175cd5fa610bdf1294a357051"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 48,
+          "height": 62
+        },
+        "offset": {
+          "x": -18,
+          "y": -33
+        },
+        "offsetFromDiamond": {
+          "x": 12,
+          "y": -48
+        },
+        "exported": true,
+        "rgbaPng": "tile-0002.extra.png",
+        "indicesFile": "tile-0002.extra.indices.bin",
+        "indicesSha256": "530a8c1a2531b6543ee519000122ad390575d87499d763bd7e440e9d631d586c",
+        "indexCount": 2976,
+        "zFile": "tile-0002.extra.z.bin",
+        "zSha256": "35fd285763eb36bfed12901c37159a85b3fd4b7490aee66159e964a9ffe46e4c"
+      },
+      "warnings": []
+    },
+    {
+      "index": 3,
+      "cellX": 1,
+      "cellY": 1,
+      "sourceOffset": 10320,
+      "offset": {
+        "x": 0,
+        "y": 30
+      },
+      "gridOffset": {
+        "x": 0,
+        "y": 30
+      },
+      "heightAdjustedOffset": {
+        "x": 0,
+        "y": 30
+      },
+      "height": 4,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816843,
+      "flagsHex": "0xCDCDCDCB",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 2722,
+      "radarLeft": "e1oz",
+      "radarRight": "f14x",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": 0,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0003.diamond.png",
+        "indicesFile": "tile-0003.diamond.indices.bin",
+        "indicesSha256": "05b85b64f2c70509a4d7b45716a590b7de854bc0c076e86bf7b185abe4a98578",
+        "indexCount": 900,
+        "zFile": "tile-0003.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 30,
+          "height": 29
+        },
+        "offset": {
+          "x": 0,
+          "y": 15
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": -15
+        },
+        "exported": true,
+        "rgbaPng": "tile-0003.extra.png",
+        "indicesFile": "tile-0003.extra.indices.bin",
+        "indicesSha256": "1784d0560c81f1f3dab5a15d6678b8d8f3213c1142cba6c7ad0bdaae32ca01f7",
+        "indexCount": 870,
+        "zFile": "tile-0003.extra.z.bin",
+        "zSha256": "0594b18801718892051a6d1f0bfe5d4bbe749e7fd1afb6c72df9eaf7b72a683a"
+      },
+      "warnings": []
+    },
+    {
+      "index": 5,
+      "cellX": 1,
+      "cellY": 2,
+      "sourceOffset": 13912,
+      "offset": {
+        "x": -30,
+        "y": 45
+      },
+      "gridOffset": {
+        "x": -30,
+        "y": 45
+      },
+      "heightAdjustedOffset": {
+        "x": -30,
+        "y": 105
+      },
+      "height": 0,
+      "terrainType": 15,
+      "rampType": 0,
+      "flags": 3452816843,
+      "flagsHex": "0xCDCDCDCB",
+      "extraOffset": 1852,
+      "zOffset": 952,
+      "extraZOffset": 2722,
+      "radarLeft": "RElS",
+      "radarRight": "Sk4q",
+      "reserved": "zc3N",
+      "diamond": {
+        "kind": "diamond",
+        "size": {
+          "width": 60,
+          "height": 30
+        },
+        "offset": {
+          "x": -30,
+          "y": 45
+        },
+        "offsetFromDiamond": {
+          "x": 0,
+          "y": 0
+        },
+        "exported": true,
+        "rgbaPng": "tile-0005.diamond.png",
+        "indicesFile": "tile-0005.diamond.indices.bin",
+        "indicesSha256": "750c2d250c9ec85290b847eca443cec3347c72e1ec427e1e6c491eb6a4308d54",
+        "indexCount": 900,
+        "zFile": "tile-0005.diamond.z.bin",
+        "zSha256": "0d0fc789603ef72b521291d0a265951ce99496cd038629f929f29de1f7228412"
+      },
+      "extra": {
+        "kind": "extra",
+        "size": {
+          "width": 30,
+          "height": 29
+        },
+        "offset": {
+          "x": 0,
+          "y": 30
+        },
+        "offsetFromDiamond": {
+          "x": 30,
+          "y": -15
+        },
+        "exported": true,
+        "rgbaPng": "tile-0005.extra.png",
+        "indicesFile": "tile-0005.extra.indices.bin",
+        "indicesSha256": "82bd35e33b7e33fd31f4557753d48dee5072161c05cfba0415501da1acf35aa9",
+        "indexCount": 870,
+        "zFile": "tile-0005.extra.z.bin",
+        "zSha256": "5e610fbeab5afe7d7f37c111961216f87dc2cd1dc37fccfa24eb624b4f060058"
+      },
+      "warnings": []
+    }
+  ]
+}

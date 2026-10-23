@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <InvariantGlobalization>true</InvariantGlobalization>
+    <AssemblyName>Ra2TerrainPipeline</AssemblyName>
+    <RootNamespace>Ra2TerrainPipeline</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../AssetPipeline/PngWriter.cs" Link="Shared/PngWriter.cs" />
+    <Compile Include="../AssetPipeline/Palette.cs" Link="Shared/Palette.cs" />
+  </ItemGroup>
+</Project>

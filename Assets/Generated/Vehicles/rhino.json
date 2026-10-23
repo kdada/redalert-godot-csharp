@@ -1,0 +1,1626 @@
+{
+  "schema": "westwood-voxel-atlas/v1",
+  "name": "rhino",
+  "directions": 32,
+  "animationFrame": 0,
+  "atlas": {
+    "width": 576,
+    "height": 224,
+    "columns": 8,
+    "rows": 4,
+    "cellWidth": 72,
+    "cellHeight": 56,
+    "anchor": [
+      35,
+      34
+    ]
+  },
+  "projection": {
+    "kind": "orthographic",
+    "elevationDegrees": 30,
+    "azimuthDegrees": 0,
+    "pixelsPerWorldUnit": 12,
+    "handedness": "VXL X preserved, Y reflected, Z up",
+    "angle": "positive counterclockwise in world XY; direction 0 projects \u002BX right",
+    "screenX": "rotatedWorldX * scale",
+    "screenY": "(-sin(elevation)*rotatedWorldY-cos(elevation)*worldZ)*scale",
+    "origin": "VXL/HVA model origin; shared across parts and facings; no per-part recentering",
+    "modelTransform": "world = footerScale * reflectY(HVA.linear * (boundsMin \u002B grid * (boundsMax-boundsMin)/size) \u002B HVA.translation * footerScale * (boundsMax-boundsMin)/size)"
+  },
+  "lighting": {
+    "kind": "exposed voxel face normals from neighbor occupancy",
+    "ambient": 0.38,
+    "diffuse": 0.62,
+    "lightDirection": [
+      -0.6,
+      -0.8,
+      1.2
+    ],
+    "vxlNormalIndicesUsedForLighting": false
+  },
+  "palette": {
+    "source": "unittem.pal",
+    "sha256": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+    "inputChannelBits": 6,
+    "expandedRgb": "0000ff0000c600aaaa00aa0055ff55ffff55ff5555aa5500aa000055ffff5151ff0000aa000000555555aaaaaaffffffff0000ef0000df0000d20000c20000b20000a600009600008600007900006900005900004d00003d00002d0000200000fffffff7f7f7efefefe3e3e3dbdbdbd2d2d2cacacac2c2c2bababab2b2b2aaaaaaa2a2a29a9a9a9292928a8a8a8282827979797171716969696161615555554d4d4d4545453d3d3d3535352d2d2d2424241c1c1c1414140c0c0c040404000000d2d2bac6c6aebabaa2aeae96a2a28a96967d8a8a717d7d6571715965654d5959414d4d3541412835351c2828101c1c04dfdff7d2d2ebc6c6dfbabad2aeaec6a2a2ba9696ae8a8aa27d7d9671718a65657d5959714d4d6541415935354d282841efbeaee3b2a2d7a696ca9a8abe8e7db28271a675659a69598e5d4d8251417545356939285d2d1c5120104514043504008a8259827955797551756d4d71694969614561594159513d5149394941313939283131242d2d2028281c20201418180cd7be79ceb671c6ae71bea669ae9e69a696619e8e599686518e795186714979694171613d696149655d456159415d5541be923db28e39a686399a79398e7139866d39796539715d316d592d69552d655128614d285d49285949285545284d41284539243d3520352d202d241c28201c241c1c201c1c1818188abe7575ae61619e4d51923d45822d35752028651420590cffff71fff76dffeb69ffe365ffdb61ffd261ffc259f7b651efae49e79631d77910c66100b64900a639009a28008a1800b2b2ff9696e77d7dce6969b655559e41418631316d242459ff0000d20000a600007d0000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffffffffc6c6caa2a2a682828661616500ca00ffff00ffbe00ff7d00ff0000be0000ceceff9a9aff6565ff71c635ffffff",
+    "transparentIndex": 0
+  },
+  "teamColor": {
+    "startIndex": 16,
+    "count": 16,
+    "rawEncoding": "0=not team, 1..count=source ramp offset\u002B1",
+    "pngEncoding": "RGB ramp 1..255; alpha 255 only on team pixels; source ramp order retained"
+  },
+  "raw": {
+    "layout": "full atlas, row-major, one byte per pixel, no header",
+    "indices": "original PAL index; use alpha.bin for coverage",
+    "normals": "original VXL normal index; use alpha.bin for coverage",
+    "alpha": "0=transparent, 255=covered"
+  },
+  "composite": "rhino.composite.png",
+  "parts": [
+    {
+      "name": "body",
+      "source": "htnk.vxl",
+      "sourceSha256": "0ca8517c29f8bed26c3a3f0138bb36bae01fbb751fc9eaa30bfa1fba352923a2",
+      "hva": "htnk.hva",
+      "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "identityPose": false,
+      "png": "rhino.body.png",
+      "indicesPng": "rhino.body.indices.png",
+      "indicesRaw": "rhino.body.indices.bin",
+      "normalsPng": "rhino.body.normals.png",
+      "normalsRaw": "rhino.body.normals.bin",
+      "teamPng": "rhino.body.team.png",
+      "teamRaw": "rhino.body.team.bin",
+      "alphaRaw": "rhino.body.alpha.bin",
+      "limbs": [
+        {
+          "name": "DUMMY01",
+          "size": [
+            46,
+            34,
+            12
+          ],
+          "scale": 0.083333336,
+          "min": [
+            -18.877636,
+            -17.079124,
+            0.21354012
+          ],
+          "max": [
+            26.134573,
+            16.515707,
+            11.427901
+          ],
+          "normalType": 2,
+          "voxels": 4816
+        }
+      ],
+      "frames": [
+        {
+          "direction": 0,
+          "degrees": 0,
+          "rect": [
+            0,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1030
+        },
+        {
+          "direction": 1,
+          "degrees": 11.25,
+          "rect": [
+            72,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1027
+        },
+        {
+          "direction": 2,
+          "degrees": 22.5,
+          "rect": [
+            144,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1037
+        },
+        {
+          "direction": 3,
+          "degrees": 33.75,
+          "rect": [
+            216,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1028
+        },
+        {
+          "direction": 4,
+          "degrees": 45,
+          "rect": [
+            288,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1006
+        },
+        {
+          "direction": 5,
+          "degrees": 56.25,
+          "rect": [
+            360,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 980
+        },
+        {
+          "direction": 6,
+          "degrees": 67.5,
+          "rect": [
+            432,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 941
+        },
+        {
+          "direction": 7,
+          "degrees": 78.75,
+          "rect": [
+            504,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 896
+        },
+        {
+          "direction": 8,
+          "degrees": 90,
+          "rect": [
+            0,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 885
+        },
+        {
+          "direction": 9,
+          "degrees": 101.25,
+          "rect": [
+            72,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 913
+        },
+        {
+          "direction": 10,
+          "degrees": 112.5,
+          "rect": [
+            144,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 954
+        },
+        {
+          "direction": 11,
+          "degrees": 123.75,
+          "rect": [
+            216,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 992
+        },
+        {
+          "direction": 12,
+          "degrees": 135,
+          "rect": [
+            288,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1012
+        },
+        {
+          "direction": 13,
+          "degrees": 146.25,
+          "rect": [
+            360,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1035
+        },
+        {
+          "direction": 14,
+          "degrees": 157.5,
+          "rect": [
+            432,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1041
+        },
+        {
+          "direction": 15,
+          "degrees": 168.75,
+          "rect": [
+            504,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1038
+        },
+        {
+          "direction": 16,
+          "degrees": 180,
+          "rect": [
+            0,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1022
+        },
+        {
+          "direction": 17,
+          "degrees": 191.25,
+          "rect": [
+            72,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1040
+        },
+        {
+          "direction": 18,
+          "degrees": 202.5,
+          "rect": [
+            144,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1048
+        },
+        {
+          "direction": 19,
+          "degrees": 213.75,
+          "rect": [
+            216,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1038
+        },
+        {
+          "direction": 20,
+          "degrees": 225,
+          "rect": [
+            288,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1017
+        },
+        {
+          "direction": 21,
+          "degrees": 236.25,
+          "rect": [
+            360,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 994
+        },
+        {
+          "direction": 22,
+          "degrees": 247.5,
+          "rect": [
+            432,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 964
+        },
+        {
+          "direction": 23,
+          "degrees": 258.75,
+          "rect": [
+            504,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 921
+        },
+        {
+          "direction": 24,
+          "degrees": 270,
+          "rect": [
+            0,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 894
+        },
+        {
+          "direction": 25,
+          "degrees": 281.25,
+          "rect": [
+            72,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 902
+        },
+        {
+          "direction": 26,
+          "degrees": 292.5,
+          "rect": [
+            144,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 952
+        },
+        {
+          "direction": 27,
+          "degrees": 303.75,
+          "rect": [
+            216,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 980
+        },
+        {
+          "direction": 28,
+          "degrees": 315,
+          "rect": [
+            288,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1006
+        },
+        {
+          "direction": 29,
+          "degrees": 326.25,
+          "rect": [
+            360,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1024
+        },
+        {
+          "direction": 30,
+          "degrees": 337.5,
+          "rect": [
+            432,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1034
+        },
+        {
+          "direction": 31,
+          "degrees": 348.75,
+          "rect": [
+            504,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 1029
+        }
+      ]
+    },
+    {
+      "name": "turret",
+      "source": "htnktur.vxl",
+      "sourceSha256": "4fc6ca0efb803621ae4dc99357f81eb4bc524cc70a90e386831fa0e63a416451",
+      "hva": "htnktur.hva",
+      "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "identityPose": false,
+      "png": "rhino.turret.png",
+      "indicesPng": "rhino.turret.indices.png",
+      "indicesRaw": "rhino.turret.indices.bin",
+      "normalsPng": "rhino.turret.normals.png",
+      "normalsRaw": "rhino.turret.normals.bin",
+      "teamPng": "rhino.turret.team.png",
+      "teamRaw": "rhino.turret.team.bin",
+      "alphaRaw": "rhino.turret.alpha.bin",
+      "limbs": [
+        {
+          "name": "DUMMY01",
+          "size": [
+            28,
+            18,
+            9
+          ],
+          "scale": 0.083333336,
+          "min": [
+            -15.5858555,
+            -8.906843,
+            11.675035
+          ],
+          "max": [
+            11.463833,
+            8.750513,
+            19.973486
+          ],
+          "normalType": 2,
+          "voxels": 1501
+        }
+      ],
+      "frames": [
+        {
+          "direction": 0,
+          "degrees": 0,
+          "rect": [
+            0,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 307
+        },
+        {
+          "direction": 1,
+          "degrees": 11.25,
+          "rect": [
+            72,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 313
+        },
+        {
+          "direction": 2,
+          "degrees": 22.5,
+          "rect": [
+            144,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 310
+        },
+        {
+          "direction": 3,
+          "degrees": 33.75,
+          "rect": [
+            216,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 303
+        },
+        {
+          "direction": 4,
+          "degrees": 45,
+          "rect": [
+            288,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 291
+        },
+        {
+          "direction": 5,
+          "degrees": 56.25,
+          "rect": [
+            360,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 282
+        },
+        {
+          "direction": 6,
+          "degrees": 67.5,
+          "rect": [
+            432,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 270
+        },
+        {
+          "direction": 7,
+          "degrees": 78.75,
+          "rect": [
+            504,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 256
+        },
+        {
+          "direction": 8,
+          "degrees": 90,
+          "rect": [
+            0,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 247
+        },
+        {
+          "direction": 9,
+          "degrees": 101.25,
+          "rect": [
+            72,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 254
+        },
+        {
+          "direction": 10,
+          "degrees": 112.5,
+          "rect": [
+            144,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 264
+        },
+        {
+          "direction": 11,
+          "degrees": 123.75,
+          "rect": [
+            216,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 278
+        },
+        {
+          "direction": 12,
+          "degrees": 135,
+          "rect": [
+            288,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 287
+        },
+        {
+          "direction": 13,
+          "degrees": 146.25,
+          "rect": [
+            360,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 297
+        },
+        {
+          "direction": 14,
+          "degrees": 157.5,
+          "rect": [
+            432,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 309
+        },
+        {
+          "direction": 15,
+          "degrees": 168.75,
+          "rect": [
+            504,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 311
+        },
+        {
+          "direction": 16,
+          "degrees": 180,
+          "rect": [
+            0,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 305
+        },
+        {
+          "direction": 17,
+          "degrees": 191.25,
+          "rect": [
+            72,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 321
+        },
+        {
+          "direction": 18,
+          "degrees": 202.5,
+          "rect": [
+            144,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 326
+        },
+        {
+          "direction": 19,
+          "degrees": 213.75,
+          "rect": [
+            216,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 325
+        },
+        {
+          "direction": 20,
+          "degrees": 225,
+          "rect": [
+            288,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 323
+        },
+        {
+          "direction": 21,
+          "degrees": 236.25,
+          "rect": [
+            360,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 326
+        },
+        {
+          "direction": 22,
+          "degrees": 247.5,
+          "rect": [
+            432,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 315
+        },
+        {
+          "direction": 23,
+          "degrees": 258.75,
+          "rect": [
+            504,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 302
+        },
+        {
+          "direction": 24,
+          "degrees": 270,
+          "rect": [
+            0,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 301
+        },
+        {
+          "direction": 25,
+          "degrees": 281.25,
+          "rect": [
+            72,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 304
+        },
+        {
+          "direction": 26,
+          "degrees": 292.5,
+          "rect": [
+            144,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 317
+        },
+        {
+          "direction": 27,
+          "degrees": 303.75,
+          "rect": [
+            216,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 322
+        },
+        {
+          "direction": 28,
+          "degrees": 315,
+          "rect": [
+            288,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 324
+        },
+        {
+          "direction": 29,
+          "degrees": 326.25,
+          "rect": [
+            360,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 331
+        },
+        {
+          "direction": 30,
+          "degrees": 337.5,
+          "rect": [
+            432,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 328
+        },
+        {
+          "direction": 31,
+          "degrees": 348.75,
+          "rect": [
+            504,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 324
+        }
+      ]
+    },
+    {
+      "name": "barrel",
+      "source": "htnkbarl.vxl",
+      "sourceSha256": "42a3a41fdc52a5491b172bddcd8aac5b9baedec1d7703f95a68a9b96f8531398",
+      "hva": "htnkbarl.hva",
+      "hvaSha256": "16f3cd28642a66b1a0dc3f6cb4b063889c9f4721e46f12054fd60ed88cdc32ca",
+      "identityPose": false,
+      "png": "rhino.barrel.png",
+      "indicesPng": "rhino.barrel.indices.png",
+      "indicesRaw": "rhino.barrel.indices.bin",
+      "normalsPng": "rhino.barrel.normals.png",
+      "normalsRaw": "rhino.barrel.normals.bin",
+      "teamPng": "rhino.barrel.team.png",
+      "teamRaw": "rhino.barrel.team.bin",
+      "alphaRaw": "rhino.barrel.alpha.bin",
+      "limbs": [
+        {
+          "name": "DUMMY01",
+          "size": [
+            19,
+            3,
+            3
+          ],
+          "scale": 0.083333336,
+          "min": [
+            11.83734,
+            -1.487433,
+            13.087939
+          ],
+          "max": [
+            30.661873,
+            1.4761298,
+            16.051502
+          ],
+          "normalType": 4,
+          "voxels": 155
+        }
+      ],
+      "frames": [
+        {
+          "direction": 0,
+          "degrees": 0,
+          "rect": [
+            0,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 76
+        },
+        {
+          "direction": 1,
+          "degrees": 11.25,
+          "rect": [
+            72,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 75
+        },
+        {
+          "direction": 2,
+          "degrees": 22.5,
+          "rect": [
+            144,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 78
+        },
+        {
+          "direction": 3,
+          "degrees": 33.75,
+          "rect": [
+            216,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 71
+        },
+        {
+          "direction": 4,
+          "degrees": 45,
+          "rect": [
+            288,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 67
+        },
+        {
+          "direction": 5,
+          "degrees": 56.25,
+          "rect": [
+            360,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 61
+        },
+        {
+          "direction": 6,
+          "degrees": 67.5,
+          "rect": [
+            432,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 53
+        },
+        {
+          "direction": 7,
+          "degrees": 78.75,
+          "rect": [
+            504,
+            0,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 44
+        },
+        {
+          "direction": 8,
+          "degrees": 90,
+          "rect": [
+            0,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 24
+        },
+        {
+          "direction": 9,
+          "degrees": 101.25,
+          "rect": [
+            72,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 43
+        },
+        {
+          "direction": 10,
+          "degrees": 112.5,
+          "rect": [
+            144,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 53
+        },
+        {
+          "direction": 11,
+          "degrees": 123.75,
+          "rect": [
+            216,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 61
+        },
+        {
+          "direction": 12,
+          "degrees": 135,
+          "rect": [
+            288,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 67
+        },
+        {
+          "direction": 13,
+          "degrees": 146.25,
+          "rect": [
+            360,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 71
+        },
+        {
+          "direction": 14,
+          "degrees": 157.5,
+          "rect": [
+            432,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 77
+        },
+        {
+          "direction": 15,
+          "degrees": 168.75,
+          "rect": [
+            504,
+            56,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 75
+        },
+        {
+          "direction": 16,
+          "degrees": 180,
+          "rect": [
+            0,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 76
+        },
+        {
+          "direction": 17,
+          "degrees": 191.25,
+          "rect": [
+            72,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 76
+        },
+        {
+          "direction": 18,
+          "degrees": 202.5,
+          "rect": [
+            144,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 76
+        },
+        {
+          "direction": 19,
+          "degrees": 213.75,
+          "rect": [
+            216,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 71
+        },
+        {
+          "direction": 20,
+          "degrees": 225,
+          "rect": [
+            288,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 67
+        },
+        {
+          "direction": 21,
+          "degrees": 236.25,
+          "rect": [
+            360,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 62
+        },
+        {
+          "direction": 22,
+          "degrees": 247.5,
+          "rect": [
+            432,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 54
+        },
+        {
+          "direction": 23,
+          "degrees": 258.75,
+          "rect": [
+            504,
+            112,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 43
+        },
+        {
+          "direction": 24,
+          "degrees": 270,
+          "rect": [
+            0,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 24
+        },
+        {
+          "direction": 25,
+          "degrees": 281.25,
+          "rect": [
+            72,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 43
+        },
+        {
+          "direction": 26,
+          "degrees": 292.5,
+          "rect": [
+            144,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 54
+        },
+        {
+          "direction": 27,
+          "degrees": 303.75,
+          "rect": [
+            216,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 62
+        },
+        {
+          "direction": 28,
+          "degrees": 315,
+          "rect": [
+            288,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 67
+        },
+        {
+          "direction": 29,
+          "degrees": 326.25,
+          "rect": [
+            360,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 71
+        },
+        {
+          "direction": 30,
+          "degrees": 337.5,
+          "rect": [
+            432,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 76
+        },
+        {
+          "direction": 31,
+          "degrees": 348.75,
+          "rect": [
+            504,
+            168,
+            72,
+            56
+          ],
+          "anchor": [
+            35,
+            34
+          ],
+          "opaquePixels": 76
+        }
+      ]
+    }
+  ]
+}

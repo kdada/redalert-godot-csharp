@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Simulation/RedAlert.Simulation.csproj" /></ItemGroup>
+  <ItemGroup><Compile Include="../Scripts/ClassicTerrainPlan.cs" Link="ClassicTerrainPlan.cs" /></ItemGroup>
+  <ItemGroup>
+    <Compile Include="../Scripts/ExternalAiHttpServer.cs" Link="ExternalAiHttpServer.cs" />
+    <Compile Include="../Scripts/ExternalAiController.cs" Link="ExternalAiController.cs" />
+    <Compile Include="../Scripts/ExternalAiController.Chat.cs" Link="ExternalAiController.Chat.cs" />
+    <Compile Include="../Scripts/BattleChat.cs" Link="BattleChat.cs" />
+  </ItemGroup>
+</Project>

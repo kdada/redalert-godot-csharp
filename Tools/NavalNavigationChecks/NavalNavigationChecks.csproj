@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <!-- Map-only CPU probe: no World, economy/combat sources, game assembly, or native runner. -->
+  <ItemGroup>
+    <Compile Include="../../Simulation/BattleMap*.cs" Link="Simulation/%(Filename)%(Extension)" />
+    <Compile Include="../../Simulation/ClassicMap*.cs" Link="Simulation/%(Filename)%(Extension)" />
+    <Compile Include="../../Simulation/ClassicCatalog.cs" Link="Simulation/ClassicCatalog.cs" />
+    <Compile Include="../../Simulation/Definitions.cs" Link="Simulation/Definitions.cs" />
+  </ItemGroup>
+</Project>

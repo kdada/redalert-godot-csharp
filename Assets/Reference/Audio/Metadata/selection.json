@@ -1,0 +1,63 @@
+{
+  "source_facts": "Original retained sound.ini, eva.ini and theme.ini; OpenRA RA2 YAML used only to corroborate original sample-name semantics.",
+  "music": {
+    "menu_music": {
+      "sample": "grinder.mp3",
+      "bytes": 2353946,
+      "url": "https://static1.squarespace.com/static/5cb8811d5239585cb782f0e0/5ce600b4e4966b3368e7ec34/5ce9ccaeb208fc0bb153a6a2/1558826397956/04+Grinder.mp3",
+      "provenance": "Frank Klepacki official C&C Red Alert 2 ORIGINAL SOUNDTRACK, https://www.frankklepacki.com/ost/vg/cnc-ra2",
+      "mapping": "Original theme.ini [INTRO] Sound=Grinder, Repeat=yes"
+    },
+    "battle_music": {
+      "sample": "hm2.mp3",
+      "bytes": 3596664,
+      "url": "https://static1.squarespace.com/static/5cb8811d5239585cb782f0e0/5ce600b4e4966b3368e7ec34/5ce9cca9ec212dc60a434c65/1558826387658/01+Hell+March+2.mp3",
+      "provenance": "Frank Klepacki official C&C Red Alert 2 ORIGINAL SOUNDTRACK, https://www.frankklepacki.com/ost/vg/cnc-ra2",
+      "mapping": "Original theme.ini [HM2] Sound=HM2, Normal=yes"
+    }
+  },
+  "bag": {
+    "ui_click": {"sample": "umenucl1", "mapping": "sound.ini [MenuClick]"},
+    "select": {"sample": "igisea", "mapping": "sound.ini [GISelect]"},
+    "order": {"sample": "igimoa", "mapping": "sound.ini [GIMove]"},
+    "select_soviet": {"sample": "iconsea", "mapping": "sound.ini [ConscriptSelect]"},
+    "order_soviet": {"sample": "iconmoa", "mapping": "sound.ini [ConscriptMove]"},
+    "select_vehicle": {"sample": "vgrasea", "mapping": "sound.ini [GenAllVehicleSelect]"},
+    "order_vehicle": {"sample": "vgramoa", "mapping": "sound.ini [GenAllVehicleMove]"},
+    "select_vehicle_soviet": {"sample": "vgrssea", "mapping": "sound.ini [GenSovVehicleSelect]"},
+    "order_vehicle_soviet": {"sample": "vgrsmoa", "mapping": "sound.ini [GenSovVehicleMove]"},
+    "select_sniper": {"sample": "isnisea", "mapping": "sound.ini [SniperSelect]"},
+    "order_sniper": {"sample": "isnimoa", "mapping": "sound.ini [SniperMove]"},
+    "select_dog": {"sample": "idogsela", "mapping": "sound.ini [DogSelect]"},
+    "order_dog": {"sample": "idogmova", "mapping": "sound.ini [DogMove]"},
+    "rifle": {"sample": "igiat1a", "mapping": "sound.ini [GIAttack]"},
+    "conscript": {"sample": "iconatta", "mapping": "sound.ini [ConscriptAttack]"},
+    "sniper": {"sample": "isniatta", "mapping": "sound.ini [SniperAttack]"},
+    "tank": {"sample": "vgriatta", "mapping": "sound.ini [GrizzlyTankAttack]"},
+    "rhino": {"sample": "vrhiatta", "mapping": "sound.ini [RhinoTankAttack]"},
+    "apocalypse": {"sample": "vapoat1a", "mapping": "sound.ini [ApocalypseAttackGround]"},
+    "tesla": {"sample": "vtesatta", "mapping": "sound.ini [TeslaTankAttack]"},
+    "tesla_coil": {"sample": "btesat1a", "mapping": "sound.ini [TeslaCoilAttack]"},
+    "grand_cannon": {"sample": "bgraatta", "mapping": "sound.ini [GrandCannonAttack]"},
+    "prism": {"sample": "vpriatta", "mapping": "sound.ini [PrismTankAttack]"},
+    "flak": {"sample": "vflaat1a", "mapping": "sound.ini [FlakTrackAttackGround]"},
+    "ifv": {"sample": "vifvat2a", "mapping": "sound.ini [IFVAttackGround]"},
+    "dog": {"sample": "idogatta", "mapping": "sound.ini [DogAttack]"},
+    "impact": {"sample": "bmetdama", "mapping": "sound.ini [BuildingMetalDamaged]; original metal damage sample reused for armor impacts"},
+    "flesh": {"sample": "igidia", "mapping": "sound.ini [GIDie]; used only on infantry death, no fabricated flesh-hit sample"},
+    "explosion": {"sample": "gexp14a", "mapping": "sound.ini [Explosion14]"},
+    "construction": {"sample": "uqeue", "mapping": "sound.ini [MenuBuild]; original build queue signal at construction start"},
+    "chat": {"sample": "umessage", "mapping": "sound.ini [MessageText]"}
+  },
+  "wav": {
+    "building_ready": {"sample": "ceva048.wav", "mapping": "eva.ini EVA_ConstructionComplete Allied"},
+    "production_ready": {"sample": "ceva062.wav", "mapping": "eva.ini EVA_UnitReady Allied"},
+    "victory": {"sample": "ceva022.wav", "mapping": "eva.ini EVA_YouAreVictorious Allied"},
+    "defeat": {"sample": "ceva023.wav", "mapping": "eva.ini EVA_YouHaveLost Allied"},
+    "building_ready_soviet": {"sample": "csof048.wav", "mapping": "eva.ini EVA_ConstructionComplete Soviet"},
+    "production_ready_soviet": {"sample": "csof062.wav", "mapping": "eva.ini EVA_UnitReady Soviet"},
+    "victory_soviet": {"sample": "csof022.wav", "mapping": "eva.ini EVA_YouAreVictorious Soviet"},
+    "defeat_soviet": {"sample": "csof023.wav", "mapping": "eva.ini EVA_YouHaveLost Soviet"}
+  },
+  "missing": ["No separate original flesh-hit recording is asserted; nonfatal infantry hit stays silent. GI death audio is used for the generic infantry death event because CombatEvent does not carry target unit type."]
+}

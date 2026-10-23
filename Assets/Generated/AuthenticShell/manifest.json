@@ -1,0 +1,277 @@
+{
+  "schema": 1,
+  "source_revision": "acfa5b834899e7fab4c8499ccb4b49c402927b44",
+  "source_manifest": "Assets/Reference/manifest-authentic-shell.json",
+  "decoder": {
+    "path": "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg/bin/ffmpeg",
+    "binary_sha256": "141946f61d625ea00b0e60294a22823c89701f142375c6b3362b916211960330",
+    "version": "ffmpeg version 7.1.2 Copyright (c) 2000-2025 the FFmpeg developers\nbuilt with clang version 15.0.4 (/srv/workspace/llvm-release/2026_0617_llvm15_release/toolchain/llvm-project/clang 3f002d04ba6b3a7659c601207c89d3a896b82546)\nconfiguration: --prefix=/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg --target-os=linux --arch=aarch64 --cc=/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/cc-sign --ld=/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/cc-sign --ar=llvm-ar --nm=llvm-nm --ranlib=llvm-ranlib --strip=llvm-strip --disable-asm --disable-stripping --disable-autodetect --disable-network --disable-everything --disable-doc --disable-debug --disable-ffplay --enable-ffmpeg --enable-ffprobe --enable-protocol='file,pipe' --enable-demuxer='bink,ogg' --enable-decoder='bink,binkaudio_dct,binkaudio_rdft,theora' --enable-encoder='png,rawvideo,libtheora' --enable-muxer='image2,rawvideo,null,ogg' --enable-filter='scale,format,select,tile,fps' --enable-swscale --enable-avfilter --enable-zlib --enable-libtheora --pkg-config=/data/storage/el2/base/haps/entry/cache/blender-ohos-deps-base/tools/bin/pkg-config --extra-cflags='-I/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/theora-prefix/include -I/data/storage/el2/base/haps/entry/cache/blender-ohos-deps-base/prefix/include' --extra-ldflags='-L/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/theora-prefix/lib -L/data/storage/el2/base/haps/entry/cache/blender-ohos-deps-base/prefix/lib'\nlibavutil      59. 39.100 / 59. 39.100\nlibavcodec     61. 19.101 / 61. 19.101\nlibavformat    61.  7.100 / 61.  7.100\nlibavdevice    61.  3.100 / 61.  3.100\nlibavfilter    10.  4.100 / 10.  4.100\nlibswscale      8.  3.100 /  8.  3.100\nlibswresample   5.  3.100 /  5.  3.100\n"
+  },
+  "outputs": [
+    {
+      "source": {
+        "path": "Assets/Reference/AuthenticShell/Original/ra2ts_l.bik",
+        "original_filename": "ra2ts_l.bik",
+        "source_archive": "language.mix",
+        "source_url": "https://raw.githubusercontent.com/toarrntnz/ts-redalert2-assets/acfa5b834899e7fab4c8499ccb4b49c402927b44/game-res/language.mix",
+        "source_revision": "acfa5b834899e7fab4c8499ccb4b49c402927b44",
+        "archive_offset": 37942628,
+        "http_range": "bytes=37942628-45127455",
+        "bytes": 7184828,
+        "sha256": "4c73d2b9c5dc1dccab156edf7a48bda9ae11928fa97907c4b20e304d2da7d2a6",
+        "complete_original": true,
+        "actual_type": "Bink 1 video"
+      },
+      "width": 632,
+      "height": 570,
+      "frame_count": 431,
+      "fps_numerator": 15,
+      "fps_denominator": 1,
+      "duration_seconds": 28.733333333333334,
+      "audio_tracks": 0,
+      "decode_command": [
+        "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg/bin/ffmpeg",
+        "-hide_banner",
+        "-loglevel",
+        "error",
+        "-nostdin",
+        "-threads",
+        "1",
+        "-i",
+        "/storage/Users/currentUser/dev/redalert-godot-csharp/Assets/Reference/AuthenticShell/Original/ra2ts_l.bik",
+        "-map",
+        "0:v:0",
+        "-an",
+        "-vsync",
+        "0",
+        "-f",
+        "rawvideo",
+        "-pix_fmt",
+        "rgb24",
+        "pipe:1"
+      ],
+      "decoder_diagnostics": "",
+      "decoded_frame_count": 431,
+      "unique_decoded_frames": 431,
+      "first_and_last_frame_identical": false,
+      "stills": [
+        {
+          "path": "Assets/Generated/AuthenticShell/ra2ts_l/firstframe.png",
+          "bytes": 331320,
+          "sha256": "503e96e4726895ede143e07859636dd57e37b006b9ce82608531980c3eb45f63",
+          "width": 632,
+          "height": 570,
+          "decoded_rgb_sha256": "ebf3d8fac1ff338e05f3845fbd524a95794da812a5ee1efc3aa57026347b5867",
+          "frame_index": 0,
+          "timestamp_seconds": 0.0
+        },
+        {
+          "path": "Assets/Generated/AuthenticShell/ra2ts_l/frame-0107.png",
+          "bytes": 483276,
+          "sha256": "0ade50c4eabaf4b61747243801b49eb1c25d4cfc38694a645af73e7eba9b9612",
+          "width": 632,
+          "height": 570,
+          "decoded_rgb_sha256": "f0c67ddbb12517c24036da406bd9ae5305c1c0428e6049b0cf3bfd6115d04d9f",
+          "frame_index": 107,
+          "timestamp_seconds": 7.133333333333334
+        },
+        {
+          "path": "Assets/Generated/AuthenticShell/ra2ts_l/frame-0215.png",
+          "bytes": 499759,
+          "sha256": "eb4259892f32a2bc8136b7c451c303995c5b30ef2a992dc8f14673ff7e93f5f7",
+          "width": 632,
+          "height": 570,
+          "decoded_rgb_sha256": "cc0e7ace10e2398924633908c792101ba47771ca826c663b3cf948c5709abec5",
+          "frame_index": 215,
+          "timestamp_seconds": 14.333333333333334
+        },
+        {
+          "path": "Assets/Generated/AuthenticShell/ra2ts_l/frame-0323.png",
+          "bytes": 492132,
+          "sha256": "1aa2437777610528bd04579f0f2cc994544720edaeffad83106b8d884ebe8b87",
+          "width": 632,
+          "height": 570,
+          "decoded_rgb_sha256": "091cfe412188910dcfc72b7ea00b993c7ebc649b8ff37bf9086c07107f038a2a",
+          "frame_index": 323,
+          "timestamp_seconds": 21.533333333333335
+        },
+        {
+          "path": "Assets/Generated/AuthenticShell/ra2ts_l/frame-0430.png",
+          "bytes": 484259,
+          "sha256": "a3f94c41581b7fcb8a42751f25d99e69928090850a835e4b26654dbb6033cc8b",
+          "width": 632,
+          "height": 570,
+          "decoded_rgb_sha256": "55bcb6cd4ef62c7af335b757448ed5994e1f07ec72c14dcd6135631becf4361c",
+          "frame_index": 430,
+          "timestamp_seconds": 28.666666666666668
+        }
+      ],
+      "contact_sheet": {
+        "path": "Assets/Generated/AuthenticShell/ra2ts_l/contact-sheet.png",
+        "bytes": 1925353,
+        "sha256": "6a7469f6ed347a298d5ac79b74b36583557040cd34b0e22cbffce8ca74d1e39f",
+        "width": 1896,
+        "height": 1140,
+        "decoded_rgb_sha256": "363a8866a212273440d3dbcd9f5559ba9cb5a21eb25c01d1f03e5aa2740d4278",
+        "cells": [
+          {
+            "column": 0,
+            "row": 0,
+            "frame_index": 0,
+            "timestamp_seconds": 0.0
+          },
+          {
+            "column": 1,
+            "row": 0,
+            "frame_index": 107,
+            "timestamp_seconds": 7.133333333333334
+          },
+          {
+            "column": 2,
+            "row": 0,
+            "frame_index": 215,
+            "timestamp_seconds": 14.333333333333334
+          },
+          {
+            "column": 0,
+            "row": 1,
+            "frame_index": 323,
+            "timestamp_seconds": 21.533333333333335
+          },
+          {
+            "column": 1,
+            "row": 1,
+            "frame_index": 430,
+            "timestamp_seconds": 28.666666666666668
+          }
+        ]
+      },
+      "godot_loop": {
+        "available": true,
+        "path": "Assets/Generated/AuthenticShell/ra2ts_l/menu-loop.ogv",
+        "bytes": 5490952,
+        "sha256": "694e6daec92dbbea27ae0c827c9c26e70a033d9e348f910a9f9fd2d86ed9a2c6",
+        "format": "Ogg Theora",
+        "encoder": "libtheora",
+        "quality": 9,
+        "encoding": "Lossy transcode of all original Bink frames; native resolution/timing; no audio or visual overlays.",
+        "frame_count": 431,
+        "command": [
+          "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg/bin/ffmpeg",
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-nostdin",
+          "-threads",
+          "1",
+          "-i",
+          "/storage/Users/currentUser/dev/redalert-godot-csharp/Assets/Reference/AuthenticShell/Original/ra2ts_l.bik",
+          "-map",
+          "0:v:0",
+          "-an",
+          "-c:v",
+          "libtheora",
+          "-q:v",
+          "9",
+          "-pix_fmt",
+          "yuv420p",
+          "-f",
+          "ogg",
+          "/storage/Users/currentUser/dev/redalert-godot-csharp/Assets/Generated/AuthenticShell/ra2ts_l/menu-loop.ogv"
+        ],
+        "independent_probe": {
+          "available": true,
+          "verified": true,
+          "command": [
+            "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg/bin/ffprobe",
+            "-v",
+            "error",
+            "-count_frames",
+            "-select_streams",
+            "v:0",
+            "-show_streams",
+            "-show_format",
+            "-of",
+            "json",
+            "/storage/Users/currentUser/dev/redalert-godot-csharp/Assets/Generated/AuthenticShell/ra2ts_l/menu-loop.ogv"
+          ],
+          "metadata": {
+            "streams": [
+              {
+                "index": 0,
+                "codec_name": "theora",
+                "codec_long_name": "Theora",
+                "codec_type": "video",
+                "codec_tag_string": "[0][0][0][0]",
+                "codec_tag": "0x0000",
+                "width": 632,
+                "height": 570,
+                "coded_width": 640,
+                "coded_height": 576,
+                "closed_captions": 0,
+                "film_grain": 0,
+                "has_b_frames": 0,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "316:285",
+                "pix_fmt": "yuv420p",
+                "level": -99,
+                "chroma_location": "center",
+                "refs": 1,
+                "r_frame_rate": "15/1",
+                "avg_frame_rate": "0/0",
+                "time_base": "1/15",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 431,
+                "duration": "28.733333",
+                "nb_read_frames": "431",
+                "extradata_size": 3306,
+                "disposition": {
+                  "default": 0,
+                  "dub": 0,
+                  "original": 0,
+                  "comment": 0,
+                  "lyrics": 0,
+                  "karaoke": 0,
+                  "forced": 0,
+                  "hearing_impaired": 0,
+                  "visual_impaired": 0,
+                  "clean_effects": 0,
+                  "attached_pic": 0,
+                  "timed_thumbnails": 0,
+                  "non_diegetic": 0,
+                  "captions": 0,
+                  "descriptions": 0,
+                  "metadata": 0,
+                  "dependent": 0,
+                  "still_image": 0,
+                  "multilayer": 0
+                },
+                "tags": {
+                  "encoder": "Lavc61.19.101 libtheora"
+                }
+              }
+            ],
+            "format": {
+              "filename": "/storage/Users/currentUser/dev/redalert-godot-csharp/Assets/Generated/AuthenticShell/ra2ts_l/menu-loop.ogv",
+              "nb_streams": 1,
+              "nb_programs": 0,
+              "nb_stream_groups": 0,
+              "format_name": "ogg",
+              "format_long_name": "Ogg",
+              "start_time": "0.000000",
+              "duration": "28.733333",
+              "size": "5490952",
+              "bit_rate": "1528803",
+              "probe_score": 100
+            }
+          }
+        },
+        "godot_usage": "VideoStreamPlayer.stream = load(\"res://Assets/Generated/AuthenticShell/ra2ts_l/menu-loop.ogv\"); loop = true; autoplay = true. Set expand=true and use aspect-preserving layout."
+      }
+    }
+  ],
+  "visual_policy": "Authentic original Bink imagery decoded independently. No PCX substitutes, repainting, scaling, button overlays, or generated art.",
+  "visual_inspection": "See inspection.json/README.md produced after reading actual decoded images.",
+  "loop_policy": "All original frames in order. VideoStreamPlayer looping repeats the complete original movie; no seam smoothing or retiming is applied."
+}

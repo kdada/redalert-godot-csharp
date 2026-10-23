@@ -1,0 +1,58 @@
+{
+  "platform": "HarmonyOS aarch64",
+  "initial_path_tools": {
+    "ffmpeg": false,
+    "ffprobe": false,
+    "avconv": false,
+    "imagemagick": false,
+    "python3": true,
+    "node": true,
+    "clang": true
+  },
+  "system_codec_probe": {
+    "public_decoder_names_tested": ["bink", "binkvideo", "binkaudio_dct"],
+    "input_format_tested": "bink",
+    "bink_available": false,
+    "libraries_tested": [
+      "libhistreamer_ffmpeg_convert.z.so",
+      "libav_codec_media_engine_modules.z.so",
+      "libmedia_plugin_FFmpegDemuxer.z.so"
+    ]
+  },
+  "build_root": "/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64",
+  "install_prefix": "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg",
+  "final_binaries": {
+    "ffmpeg": {
+      "path": "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg/bin/ffmpeg",
+      "bytes": 2501120,
+      "sha256": "141946f61d625ea00b0e60294a22823c89701f142375c6b3362b916211960330"
+    },
+    "ffprobe": {
+      "path": "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg/bin/ffprobe",
+      "bytes": 2480640,
+      "sha256": "bf7b52dba8d122f73ecff482bb1d0eeb264378b87da814f548ebf7ec15e4eed0"
+    },
+    "ffmpeg_version": "7.1.2",
+    "runtime_shared_libraries": ["libc.so"],
+    "verified_features": ["Bink decoder/demuxer", "Theora decoder/encoder", "Ogg muxer/demuxer", "RGB24 pipe output", "PNG encoder"],
+    "source_patches": false,
+    "global_installation": false
+  },
+  "compiler": "/storage/Users/currentUser/.oheco/packages/ohos-sdk-native/26.0.0.35-Beta/llvm/bin/clang",
+  "compiler_version": "clang 15.0.4, LLVM 3f002d04ba6b3a7659c601207c89d3a896b82546",
+  "sysroot": "/storage/Users/currentUser/.oheco/packages/ohos-sdk-native/26.0.0.35-Beta/sysroot",
+  "target": "aarch64-unknown-linux-ohos",
+  "executable_signing": "binary-sign-tool sign -inFile INPUT -outFile OUTPUT -selfSign 1",
+  "reused_make": {
+    "version": "4.4.1",
+    "source_path": "/storage/Users/currentUser/dev/ohos/tmux/out/tools/make",
+    "cache_path": "/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/make-4.4.1/make",
+    "sha256": "a888ae0d94554dc9e28502565c439ceece267cda15ac79dea4706b044703b864"
+  },
+  "reused_zlib": {
+    "version": "1.3.1",
+    "static_archive": "/data/storage/el2/base/haps/entry/cache/blender-ohos-deps-base/prefix/lib/libz.a",
+    "sha256": "9de75fa98904f57522e0829aefcacdd4ddce45536efd145165581fb2ad4b70d0"
+  },
+  "scope": "Only independent decoder/transcoder build products in XDG cache. No C# application build, no Godot control, no Python image-library installation. Final decoder binary/version/configuration are recorded by the generated asset manifest."
+}

@@ -1,0 +1,1626 @@
+{
+  "schema": "westwood-voxel-atlas/v1",
+  "name": "apocalypse",
+  "directions": 32,
+  "animationFrame": 0,
+  "atlas": {
+    "width": 640,
+    "height": 224,
+    "columns": 8,
+    "rows": 4,
+    "cellWidth": 80,
+    "cellHeight": 56,
+    "anchor": [
+      39,
+      36
+    ]
+  },
+  "projection": {
+    "kind": "orthographic",
+    "elevationDegrees": 30,
+    "azimuthDegrees": 0,
+    "pixelsPerWorldUnit": 12,
+    "handedness": "VXL X preserved, Y reflected, Z up",
+    "angle": "positive counterclockwise in world XY; direction 0 projects \u002BX right",
+    "screenX": "rotatedWorldX * scale",
+    "screenY": "(-sin(elevation)*rotatedWorldY-cos(elevation)*worldZ)*scale",
+    "origin": "VXL/HVA model origin; shared across parts and facings; no per-part recentering",
+    "modelTransform": "world = footerScale * reflectY(HVA.linear * (boundsMin \u002B grid * (boundsMax-boundsMin)/size) \u002B HVA.translation * footerScale * (boundsMax-boundsMin)/size)"
+  },
+  "lighting": {
+    "kind": "exposed voxel face normals from neighbor occupancy",
+    "ambient": 0.38,
+    "diffuse": 0.62,
+    "lightDirection": [
+      -0.6,
+      -0.8,
+      1.2
+    ],
+    "vxlNormalIndicesUsedForLighting": false
+  },
+  "palette": {
+    "source": "unittem.pal",
+    "sha256": "ed785e62eed291480f3198dd44f6b656ebe3a9b75e9f641944d710abc6bde3e3",
+    "inputChannelBits": 6,
+    "expandedRgb": "0000ff0000c600aaaa00aa0055ff55ffff55ff5555aa5500aa000055ffff5151ff0000aa000000555555aaaaaaffffffff0000ef0000df0000d20000c20000b20000a600009600008600007900006900005900004d00003d00002d0000200000fffffff7f7f7efefefe3e3e3dbdbdbd2d2d2cacacac2c2c2bababab2b2b2aaaaaaa2a2a29a9a9a9292928a8a8a8282827979797171716969696161615555554d4d4d4545453d3d3d3535352d2d2d2424241c1c1c1414140c0c0c040404000000d2d2bac6c6aebabaa2aeae96a2a28a96967d8a8a717d7d6571715965654d5959414d4d3541412835351c2828101c1c04dfdff7d2d2ebc6c6dfbabad2aeaec6a2a2ba9696ae8a8aa27d7d9671718a65657d5959714d4d6541415935354d282841efbeaee3b2a2d7a696ca9a8abe8e7db28271a675659a69598e5d4d8251417545356939285d2d1c5120104514043504008a8259827955797551756d4d71694969614561594159513d5149394941313939283131242d2d2028281c20201418180cd7be79ceb671c6ae71bea669ae9e69a696619e8e599686518e795186714979694171613d696149655d456159415d5541be923db28e39a686399a79398e7139866d39796539715d316d592d69552d655128614d285d49285949285545284d41284539243d3520352d202d241c28201c241c1c201c1c1818188abe7575ae61619e4d51923d45822d35752028651420590cffff71fff76dffeb69ffe365ffdb61ffd261ffc259f7b651efae49e79631d77910c66100b64900a639009a28008a1800b2b2ff9696e77d7dce6969b655559e41418631316d242459ff0000d20000a600007d0000ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffffffffc6c6caa2a2a682828661616500ca00ffff00ffbe00ff7d00ff0000be0000ceceff9a9aff6565ff71c635ffffff",
+    "transparentIndex": 0
+  },
+  "teamColor": {
+    "startIndex": 16,
+    "count": 16,
+    "rawEncoding": "0=not team, 1..count=source ramp offset\u002B1",
+    "pngEncoding": "RGB ramp 1..255; alpha 255 only on team pixels; source ramp order retained"
+  },
+  "raw": {
+    "layout": "full atlas, row-major, one byte per pixel, no header",
+    "indices": "original PAL index; use alpha.bin for coverage",
+    "normals": "original VXL normal index; use alpha.bin for coverage",
+    "alpha": "0=transparent, 255=covered"
+  },
+  "composite": "apocalypse.composite.png",
+  "parts": [
+    {
+      "name": "body",
+      "source": "mtnk.vxl",
+      "sourceSha256": "fe82e553014591635d708e30d1b5088aad4c621ec820fe7c330c052bb188cf77",
+      "hva": "mtnk.hva",
+      "hvaSha256": "bbc8b8d4cdadc47627fdc955fcc6d30e6844bb736f3b81bfd2f0298b06c39396",
+      "identityPose": false,
+      "png": "apocalypse.body.png",
+      "indicesPng": "apocalypse.body.indices.png",
+      "indicesRaw": "apocalypse.body.indices.bin",
+      "normalsPng": "apocalypse.body.normals.png",
+      "normalsRaw": "apocalypse.body.normals.bin",
+      "teamPng": "apocalypse.body.team.png",
+      "teamRaw": "apocalypse.body.team.bin",
+      "alphaRaw": "apocalypse.body.alpha.bin",
+      "limbs": [
+        {
+          "name": "DUMMY01",
+          "size": [
+            59,
+            32,
+            14
+          ],
+          "scale": 0.083333336,
+          "min": [
+            -27.893934,
+            -15.7678175,
+            0.336604
+          ],
+          "max": [
+            30.337467,
+            15.979401,
+            13.8929
+          ],
+          "normalType": 4,
+          "voxels": 6354
+        }
+      ],
+      "frames": [
+        {
+          "direction": 0,
+          "degrees": 0,
+          "rect": [
+            0,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1063
+        },
+        {
+          "direction": 1,
+          "degrees": 11.25,
+          "rect": [
+            80,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1079
+        },
+        {
+          "direction": 2,
+          "degrees": 22.5,
+          "rect": [
+            160,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1065
+        },
+        {
+          "direction": 3,
+          "degrees": 33.75,
+          "rect": [
+            240,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1046
+        },
+        {
+          "direction": 4,
+          "degrees": 45,
+          "rect": [
+            320,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1018
+        },
+        {
+          "direction": 5,
+          "degrees": 56.25,
+          "rect": [
+            400,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 969
+        },
+        {
+          "direction": 6,
+          "degrees": 67.5,
+          "rect": [
+            480,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 914
+        },
+        {
+          "direction": 7,
+          "degrees": 78.75,
+          "rect": [
+            560,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 850
+        },
+        {
+          "direction": 8,
+          "degrees": 90,
+          "rect": [
+            0,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 814
+        },
+        {
+          "direction": 9,
+          "degrees": 101.25,
+          "rect": [
+            80,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 844
+        },
+        {
+          "direction": 10,
+          "degrees": 112.5,
+          "rect": [
+            160,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 905
+        },
+        {
+          "direction": 11,
+          "degrees": 123.75,
+          "rect": [
+            240,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 965
+        },
+        {
+          "direction": 12,
+          "degrees": 135,
+          "rect": [
+            320,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1014
+        },
+        {
+          "direction": 13,
+          "degrees": 146.25,
+          "rect": [
+            400,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1045
+        },
+        {
+          "direction": 14,
+          "degrees": 157.5,
+          "rect": [
+            480,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1063
+        },
+        {
+          "direction": 15,
+          "degrees": 168.75,
+          "rect": [
+            560,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1068
+        },
+        {
+          "direction": 16,
+          "degrees": 180,
+          "rect": [
+            0,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1056
+        },
+        {
+          "direction": 17,
+          "degrees": 191.25,
+          "rect": [
+            80,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1097
+        },
+        {
+          "direction": 18,
+          "degrees": 202.5,
+          "rect": [
+            160,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1105
+        },
+        {
+          "direction": 19,
+          "degrees": 213.75,
+          "rect": [
+            240,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1101
+        },
+        {
+          "direction": 20,
+          "degrees": 225,
+          "rect": [
+            320,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1097
+        },
+        {
+          "direction": 21,
+          "degrees": 236.25,
+          "rect": [
+            400,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1067
+        },
+        {
+          "direction": 22,
+          "degrees": 247.5,
+          "rect": [
+            480,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1035
+        },
+        {
+          "direction": 23,
+          "degrees": 258.75,
+          "rect": [
+            560,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 991
+        },
+        {
+          "direction": 24,
+          "degrees": 270,
+          "rect": [
+            0,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 965
+        },
+        {
+          "direction": 25,
+          "degrees": 281.25,
+          "rect": [
+            80,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 994
+        },
+        {
+          "direction": 26,
+          "degrees": 292.5,
+          "rect": [
+            160,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1039
+        },
+        {
+          "direction": 27,
+          "degrees": 303.75,
+          "rect": [
+            240,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1077
+        },
+        {
+          "direction": 28,
+          "degrees": 315,
+          "rect": [
+            320,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1109
+        },
+        {
+          "direction": 29,
+          "degrees": 326.25,
+          "rect": [
+            400,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1112
+        },
+        {
+          "direction": 30,
+          "degrees": 337.5,
+          "rect": [
+            480,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1106
+        },
+        {
+          "direction": 31,
+          "degrees": 348.75,
+          "rect": [
+            560,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 1099
+        }
+      ]
+    },
+    {
+      "name": "turret",
+      "source": "mtnktur.vxl",
+      "sourceSha256": "1f16b4ba31c910e791d7db894c33a1554afe0918fd51df8d814000c4af672a4c",
+      "hva": "mtnktur.hva",
+      "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "identityPose": false,
+      "png": "apocalypse.turret.png",
+      "indicesPng": "apocalypse.turret.indices.png",
+      "indicesRaw": "apocalypse.turret.indices.bin",
+      "normalsPng": "apocalypse.turret.normals.png",
+      "normalsRaw": "apocalypse.turret.normals.bin",
+      "teamPng": "apocalypse.turret.team.png",
+      "teamRaw": "apocalypse.turret.team.bin",
+      "alphaRaw": "apocalypse.turret.alpha.bin",
+      "limbs": [
+        {
+          "name": "DUMMY01",
+          "size": [
+            25,
+            25,
+            17
+          ],
+          "scale": 0.083333336,
+          "min": [
+            -13.159321,
+            -12.13685,
+            11.607287
+          ],
+          "max": [
+            11.5062065,
+            12.298412,
+            28.395008
+          ],
+          "normalType": 4,
+          "voxels": 1360
+        }
+      ],
+      "frames": [
+        {
+          "direction": 0,
+          "degrees": 0,
+          "rect": [
+            0,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 327
+        },
+        {
+          "direction": 1,
+          "degrees": 11.25,
+          "rect": [
+            80,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 312
+        },
+        {
+          "direction": 2,
+          "degrees": 22.5,
+          "rect": [
+            160,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 310
+        },
+        {
+          "direction": 3,
+          "degrees": 33.75,
+          "rect": [
+            240,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 310
+        },
+        {
+          "direction": 4,
+          "degrees": 45,
+          "rect": [
+            320,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 295
+        },
+        {
+          "direction": 5,
+          "degrees": 56.25,
+          "rect": [
+            400,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 283
+        },
+        {
+          "direction": 6,
+          "degrees": 67.5,
+          "rect": [
+            480,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 278
+        },
+        {
+          "direction": 7,
+          "degrees": 78.75,
+          "rect": [
+            560,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 283
+        },
+        {
+          "direction": 8,
+          "degrees": 90,
+          "rect": [
+            0,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 271
+        },
+        {
+          "direction": 9,
+          "degrees": 101.25,
+          "rect": [
+            80,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 279
+        },
+        {
+          "direction": 10,
+          "degrees": 112.5,
+          "rect": [
+            160,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 279
+        },
+        {
+          "direction": 11,
+          "degrees": 123.75,
+          "rect": [
+            240,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 285
+        },
+        {
+          "direction": 12,
+          "degrees": 135,
+          "rect": [
+            320,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 296
+        },
+        {
+          "direction": 13,
+          "degrees": 146.25,
+          "rect": [
+            400,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 306
+        },
+        {
+          "direction": 14,
+          "degrees": 157.5,
+          "rect": [
+            480,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 317
+        },
+        {
+          "direction": 15,
+          "degrees": 168.75,
+          "rect": [
+            560,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 318
+        },
+        {
+          "direction": 16,
+          "degrees": 180,
+          "rect": [
+            0,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 331
+        },
+        {
+          "direction": 17,
+          "degrees": 191.25,
+          "rect": [
+            80,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 342
+        },
+        {
+          "direction": 18,
+          "degrees": 202.5,
+          "rect": [
+            160,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 348
+        },
+        {
+          "direction": 19,
+          "degrees": 213.75,
+          "rect": [
+            240,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 360
+        },
+        {
+          "direction": 20,
+          "degrees": 225,
+          "rect": [
+            320,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 361
+        },
+        {
+          "direction": 21,
+          "degrees": 236.25,
+          "rect": [
+            400,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 363
+        },
+        {
+          "direction": 22,
+          "degrees": 247.5,
+          "rect": [
+            480,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 359
+        },
+        {
+          "direction": 23,
+          "degrees": 258.75,
+          "rect": [
+            560,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 362
+        },
+        {
+          "direction": 24,
+          "degrees": 270,
+          "rect": [
+            0,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 337
+        },
+        {
+          "direction": 25,
+          "degrees": 281.25,
+          "rect": [
+            80,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 356
+        },
+        {
+          "direction": 26,
+          "degrees": 292.5,
+          "rect": [
+            160,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 358
+        },
+        {
+          "direction": 27,
+          "degrees": 303.75,
+          "rect": [
+            240,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 356
+        },
+        {
+          "direction": 28,
+          "degrees": 315,
+          "rect": [
+            320,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 365
+        },
+        {
+          "direction": 29,
+          "degrees": 326.25,
+          "rect": [
+            400,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 362
+        },
+        {
+          "direction": 30,
+          "degrees": 337.5,
+          "rect": [
+            480,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 354
+        },
+        {
+          "direction": 31,
+          "degrees": 348.75,
+          "rect": [
+            560,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 340
+        }
+      ]
+    },
+    {
+      "name": "barrel",
+      "source": "mtnkbarl.vxl",
+      "sourceSha256": "fba8930030b65873227b4e1bab29af286f0ab588ddac6ae2a4e6e73f53050822",
+      "hva": "mtnkbarl.hva",
+      "hvaSha256": "7b89493e80659f917c4785849ad14e0e550283323b8f0149a4b571db76b528fa",
+      "identityPose": false,
+      "png": "apocalypse.barrel.png",
+      "indicesPng": "apocalypse.barrel.indices.png",
+      "indicesRaw": "apocalypse.barrel.indices.bin",
+      "normalsPng": "apocalypse.barrel.normals.png",
+      "normalsRaw": "apocalypse.barrel.normals.bin",
+      "teamPng": "apocalypse.barrel.team.png",
+      "teamRaw": "apocalypse.barrel.team.bin",
+      "alphaRaw": "apocalypse.barrel.alpha.bin",
+      "limbs": [
+        {
+          "name": "DUMMY01",
+          "size": [
+            27,
+            12,
+            3
+          ],
+          "scale": 0.083333336,
+          "min": [
+            7.6464586,
+            -5.5439277,
+            14.028087
+          ],
+          "max": [
+            33.88336,
+            5.728433,
+            16.870064
+          ],
+          "normalType": 4,
+          "voxels": 443
+        }
+      ],
+      "frames": [
+        {
+          "direction": 0,
+          "degrees": 0,
+          "rect": [
+            0,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 163
+        },
+        {
+          "direction": 1,
+          "degrees": 11.25,
+          "rect": [
+            80,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 194
+        },
+        {
+          "direction": 2,
+          "degrees": 22.5,
+          "rect": [
+            160,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 188
+        },
+        {
+          "direction": 3,
+          "degrees": 33.75,
+          "rect": [
+            240,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 180
+        },
+        {
+          "direction": 4,
+          "degrees": 45,
+          "rect": [
+            320,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 158
+        },
+        {
+          "direction": 5,
+          "degrees": 56.25,
+          "rect": [
+            400,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 149
+        },
+        {
+          "direction": 6,
+          "degrees": 67.5,
+          "rect": [
+            480,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 131
+        },
+        {
+          "direction": 7,
+          "degrees": 78.75,
+          "rect": [
+            560,
+            0,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 120
+        },
+        {
+          "direction": 8,
+          "degrees": 90,
+          "rect": [
+            0,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 106
+        },
+        {
+          "direction": 9,
+          "degrees": 101.25,
+          "rect": [
+            80,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 120
+        },
+        {
+          "direction": 10,
+          "degrees": 112.5,
+          "rect": [
+            160,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 135
+        },
+        {
+          "direction": 11,
+          "degrees": 123.75,
+          "rect": [
+            240,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 148
+        },
+        {
+          "direction": 12,
+          "degrees": 135,
+          "rect": [
+            320,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 168
+        },
+        {
+          "direction": 13,
+          "degrees": 146.25,
+          "rect": [
+            400,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 172
+        },
+        {
+          "direction": 14,
+          "degrees": 157.5,
+          "rect": [
+            480,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 186
+        },
+        {
+          "direction": 15,
+          "degrees": 168.75,
+          "rect": [
+            560,
+            56,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 193
+        },
+        {
+          "direction": 16,
+          "degrees": 180,
+          "rect": [
+            0,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 185
+        },
+        {
+          "direction": 17,
+          "degrees": 191.25,
+          "rect": [
+            80,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 194
+        },
+        {
+          "direction": 18,
+          "degrees": 202.5,
+          "rect": [
+            160,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 187
+        },
+        {
+          "direction": 19,
+          "degrees": 213.75,
+          "rect": [
+            240,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 179
+        },
+        {
+          "direction": 20,
+          "degrees": 225,
+          "rect": [
+            320,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 166
+        },
+        {
+          "direction": 21,
+          "degrees": 236.25,
+          "rect": [
+            400,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 150
+        },
+        {
+          "direction": 22,
+          "degrees": 247.5,
+          "rect": [
+            480,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 132
+        },
+        {
+          "direction": 23,
+          "degrees": 258.75,
+          "rect": [
+            560,
+            112,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 118
+        },
+        {
+          "direction": 24,
+          "degrees": 270,
+          "rect": [
+            0,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 106
+        },
+        {
+          "direction": 25,
+          "degrees": 281.25,
+          "rect": [
+            80,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 115
+        },
+        {
+          "direction": 26,
+          "degrees": 292.5,
+          "rect": [
+            160,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 133
+        },
+        {
+          "direction": 27,
+          "degrees": 303.75,
+          "rect": [
+            240,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 150
+        },
+        {
+          "direction": 28,
+          "degrees": 315,
+          "rect": [
+            320,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 160
+        },
+        {
+          "direction": 29,
+          "degrees": 326.25,
+          "rect": [
+            400,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 178
+        },
+        {
+          "direction": 30,
+          "degrees": 337.5,
+          "rect": [
+            480,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 190
+        },
+        {
+          "direction": 31,
+          "degrees": 348.75,
+          "rect": [
+            560,
+            168,
+            80,
+            56
+          ],
+          "anchor": [
+            39,
+            36
+          ],
+          "opaquePixels": 192
+        }
+      ]
+    }
+  ]
+}

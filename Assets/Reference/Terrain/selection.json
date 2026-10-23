@@ -1,0 +1,53 @@
+{
+  "schema": 1,
+  "evidence": {
+    "map": "Assets/Reference/Terrain/Maps/2_malibu_cliffs_le.map",
+    "mapSha256": "fd5e3a89c058c53bee7861e97eb7effc3756fccf053929f65bfa2cf57829919c",
+    "rules": "Assets/Reference/Visual/Metadata/rules.ini",
+    "method": "Independent LCW decoding of original OverlayPack and OverlayDataPack, each 32 blocks / 262144 decoded bytes. OverlayTypes IDs are zero-based enumeration order, not the INI numeric keys. Decoded by effects teammate; no original game implementation copied."
+  },
+  "lowBridge": {
+    "X": {
+      "axis": "X",
+      "crossLaneCount": 3,
+      "drawCrossLane": 1,
+      "spanRepeatLength": 1,
+      "start": { "template": "lobrdg21", "frame": 1, "overlayTypeId": 94 },
+      "middle": [
+        { "template": "lobrdg01", "frame": 1 },
+        { "template": "lobrdg02", "frame": 1 },
+        { "template": "lobrdg03", "frame": 1 },
+        { "template": "lobrdg04", "frame": 1 }
+      ],
+      "end": { "template": "lobrdg19", "frame": 1, "overlayTypeId": 92 },
+      "sourceMapRun": { "minX": 44, "maxX": 53, "minY": 86, "maxY": 88 },
+      "sourceMapOverlayDataByCrossLane": [0, 1, 2],
+      "placement": "Place one entire native sprite per longitudinal X cell at tile(x, bridgeOriginY+1), never once per lane. Use the selected template's derived deck-plane anchor (90,35) relative to the projected tile top vertex; the original canvas-center convention (90,45) is retained separately as nativeCanvasCenterAnchor."
+    },
+    "Y": {
+      "axis": "Y",
+      "crossLaneCount": 3,
+      "drawCrossLane": 1,
+      "spanRepeatLength": 1,
+      "start": { "template": "lobrdg23", "frame": 1, "overlayTypeId": 96 },
+      "middle": [
+        { "template": "lobrdg10", "frame": 1 },
+        { "template": "lobrdg11", "frame": 1 },
+        { "template": "lobrdg12", "frame": 1 },
+        { "template": "lobrdg13", "frame": 1 }
+      ],
+      "end": { "template": "lobrdg25", "frame": 1, "overlayTypeId": 98 },
+      "sourceMapRun": { "minX": 149, "maxX": 151, "minY": 118, "maxY": 128 },
+      "sourceMapOverlayDataByCrossLane": [0, 1, 2],
+      "placement": "Place one entire native sprite per longitudinal Y cell at tile(bridgeOriginX+1,y), never once per lane. Use the selected template's derived deck-plane anchor (90,35) relative to the projected tile top vertex; the original canvas-center convention (90,45) is retained separately as nativeCanvasCenterAnchor."
+    }
+  },
+  "excluded": {
+    "wbrdge01": "Ford / stepping stones, not a railed low bridge.",
+    "wbrdge02": "Ford / stepping stones, not a railed low bridge.",
+    "ovrps": "High overpass with original level-four deck and substantial supports, not compatible with a level-zero low bridge.",
+    "lobrdge": "Not the bridge endpoints used by the verified map runs.",
+    "lobrdg27": "All original SHP frames empty.",
+    "lobrdg28": "All original SHP frames empty."
+  }
+}

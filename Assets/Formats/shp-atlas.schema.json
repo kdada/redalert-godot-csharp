@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:redalert-godot-csharp:asset-manifest:1",
+  "title": "TS/RA2 SHP export manifest v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "format", "sourceFile", "sourceSha256", "canvasWidth", "canvasHeight", "layout", "shadowLayout", "shadowAlpha", "transparentIndex", "coordinates", "teamMask", "palette", "images", "frames"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "format": { "const": "shp-ts-ra2" },
+    "sourceFile": { "type": "string" },
+    "sourceSha256": { "$ref": "#/$defs/hash" },
+    "canvasWidth": { "type": "integer", "minimum": 1, "maximum": 65535 },
+    "canvasHeight": { "type": "integer", "minimum": 1, "maximum": 65535 },
+    "layout": { "enum": ["atlas", "frames"] },
+    "shadowLayout": { "enum": ["unspecified", "second-half"] },
+    "shadowAlpha": { "$ref": "#/$defs/byte" },
+    "transparentIndex": { "$ref": "#/$defs/byte" },
+    "coordinates": { "type": "string" },
+    "teamMask": {
+      "type": "object", "additionalProperties": false,
+      "required": ["firstIndex", "lastIndex", "encoding"],
+      "properties": {
+        "firstIndex": { "const": 16 }, "lastIndex": { "const": 31 }, "encoding": { "type": "string" }
+      }
+    },
+    "palette": {
+      "type": "object", "additionalProperties": false,
+      "required": ["sourceFile", "sha256", "componentBits", "expansion", "rawRgbBase64", "colors"],
+      "properties": {
+        "sourceFile": { "type": "string" },
+        "sha256": { "$ref": "#/$defs/hash" },
+        "componentBits": { "enum": [6, 8] },
+        "expansion": { "type": "string" },
+        "rawRgbBase64": { "type": "string", "contentEncoding": "base64", "minLength": 1024, "maxLength": 1024 },
+        "colors": {
+          "type": "array", "minItems": 256, "maxItems": 256,
+          "items": {
+            "type": "object", "additionalProperties": false, "required": ["r", "g", "b"],
+            "properties": { "r": { "$ref": "#/$defs/byte" }, "g": { "$ref": "#/$defs/byte" }, "b": { "$ref": "#/$defs/byte" } }
+          }
+        }
+      }
+    },
+    "images": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["color", "indices", "teamMask", "width", "height"],
+        "properties": {
+          "color": { "type": "string" }, "indices": { "type": "string" }, "teamMask": { "type": "string" },
+          "width": { "type": "integer", "minimum": 1 }, "height": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "frames": {
+      "type": "array", "minItems": 1, "maxItems": 65535,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["index", "sourceRect", "centerOffset", "compression", "dataOffset", "encodedLength", "hasData", "reservedHeaderBase64", "role", "pairedFrame", "imageSet", "imageRect", "indicesSha256"],
+        "properties": {
+          "index": { "$ref": "#/$defs/nonnegative" },
+          "sourceRect": { "$ref": "#/$defs/rect" },
+          "centerOffset": {
+            "type": "object", "additionalProperties": false, "required": ["x", "y"],
+            "properties": { "x": { "type": "number" }, "y": { "type": "number" } }
+          },
+          "compression": { "type": "integer", "minimum": 0, "maximum": 3 },
+          "dataOffset": { "type": "integer", "minimum": 0, "maximum": 4294967295 },
+          "encodedLength": { "$ref": "#/$defs/nonnegative" },
+          "hasData": { "type": "boolean" },
+          "reservedHeaderBase64": { "type": "string", "contentEncoding": "base64", "minLength": 16, "maxLength": 16 },
+          "role": { "enum": ["unspecified", "color", "shadow"] },
+          "pairedFrame": { "type": ["integer", "null"], "minimum": 0 },
+          "imageSet": { "$ref": "#/$defs/nonnegative" },
+          "imageRect": { "$ref": "#/$defs/rect" },
+          "indicesSha256": { "$ref": "#/$defs/hash" }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "byte": { "type": "integer", "minimum": 0, "maximum": 255 },
+    "nonnegative": { "type": "integer", "minimum": 0 },
+    "hash": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+    "rect": {
+      "type": "object", "additionalProperties": false, "required": ["x", "y", "width", "height"],
+      "properties": {
+        "x": { "$ref": "#/$defs/nonnegative" }, "y": { "$ref": "#/$defs/nonnegative" },
+        "width": { "$ref": "#/$defs/nonnegative" }, "height": { "$ref": "#/$defs/nonnegative" }
+      }
+    }
+  }
+}

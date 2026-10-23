@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "format": "shp-ts-ra2",
+  "sourceSha256": "2a3be67588e7829f3b9880e63ae743675a61230231a5c7aadc672d2982976095",
+  "canvasWidth": 180,
+  "canvasHeight": 120,
+  "frames": [
+    {
+      "index": 0,
+      "sourceRect": {
+        "x": 30,
+        "y": 24,
+        "width": 120,
+        "height": 65
+      },
+      "centerOffset": {
+        "x": 0.0,
+        "y": -3.5
+      },
+      "compression": 3,
+      "dataOffset": 56,
+      "hasData": true,
+      "role": "unspecified",
+      "indicesSha256": "7fc7b20aafc1f2a8fa9d16422829e82d6be8a006d4f3f7cb13600918805a8acb",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 0,
+        "y": 0,
+        "width": 120,
+        "height": 65
+      }
+    },
+    {
+      "index": 1,
+      "sourceRect": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      },
+      "centerOffset": {
+        "x": -90.0,
+        "y": -60.0
+      },
+      "compression": 3,
+      "dataOffset": 0,
+      "hasData": false,
+      "role": "unspecified",
+      "indicesSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "imageSet": 0,
+      "imageRect": {
+        "x": 120,
+        "y": 0,
+        "width": 0,
+        "height": 0
+      }
+    }
+  ],
+  "images": [
+    {
+      "color": "atlas.png",
+      "width": 240,
+      "height": 65
+    }
+  ],
+  "notes": [
+    "Unused zero-offset frames retain their original headers, including compression 4; no pixels exist to decode.",
+    "Only populated format-3 frames are decoded, preserving palette indices and native canvas coordinates."
+  ]
+}

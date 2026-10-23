@@ -1,0 +1,2282 @@
+{
+  "schema": 1,
+  "sources": {
+    "rulesSha256": "fd1e95cea0306ea78049dc81c8cd816e18c28c496872a1ff02edd50bd082062f",
+    "artSha256": "b477f861063a9509e87b7836b78190204c73bea5ea5595a842c456f5920ea223"
+  },
+  "units": {
+    "E1": {
+      "art": {
+        "Cameo": "GIICON",
+        "AltCameo": "GIUICO",
+        "Sequence": "GISequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "2",
+        "PrimaryFireFLH": "80,0,105"
+      },
+      "rules": {
+        "IFVMode": "2"
+      },
+      "buildingArtOffsets": {}
+    },
+    "E2": {
+      "art": {
+        "Cameo": "E2ICON",
+        "AltCameo": "E2UICO",
+        "Sequence": "ConSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "60,0,100"
+      },
+      "rules": {
+        "IFVMode": "2"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SHK": {
+      "art": {
+        "Cameo": "SHKICON",
+        "AltCameo": "SHKUICO",
+        "Sequence": "ConSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "2",
+        "PrimaryFireFLH": "100,-25,135",
+        "SecondaryFireFLH": "100,-25,135"
+      },
+      "rules": {
+        "IFVMode": "6"
+      },
+      "buildingArtOffsets": {}
+    },
+    "ENGINEER": {
+      "art": {
+        "Cameo": "ENGNICON",
+        "AltCameo": "ENGNUICO",
+        "Sequence": "EngineerSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "2"
+      },
+      "rules": {
+        "IFVMode": "1"
+      },
+      "buildingArtOffsets": {}
+    },
+    "JUMPJET": {
+      "art": {
+        "Cameo": "JJETICON",
+        "AltCameo": "JJETUICO",
+        "Sequence": "RocketeerSequence",
+        "Crawls": "no",
+        "Remapable": "yes",
+        "FireUp": "2",
+        "PrimaryFireFLH": "100,0,120"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "YURI": {
+      "art": {
+        "Cameo": "YURIICON",
+        "AltCameo": "YURIUICO",
+        "Sequence": "YuriSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "15,0,140",
+        "SecondaryFireFLH": "15,0,140"
+      },
+      "rules": {
+        "IFVMode": "8"
+      },
+      "buildingArtOffsets": {}
+    },
+    "IVAN": {
+      "art": {
+        "Cameo": "IVANICON",
+        "Sequence": "IvanSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "80,0,85"
+      },
+      "rules": {
+        "IFVMode": "7"
+      },
+      "buildingArtOffsets": {}
+    },
+    "DESO": {
+      "art": {
+        "Cameo": "DESOICON",
+        "AltCameo": "DESOUICO",
+        "Sequence": "DesoSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "2",
+        "PrimaryFireFLH": "100,-25,135"
+      },
+      "rules": {
+        "IFVMode": "9"
+      },
+      "buildingArtOffsets": {}
+    },
+    "DOG": {
+      "art": {
+        "Cameo": "DOGICON",
+        "AltCameo": "DOGUICO",
+        "Sequence": "DogSequence",
+        "Crawls": "no",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "0,0,0"
+      },
+      "rules": {
+        "IFVMode": "0"
+      },
+      "buildingArtOffsets": {}
+    },
+    "CLEG": {
+      "art": {
+        "Cameo": "CLEGICON",
+        "AltCameo": "CLEGUICO",
+        "Sequence": "ClegSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "2",
+        "PrimaryFireFLH": "100,-25,135"
+      },
+      "rules": {
+        "IFVMode": "10"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SPY": {
+      "art": {
+        "Cameo": "SPYICON",
+        "Sequence": "SpySequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "1"
+      },
+      "rules": {
+        "IFVMode": "2"
+      },
+      "buildingArtOffsets": {}
+    },
+    "CCOMAND": {
+      "art": {
+        "Sequence": "ComandoSequence",
+        "Cameo": "CCOMICON",
+        "AltCameo": "CCOMUICO",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "3",
+        "PrimaryFireFLH": "100,0,100"
+      },
+      "rules": {
+        "IFVMode": "4"
+      },
+      "buildingArtOffsets": {}
+    },
+    "PTROOP": {
+      "art": {
+        "Cameo": "PSICICON",
+        "AltCameo": "PSICUICO",
+        "Sequence": "PsiTroopSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "15,0,140"
+      },
+      "rules": {
+        "IFVMode": "4"
+      },
+      "buildingArtOffsets": {}
+    },
+    "CIVAN": {
+      "art": {
+        "Cameo": "IVNCICON",
+        "Sequence": "CIvanSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "80,0,85"
+      },
+      "rules": {
+        "IFVMode": "7"
+      },
+      "buildingArtOffsets": {}
+    },
+    "YURIPR": {
+      "art": {
+        "Cameo": "YURPICON",
+        "AltCameo": "YURPUICO",
+        "Sequence": "YuriPrSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "10,0,195",
+        "SecondaryFireFLH": "10,0,195"
+      },
+      "rules": {
+        "IFVMode": "8"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SNIPE": {
+      "art": {
+        "Cameo": "SNIPICON",
+        "AltCameo": "SNIPUICO",
+        "Sequence": "ConSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "5",
+        "PrimaryFireFLH": "80,0,85"
+      },
+      "rules": {
+        "IFVMode": "5"
+      },
+      "buildingArtOffsets": {}
+    },
+    "TANY": {
+      "art": {
+        "Sequence": "TanyaSequence",
+        "Cameo": "TANYICON",
+        "AltCameo": "TANYUICO",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "3",
+        "PrimaryFireFLH": "100,0,100"
+      },
+      "rules": {
+        "IFVMode": "4"
+      },
+      "buildingArtOffsets": {}
+    },
+    "FLAKT": {
+      "art": {
+        "Cameo": "FLKTICON",
+        "AltCameo": "FLKTUICO",
+        "Sequence": "FlakSequence",
+        "Crawls": "no",
+        "Remapable": "yes",
+        "FireUp": "3",
+        "PrimaryFireFLH": "90,0,175",
+        "SecondaryFireFLH": "90,0,175"
+      },
+      "rules": {
+        "IFVMode": "3"
+      },
+      "buildingArtOffsets": {}
+    },
+    "TERROR": {
+      "art": {
+        "Cameo": "TRSTICON",
+        "AltCameo": "TRSTUICO",
+        "Sequence": "TerroristSequence",
+        "Crawls": "no",
+        "Remapable": "yes",
+        "FireUp": "1"
+      },
+      "rules": {
+        "IFVMode": "11"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SENGINEER": {
+      "art": {
+        "Cameo": "ENGNICON",
+        "AltCameo": "ENGNUICO",
+        "Sequence": "EngineerSequence",
+        "Crawls": "yes",
+        "Remapable": "yes",
+        "FireUp": "2"
+      },
+      "rules": {
+        "IFVMode": "1"
+      },
+      "buildingArtOffsets": {}
+    },
+    "ADOG": {
+      "art": {
+        "Cameo": "ADOGICON",
+        "AltCameo": "ADOGUICO",
+        "Sequence": "DogSequence",
+        "Crawls": "no",
+        "Remapable": "yes",
+        "FireUp": "6",
+        "PrimaryFireFLH": "0,0,0"
+      },
+      "rules": {
+        "IFVMode": "0"
+      },
+      "buildingArtOffsets": {}
+    },
+    "AMCV": {
+      "art": {
+        "Cameo": "MCVICON",
+        "Remapable": "yes",
+        "Voxel": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "HARV": {
+      "art": {
+        "Cameo": "HARVICON",
+        "AltCameo": "HARVUICO",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "TurretOffset": "50",
+        "PrimaryFireFLH": "75,0,150"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {}
+    },
+    "APOC": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "MTNKICON",
+        "AltCameo": "MTNKUICO",
+        "PrimaryFireFLH": "190,25,120"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {}
+    },
+    "HTNK": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "HTNKICON",
+        "AltCameo": "HTNKUICO",
+        "PrimaryFireFLH": "150,0,100"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SAPC": {
+      "art": {
+        "Cameo": "SAPCICON",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "80,0,120"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "MTNK": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "GTNKICON",
+        "AltCameo": "GTNKUICO",
+        "PrimaryFireFLH": "150,0,100"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {}
+    },
+    "CARRIER": {
+      "art": {
+        "Cameo": "CARRICON",
+        "Voxel": "yes",
+        "Remapable": "yes"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "V3": {
+      "art": {
+        "Cameo": "V3ICON",
+        "AltCameo": "V3UICO",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "-160,0,75"
+      },
+      "rules": {
+        "NoSpawnAlt": "yes",
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "ZEP": {
+      "art": {
+        "Cameo": "ZEPICON",
+        "AltCameo": "ZEPUICO",
+        "Voxel": "yes",
+        "PrimaryFireFLH": "-50,0,-140"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "DRON": {
+      "art": {
+        "Voxel": "no",
+        "Remapable": "yes",
+        "Cameo": "DRONICON",
+        "PrimaryFireFLH": "0,0,30",
+        "WalkFrames": "6",
+        "FiringFrames": "4"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "HTK": {
+      "art": {
+        "Cameo": "HTKICON",
+        "AltCameo": "HTKUICO",
+        "Voxel": "yes",
+        "TurretOffset": "-80",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "65,0,220"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {}
+    },
+    "DEST": {
+      "art": {
+        "Cameo": "desticon",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "280,0,120"
+      },
+      "rules": {
+        "NoSpawnAlt": "yes",
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SUB": {
+      "art": {
+        "Cameo": "SubICON",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "150,0,0"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "AEGIS": {
+      "art": {
+        "Cameo": "AGISICON",
+        "Voxel": "yes",
+        "Remapable": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "LCRF": {
+      "art": {
+        "Cameo": "LANDICON",
+        "Voxel": "yes",
+        "Remapable": "yes"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "DRED": {
+      "art": {
+        "Cameo": "DREDICON",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "30,43,92"
+      },
+      "rules": {
+        "NoSpawnAlt": "yes",
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SHAD": {
+      "art": {
+        "Cameo": "SHADICON",
+        "AltCameo": "SHADUICO",
+        "Voxel": "yes",
+        "DisableVoxelCache": "yes",
+        "DisableShadowCache": "yes",
+        "Remapable": "yes",
+        "TurretOffset": "50",
+        "PrimaryFireFLH": "175,0,10",
+        "ShadowIndex": "2"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "SQD": {
+      "art": {
+        "Voxel": "no",
+        "Remapable": "yes",
+        "Cameo": "SQDICON",
+        "WalkFrames": "20",
+        "FiringFrames": "16"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "DLPH": {
+      "art": {
+        "Cameo": "DLPHICON",
+        "Voxel": "no",
+        "Remapable": "yes",
+        "WalkFrames": "6",
+        "FiringFrames": "6"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "SMCV": {
+      "art": {
+        "Cameo": "SMCVICON",
+        "Remapable": "yes",
+        "Voxel": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "TNKD": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "TNKDICON",
+        "AltCameo": "TNKDUICO",
+        "PrimaryFireFLH": "200,0,55"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "TTNK": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "TTNKICON",
+        "AltCameo": "TTNKUICO",
+        "PrimaryFireFLH": "60,0,100",
+        "ElitePrimaryFireFLH": "60,0,100"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {}
+    },
+    "CMIN": {
+      "art": {
+        "Cameo": "AHRVICON",
+        "Voxel": "yes",
+        "Remapable": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "SREF": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "SREFICON",
+        "AltCameo": "SREFUICO",
+        "Weapon1FLH": "48,0,184"
+      },
+      "rules": {
+        "Turret": "yes",
+        "TurretCount": "4",
+        "IsChargeTurret": "true"
+      },
+      "buildingArtOffsets": {}
+    },
+    "HYD": {
+      "art": {
+        "Cameo": "HOVRICON",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "65,0,180",
+        "SecondaryFireFLH": "65,0,180"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "MGTK": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "RTNKICON",
+        "AltCameo": "RTNKUICO",
+        "PrimaryFireFLH": "130,0,80"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "FV": {
+      "art": {
+        "Cameo": "FVICON",
+        "AltCameo": "FVUICO",
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Weapon1FLH": "64,48,180",
+        "Weapon2FLH": "88,0,176",
+        "Weapon3FLH": "72,0,160",
+        "Weapon4FLH": "72,0,160",
+        "Weapon5FLH": "72,0,160",
+        "Weapon6FLH": "72,0,160",
+        "Weapon7FLH": "72,0,160",
+        "Weapon8FLH": "72,0,160",
+        "Weapon9FLH": "72,0,160",
+        "Weapon10FLH": "72,0,160",
+        "Weapon11FLH": "72,0,160",
+        "Weapon12FLH": "72,0,160",
+        "Weapon13FLH": "72,0,160"
+      },
+      "rules": {
+        "Turret": "yes",
+        "TurretCount": "4"
+      },
+      "buildingArtOffsets": {}
+    },
+    "DTRUCK": {
+      "art": {
+        "Voxel": "yes",
+        "Cameo": "TRKAICON",
+        "Remapable": "yes",
+        "PrimaryFireFLH": "40,32,96",
+        "SecondaryFireFLH": "-32,80,120",
+        "PBarrelLength": "192"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {}
+    },
+    "ORCA": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "FALCICON",
+        "AltCameo": "FALCUICO"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "BEAG": {
+      "art": {
+        "Voxel": "yes",
+        "Remapable": "yes",
+        "Cameo": "BEAGICON",
+        "AltCameo": "BEAGICON"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "HORNET": {
+      "art": {
+        "Cameo": "PROICON",
+        "Voxel": "yes",
+        "PrimaryFireFLH": "0,32,0"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "ASW": {
+      "art": {
+        "Cameo": "PROICON",
+        "Voxel": "yes",
+        "PrimaryFireFLH": "0,32,0"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "V3ROCKET": {
+      "art": {
+        "SpawnDelay": "2;1",
+        "Voxel": "yes",
+        "Remapable": "no",
+        "CanBeHidden": "no"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "DMISL": {
+      "art": {
+        "SpawnDelay": "2;1",
+        "Voxel": "yes",
+        "Remapable": "no",
+        "CanBeHidden": "no"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    }
+  },
+  "buildings": {
+    "GAPOWR": {
+      "art": {
+        "Normalized": "yes",
+        "Remapable": "yes",
+        "Cameo": "POWRICON",
+        "Foundation": "2x2",
+        "Buildup": "GAPOWRMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "Height": "4",
+        "ActiveAnim": "GAPOWR_A",
+        "ActiveAnimDamaged": "GAPOWR_AD",
+        "ActiveAnimZAdjust": "-32",
+        "ActiveAnimYSort": "362",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "DamageFireOffset0": "-20,32",
+        "DamageFireOffset1": "3,12"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -20,
+          32
+        ],
+        "DamageFireOffset1": [
+          3,
+          12
+        ]
+      }
+    },
+    "GAREFN": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "REFICON",
+        "Foundation": "4x3",
+        "Height": "4",
+        "ZShapePointMove": "30,15",
+        "Buildup": "GAREFNMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "BibShape": "GAREFNBB",
+        "QueueingCell": "4,1",
+        "NewTheater": "yes",
+        "ActiveAnim": "GAREFNL1",
+        "ActiveAnimZAdjust": "-40",
+        "ActiveAnimYSort": "724",
+        "ActiveAnimTwo": "GAREFNL2",
+        "ActiveAnimTwoZAdjust": "-40",
+        "ActiveAnimTwoYSort": "724",
+        "ActiveAnimThree": "GAREFNL3",
+        "ActiveAnimThreeZAdjust": "-40",
+        "ActiveAnimThreeYSort": "724",
+        "ActiveAnimFour": "GAREFNL4",
+        "ActiveAnimFourZAdjust": "-40",
+        "ActiveAnimFourYSort": "724",
+        "SpecialAnim": "GAREFNOR",
+        "SpecialAnimZAdjust": "-40",
+        "SpecialAnimYSort": "724",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,0",
+        "AddOccupy2": "-1,-1",
+        "RemoveOccupy1": "3,1",
+        "DamageFireOffset0": "-33,31",
+        "DamageFireOffset1": "-3,48"
+      },
+      "rules": {
+        "Refinery": "yes"
+      },
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          30,
+          15
+        ],
+        "QueueingCell": [
+          4,
+          1
+        ],
+        "DamageFireOffset0": [
+          -33,
+          31
+        ],
+        "DamageFireOffset1": [
+          -3,
+          48
+        ]
+      }
+    },
+    "GAPILE": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "BRRKICON",
+        "Foundation": "3x2",
+        "Buildup": "GAPILEMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "Height": "4",
+        "ActiveAnim": "GAPILE_A",
+        "ActiveAnimDamaged": "GAPILE_AD",
+        "ActiveAnimZAdjust": "-130",
+        "ActiveAnimPowered": "no",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,-1",
+        "DamageFireOffset0": "18,9",
+        "DamageFireOffset1": "42,55",
+        "CanBeHidden": "False"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          18,
+          9
+        ],
+        "DamageFireOffset1": [
+          42,
+          55
+        ]
+      }
+    },
+    "GADEPT": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "FIXICON",
+        "Foundation": "3x3",
+        "ZShapePointMove": "60,30",
+        "Height": "3",
+        "AnimActive": "0,7,2",
+        "Flat": "yes",
+        "Buildup": "GADEPTMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "BibShape": "GADEPTBB",
+        "SpecialAnim": "GADEPT_A",
+        "SpecialAnimDamaged": "GADEPT_AD",
+        "SpecialAnimZAdjust": "0",
+        "SpecialAnimYSort": "543",
+        "SpecialAnimTwo": "GADEPT_B",
+        "SpecialAnimTwoDamaged": "GADEPT_BD",
+        "SpecialAnimTwoZAdjust": "0",
+        "SpecialAnimTwoYSort": "543",
+        "SpecialAnimThree": "GADEPT_C",
+        "SpecialAnimThreeDamaged": "GADEPT_CD",
+        "SpecialAnimThreeZAdjust": "0",
+        "SpecialAnimThreeYSort": "543",
+        "IdleAnim": "GADEPT_D",
+        "IdleAnimDamaged": "GADEPT_DD",
+        "IdleAnimZAdjust": "0",
+        "IdleAnimYSort": "543",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,0",
+        "AddOccupy2": "-1,1",
+        "DamageFireOffset0": "-67,22"
+      },
+      "rules": {
+        "UnitRepair": "yes"
+      },
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          60,
+          30
+        ],
+        "DamageFireOffset0": [
+          -67,
+          22
+        ]
+      }
+    },
+    "GATECH": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "TECHICON",
+        "Height": "12",
+        "Foundation": "3x2",
+        "Buildup": "GATECHMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "GATECH_A",
+        "ActiveAnimDamaged": "GATECH_AD",
+        "ActiveAnimZAdjust": "-120",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "5",
+        "DamageFireOffset0": "-26,27",
+        "DamageFireOffset1": "-2,-57",
+        "DamageFireOffset2": "22,50"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -26,
+          27
+        ],
+        "DamageFireOffset1": [
+          -2,
+          -57
+        ],
+        "DamageFireOffset2": [
+          22,
+          50
+        ]
+      }
+    },
+    "GAWEAP": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "gwepicon",
+        "Foundation": "5x3",
+        "Height": "4",
+        "AnimActive": "0,1,0",
+        "ZShapePointMove": "30,15",
+        "Buildup": "GAWEAPMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "DeployingAnim": "GAWEAP_2",
+        "ActiveAnim": "GAWEAP_A",
+        "ActiveAnimDamaged": "GAWEAP_AD",
+        "ActiveAnimZAdjust": "-145",
+        "ActiveAnimYSort": "10",
+        "UnderDoorAnim": "GAWEAP_1",
+        "NewTheater": "yes",
+        "BibShape": "GAWEAPBB",
+        "ActiveAnimTwo": "GAWEAP_B",
+        "ActiveAnimTwoDamaged": "GAWEAP_BD",
+        "ActiveAnimTwoZAdjust": "-70",
+        "RoofDeployingAnim": "GAWEAP_3",
+        "UnderRoofDoorAnim": "GAWEAP_4",
+        "DamageFireOffset0": "-10,-10",
+        "DamageFireOffset1": "27,30",
+        "DamageFireOffset2": "0,70",
+        "OccupyHeight": "3",
+        "RemoveOccupy1": "0,-1",
+        "RemoveOccupy2": "1,-1",
+        "RemoveOccupy3": "2,-1",
+        "RemoveOccupy4": "3,-1",
+        "RemoveOccupy5": "2,0",
+        "RemoveOccupy6": "2,1",
+        "RemoveOccupy7": "3,1",
+        "RemoveOccupy8": "4,1",
+        "CanBeHidden": "False"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          30,
+          15
+        ],
+        "DamageFireOffset0": [
+          -10,
+          -10
+        ],
+        "DamageFireOffset1": [
+          27,
+          30
+        ],
+        "DamageFireOffset2": [
+          0,
+          70
+        ]
+      }
+    },
+    "NAPOWR": {
+      "art": {
+        "Normalized": "yes",
+        "Remapable": "yes",
+        "Cameo": "NPWRICON",
+        "Foundation": "3x2",
+        "Height": "3",
+        "Buildup": "NAPOWRMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "NAPOWR_A",
+        "ActiveAnimDamaged": "NAPOWR_AD",
+        "ActiveAnimZAdjust": "-5",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "DamageFireOffset0": "-12,30"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -12,
+          30
+        ]
+      }
+    },
+    "NATECH": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "NTCHICON",
+        "Foundation": "3x3",
+        "Buildup": "NATECHMK",
+        "Height": "8",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "AddOccupy1": "-2,-2",
+        "DamageFireOffset0": "-27,37",
+        "DamageFireOffset1": "24,25",
+        "DamageFireOffset2": "5,-13"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -27,
+          37
+        ],
+        "DamageFireOffset1": [
+          24,
+          25
+        ],
+        "DamageFireOffset2": [
+          5,
+          -13
+        ]
+      }
+    },
+    "NAHAND": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "HANDICON",
+        "Foundation": "2x2",
+        "Buildup": "NAHANDMK",
+        "Height": "9",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "CanHideThings": "true",
+        "CanBeHidden": "false",
+        "OccupyHeight": "4",
+        "AddOccupy1": "-3,-3",
+        "RemoveOccupy1": "-2,-1",
+        "RemoveOccupy2": "-1,-2",
+        "DamageFireOffset0": "-8,-7",
+        "DamageFireOffset1": "17,40"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -8,
+          -7
+        ],
+        "DamageFireOffset1": [
+          17,
+          40
+        ]
+      }
+    },
+    "GAWALL": {
+      "art": {
+        "Cameo": "WALLICON",
+        "Foundation": "1x1",
+        "ToOverlay": "GAWALL",
+        "DamageLevels": "3",
+        "NewTheater": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "NARADR": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "6",
+        "Cameo": "NRADICON",
+        "Foundation": "2x2",
+        "Buildup": "NARADRMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "NARADR_A",
+        "ActiveAnimDamaged": "NARADR_AD",
+        "ActiveAnimZAdjust": "-50",
+        "ActiveAnimYSort": "360",
+        "OccupyHeight": "5",
+        "CanBeHidden": "False",
+        "DamageFireOffset0": "-16,31",
+        "RemoveOccupy1": "-1,0",
+        "RemoveOccupy2": "-3,-3"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -16,
+          31
+        ]
+      }
+    },
+    "NAWEAP": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "NWEPICON",
+        "Foundation": "5x3",
+        "Height": "6",
+        "AnimActive": "0,1,0",
+        "ZShapePointMove": "30,15",
+        "Buildup": "NAWEAPMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "ActiveAnim": "NAWEAP_A",
+        "ActiveAnimZAdjust": "-80",
+        "DeployingAnim": "NAWEAP_2",
+        "DeployingAnimDamaged": "NAWEAP_2D",
+        "UnderDoorAnim": "NAWEAP_1",
+        "UnderDoorAnimDamaged": "NAWEAP_1D",
+        "UnderDoorAnimZAdjust": "-45",
+        "NewTheater": "yes",
+        "BibShape": "NAWEAPBB",
+        "RoofDeployingAnim": "NAWEAP_4",
+        "RoofDeployingAnimDamaged": "NAWEAP_4D",
+        "UnderRoofDoorAnim": "NAWEAP_3",
+        "UnderRoofDoorAnimDamaged": "NAWEAP_3D",
+        "OccupyHeight": "3",
+        "AddOccupy1": "-2,-1",
+        "RemoveOccupy1": "2,-2",
+        "RemoveOccupy2": "2,0",
+        "RemoveOccupy3": "2,1",
+        "RemoveOccupy4": "3,1",
+        "RemoveOccupy5": "4,1",
+        "CanBeHidden": "False",
+        "DamageFireOffset0": "-32,35",
+        "DamageFireOffset1": "31,74"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          30,
+          15
+        ],
+        "DamageFireOffset0": [
+          -32,
+          35
+        ],
+        "DamageFireOffset1": [
+          31,
+          74
+        ]
+      }
+    },
+    "NAREFN": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "NREFICON",
+        "Foundation": "4x3",
+        "Height": "6",
+        "ZShapePointMove": "30,15",
+        "Buildup": "NAREFNMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "BibShape": "NAREFNBB",
+        "QueueingCell": "4,1",
+        "NewTheater": "yes",
+        "ActiveAnim": "NAREFNL1",
+        "ActiveAnimZAdjust": "-5",
+        "ActiveAnimDamaged": "NAREFNL1D",
+        "ActiveAnimTwo": "NAREFNL2",
+        "ActiveAnimTwoZAdjust": "-5",
+        "ActiveAnimTwoDamaged": "NAREFNL2D",
+        "ActiveAnimThree": "NAREFNL3",
+        "ActiveAnimThreeZAdjust": "-5",
+        "ActiveAnimThreeDamaged": "NAREFNL3D",
+        "ActiveAnimFour": "NAREFNL4",
+        "ActiveAnimFourZAdjust": "-5",
+        "ActiveAnimFourDamaged": "NAREFNL4D",
+        "SpecialAnim": "NAREFNOR",
+        "SpecialAnimZAdjust": "-50",
+        "OccupyHeight": "4",
+        "CanBeHidden": "False",
+        "CanHideThings": "true",
+        "RemoveOccupy1": "0,-2",
+        "RemoveOccupy2": "1,-1",
+        "RemoveOccupy3": "1,-2",
+        "RemoveOccupy4": "2,-1",
+        "RemoveOccupy5": "-2,0",
+        "RemoveOccupy6": "-2,-1",
+        "RemoveOccupy7": "-2,-2",
+        "RemoveOccupy8": "3,1",
+        "DamageFireOffset0": "30,30"
+      },
+      "rules": {
+        "Refinery": "yes"
+      },
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          30,
+          15
+        ],
+        "QueueingCell": [
+          4,
+          1
+        ],
+        "DamageFireOffset0": [
+          30,
+          30
+        ]
+      }
+    },
+    "NAWALL": {
+      "art": {
+        "Cameo": "NWALICON",
+        "Foundation": "1x1",
+        "ToOverlay": "NAWALL",
+        "DamageLevels": "3",
+        "NewTheater": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {}
+    },
+    "NAPSIS": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "8",
+        "Cameo": "PSISICON",
+        "Foundation": "2x2",
+        "Buildup": "NAPSISMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "ActiveAnim": "NAPSIS_A",
+        "ActiveAnimDamaged": "NAPSIS_AD",
+        "ActiveAnimZAdjust": "-5",
+        "ActiveAnimYSort": "100",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-2,-2",
+        "AddOccupy2": "-3,-3",
+        "AddOccupy3": "-1,-1",
+        "DamageFireOffset0": "-23,34"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -23,
+          34
+        ]
+      }
+    },
+    "NALASR": {
+      "art": {
+        "Cameo": "PLTICON",
+        "Image": "NALASR",
+        "Remapable": "yes",
+        "Foundation": "1x1",
+        "Buildup": "NALASRMK",
+        "Height": "2",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "PrimaryFireFLH": "100,20,100",
+        "Recoilless": "yes",
+        "PBarrelLength": "200",
+        "PBarrelThickness": "48",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "DamageFireOffset0": "-5,15"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -5,
+          15
+        ]
+      }
+    },
+    "NASAM": {
+      "art": {
+        "Cameo": "SAMICON",
+        "Image": "NASAM",
+        "Remapable": "yes",
+        "Foundation": "1x1",
+        "Buildup": "NASAMMK",
+        "Height": "3",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "PrimaryFireFLH": "90,50,100",
+        "SecondaryFireFLH": "90,-50,100",
+        "NewTheater": "yes",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "DamageFireOffset0": "1,20"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          1,
+          20
+        ]
+      }
+    },
+    "GAYARD": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "10",
+        "Cameo": "ayaricon",
+        "Foundation": "4x4",
+        "Buildup": "GAYARDMK",
+        "DemandLoadBuildup": "true",
+        "IdleAnim": "GAYARD_A",
+        "IdleAnimDamaged": "GAYARD_AD",
+        "IdleAnimZAdjust": "-77",
+        "IdleAnimYSort": "543",
+        "IdleAnimPowered": "no",
+        "ActiveAnimThree": "GAYARD_C",
+        "ActiveAnimThreeDamaged": "GAYARD_CD",
+        "ActiveAnimThreeZAdjust": "-77",
+        "ActiveAnimThreeYSort": "543",
+        "ActiveAnimThreePowered": "no",
+        "ProductionAnim": "GAYARD_D",
+        "ProductionAnimDamaged": "GAYARD_DD",
+        "ProductionAnimZAdjust": "-77",
+        "ProductionAnimYSort": "543",
+        "SpecialAnim": "GAYARD_S1",
+        "SpecialAnimDamaged": "GAYARD_S1D",
+        "SpecialAnimZAdjust": "-77",
+        "SpecialAnimYSort": "543",
+        "SpecialAnimTwo": "GAYARD_S2",
+        "SpecialAnimTwoDamaged": "GAYARD_S2D",
+        "SpecialAnimTwoZAdjust": "-77",
+        "SpecialAnimTwoYSort": "543",
+        "SpecialAnimThree": "GAYARD_S3",
+        "SpecialAnimThreeDamaged": "GAYARD_S3D",
+        "SpecialAnimThreeZAdjust": "-77",
+        "SpecialAnimThreeYSort": "543",
+        "DockingOffset0": "384,-128,0",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "4",
+        "RemoveOccupy1": "-1,2",
+        "RemoveOccupy2": "-2,1",
+        "RemoveOccupy3": "2,-1",
+        "RemoveOccupy4": "1,-2",
+        "RemoveOccupy5": "-2,0",
+        "RemoveOccupy6": "0,-2",
+        "AddOccupy1": "-3,-2",
+        "AddOccupy2": "-3,-3",
+        "DamageFireOffset0": "-40,21",
+        "DamageFireOffset1": "-7,8",
+        "DamageFireOffset2": "32,36"
+      },
+      "rules": {
+        "UnitRepair": "yes"
+      },
+      "buildingArtOffsets": {
+        "DockingOffset0": [
+          384,
+          -128,
+          0
+        ],
+        "DamageFireOffset0": [
+          -40,
+          21
+        ],
+        "DamageFireOffset1": [
+          -7,
+          8
+        ],
+        "DamageFireOffset2": [
+          32,
+          36
+        ]
+      }
+    },
+    "NAIRON": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "6",
+        "Cameo": "IRONICON",
+        "Foundation": "3x3",
+        "Buildup": "NAIRONMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "SuperAnim": "NAIRON_A",
+        "SuperAnimDamaged": "NAIRON_AD",
+        "SuperAnimZAdjust": "-7",
+        "SuperAnimTwo": "NAIRON_F",
+        "SuperAnimTwoDamaged": "NAIRON_FD",
+        "SuperAnimTwoZAdjust": "-7",
+        "SuperAnimThree": "NAIRON_G",
+        "SuperAnimThreeDamaged": "NAIRON_GD",
+        "SuperAnimThreeZAdjust": "-7",
+        "SuperAnimFour": "NAIRON_H",
+        "SuperAnimFourDamaged": "NAIRON_HD",
+        "SuperAnimFourZAdjust": "-7",
+        "OccupyHeight": "2",
+        "CanBeHidden": "False",
+        "DamageFireOffset0": "-2,59"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -2,
+          59
+        ]
+      }
+    },
+    "NADEPT": {
+      "art": {
+        "Height": "6",
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "RFIXICON",
+        "Foundation": "4x3",
+        "ZShapePointMove": "65,35",
+        "AnimActive": "0,7,2",
+        "Flat": "yes",
+        "Buildup": "NADEPTMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "DockingOffset0": "128,0,0",
+        "BibShape": "NADEPTBB",
+        "IdleAnim": "NADEPT_B",
+        "IdleAnimDamaged": "NADEPT_BD",
+        "IdleAnimZAdjust": "-70",
+        "SpecialAnim": "NADEPT_C1",
+        "SpecialAnimZAdjust": "-70",
+        "SpecialAnimDamaged": "NADEPT_C4",
+        "SpecialAnimTwo": "NADEPT_C2",
+        "SpecialAnimTwoDamaged": "NADEPT_C5",
+        "SpecialAnimTwoZAdjust": "-70",
+        "SpecialAnimThree": "NADEPT_C3",
+        "SpecialAnimThreeDamaged": "NADEPT_C6",
+        "SpecialAnimThreeZAdjust": "-70",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,0",
+        "AddOccupy2": "-1,1",
+        "AddOccupy3": "-2,-1"
+      },
+      "rules": {
+        "UnitRepair": "yes"
+      },
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          65,
+          35
+        ],
+        "DockingOffset0": [
+          128,
+          0,
+          0
+        ]
+      }
+    },
+    "GACSPH": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "3",
+        "Cameo": "csphicon",
+        "Foundation": "4x3",
+        "Buildup": "GACSPHMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "SuperAnim": "GACSPH_E",
+        "SuperAnimDamaged": "GACSPH_ED",
+        "SuperAnimZAdjust": "-20",
+        "SuperAnimYSort": "724",
+        "SuperAnimTwo": "GACSPH_F",
+        "SuperAnimTwoDamaged": "GACSPH_FD",
+        "SuperAnimTwoZAdjust": "-20",
+        "SuperAnimTwoYSort": "724",
+        "SuperAnimThree": "GACSPH_G",
+        "SuperAnimThreeDamaged": "GACSPH_GD",
+        "SuperAnimThreeZAdjust": "-20",
+        "SuperAnimThreeYSort": "724",
+        "SuperAnimFour": "GACSPH_H",
+        "SuperAnimFourDamaged": "GACSPH_HD",
+        "SuperAnimFourZAdjust": "-20",
+        "SuperAnimFourYSort": "724",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,0",
+        "DamageFireOffset0": "-19,50"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -19,
+          50
+        ]
+      }
+    },
+    "GAWEAT": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "5",
+        "Cameo": "wethicon",
+        "Foundation": "3x3",
+        "Buildup": "GAWETHMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "SuperAnim": "GAWETH_E",
+        "SuperAnimDamaged": "GAWETH_ED",
+        "SuperAnimZAdjust": "-20",
+        "SuperAnimYSort": "543",
+        "SuperAnimTwo": "GAWETH_F",
+        "SuperAnimTwoDamaged": "GAWETH_FD",
+        "SuperAnimTwoZAdjust": "-20",
+        "SuperAnimTwoYSort": "543",
+        "SuperAnimThree": "GAWETH_G",
+        "SuperAnimThreeDamaged": "GAWETH_GD",
+        "SuperAnimThreeZAdjust": "-20",
+        "SuperAnimThreeYSort": "543",
+        "SuperAnimFour": "GAWETH_H",
+        "SuperAnimFourDamaged": "GAWETH_HD",
+        "SuperAnimFourZAdjust": "-20",
+        "SuperAnimFourYSort": "543",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,0",
+        "AddOccupy2": "-1,-1",
+        "AddOccupy3": "0,-1",
+        "DamageFireOffset0": "2,50",
+        "DamageFireOffset1": "38,63"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          2,
+          50
+        ],
+        "DamageFireOffset1": [
+          38,
+          63
+        ]
+      }
+    },
+    "TESLA": {
+      "art": {
+        "Cameo": "TSLAICON",
+        "Image": "NATSLA",
+        "Remapable": "no",
+        "Foundation": "1x1",
+        "Height": "5",
+        "Buildup": "NATSLAMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "PrimaryFireFLH": "50,0,300",
+        "SecondaryFireFLH": "50,0,300",
+        "NewTheater": "yes",
+        "ActiveAnim": "NATSLA_A",
+        "ActiveAnimDamaged": "NATSLA_AD",
+        "ActiveAnimZAdjust": "-100",
+        "ActiveAnimPowered": "no",
+        "ActiveAnimPoweredLight": "yes",
+        "SpecialAnim": "NATSLA_B",
+        "SpecialAnimDamaged": "NATSLA_BD",
+        "SpecialAnimZAdjust": "-101",
+        "SpecialAnimPowered": "no",
+        "SpecialAnimPoweredLight": "yes",
+        "IsAnimDelayedFire": "yes",
+        "DelayedFireDelay": "28",
+        "CanBeHidden": "False",
+        "OccupyHeight": "4",
+        "DamageFireOffset0": "0,14"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          0,
+          14
+        ]
+      }
+    },
+    "NAMISL": {
+      "art": {
+        "Cameo": "MSSLICON",
+        "Image": "NAMISL",
+        "Remapable": "yes",
+        "Foundation": "3x3",
+        "Buildup": "NAMISLMK",
+        "Height": "8",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "PrimaryFirePixelOffset": "0,44",
+        "SuperAnim": "NAMISL_E",
+        "SuperAnimYSort": "543",
+        "SuperAnimZAdjust": "-2",
+        "SuperAnimTwo": "NAMISL_F",
+        "SuperAnimTwoYSort": "543",
+        "SuperAnimTwoZAdjust": "-3",
+        "SuperAnimThree": "NAMISL_G",
+        "SuperAnimThreeYSort": "543",
+        "SuperAnimThreeZAdjust": "-4",
+        "SuperAnimFour": "NAMISL_H",
+        "SuperAnimFourYSort": "543",
+        "SuperAnimFourZAdjust": "-5",
+        "SuperAnimDamaged": "NAMISL_ED",
+        "SuperAnimTwoDamaged": "NAMISL_FD",
+        "SuperAnimThreeDamaged": "NAMISL_GD",
+        "SuperAnimFourDamaged": "NAMISL_HD",
+        "CanBeHidden": "False",
+        "OccupyHeight": "4",
+        "RemoveOccupy1": "1,-1",
+        "RemoveOccupy2": "0,-2",
+        "RemoveOccupy3": "-1,-2",
+        "RemoveOccupy4": "-2,-2",
+        "RemoveOccupy5": "-2,-1",
+        "RemoveOccupy6": "-2,0",
+        "RemoveOccupy7": "-1,1"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "PrimaryFirePixelOffset": [
+          0,
+          44
+        ]
+      }
+    },
+    "ATESLA": {
+      "art": {
+        "Cameo": "prisicon",
+        "Remapable": "no",
+        "Foundation": "1x1",
+        "Height": "6",
+        "Buildup": "GAPRISMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "PrimaryFireDualOffset": "true",
+        "PrimaryFirePixelOffset": "0,-4",
+        "PrimaryFireFLH": "0,0,378",
+        "NewTheater": "yes",
+        "ActiveAnim": "GAPRIS_B",
+        "ActiveAnimDamaged": "GAPRIS_BD",
+        "ActiveAnimZAdjust": "-83",
+        "SpecialAnim": "GAPRIS_A",
+        "SpecialAnimDamaged": "GAPRIS_AD",
+        "SpecialAnimZAdjust": "-84",
+        "SpecialAnimPowered": "no",
+        "SpecialAnimPoweredLight": "yes",
+        "IsAnimDelayedFire": "yes",
+        "DelayedFireDelay": "28",
+        "DamageFireOffset0": "-1,16",
+        "CanBeHidden": "False",
+        "OccupyHeight": "4"
+      },
+      "rules": {
+        "Turret": "no"
+      },
+      "buildingArtOffsets": {
+        "PrimaryFirePixelOffset": [
+          0,
+          -4
+        ],
+        "DamageFireOffset0": [
+          -1,
+          16
+        ]
+      }
+    },
+    "NAYARD": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Height": "10",
+        "Cameo": "YARDICON",
+        "Foundation": "4x4",
+        "Buildup": "NAYARDMK",
+        "DemandLoadBuildup": "true",
+        "IdleAnim": "NAYARD_A",
+        "IdleAnimDamaged": "NAYARD_AD",
+        "IdleAnimZAdjust": "-77",
+        "IdleAnimYSort": "543",
+        "IdleAnimPowered": "no",
+        "ActiveAnimTwo": "NAYARD_B",
+        "ActiveAnimTwoDamaged": "NAYARD_BD",
+        "ActiveAnimTwoZAdjust": "-80",
+        "ActiveAnimTwoYSort": "543",
+        "ActiveAnimThree": "NAYARD_C",
+        "ActiveAnimThreeDamaged": "NAYARD_CD",
+        "ActiveAnimThreeZAdjust": "-77",
+        "ActiveAnimThreeYSort": "543",
+        "ActiveAnimThreePowered": "no",
+        "ProductionAnim": "NAYARD_D",
+        "ProductionAnimDamaged": "NAYARD_DD",
+        "ProductionAnimZAdjust": "-80",
+        "ProductionAnimYSort": "543",
+        "SpecialAnim": "NAYARD_S1",
+        "SpecialAnimDamaged": "NAYARD_S1D",
+        "SpecialAnimZAdjust": "-77",
+        "SpecialAnimYSort": "543",
+        "SpecialAnimTwo": "NAYARD_S2",
+        "SpecialAnimTwoDamaged": "NAYARD_S2D",
+        "SpecialAnimTwoZAdjust": "-77",
+        "SpecialAnimTwoYSort": "543",
+        "SpecialAnimThree": "NAYARD_S3",
+        "SpecialAnimThreeDamaged": "NAYARD_S3D",
+        "SpecialAnimThreeZAdjust": "-77",
+        "SpecialAnimThreeYSort": "543",
+        "DockingOffset0": "384,-128,0",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "4",
+        "AddOccupy1": "-3,-1",
+        "AddOccupy2": "-3,-2",
+        "AddOccupy3": "-3,-3",
+        "AddOccupy4": "-2,-3",
+        "AddOccupy5": "-4,-2",
+        "AddOccupy6": "-4,-3",
+        "DamageFireOffset0": "25,45",
+        "DamageFireOffset1": "-37,42",
+        "DamageFireOffset2": "-57,-6"
+      },
+      "rules": {
+        "UnitRepair": "yes"
+      },
+      "buildingArtOffsets": {
+        "DockingOffset0": [
+          384,
+          -128,
+          0
+        ],
+        "DamageFireOffset0": [
+          25,
+          45
+        ],
+        "DamageFireOffset1": [
+          -37,
+          42
+        ],
+        "DamageFireOffset2": [
+          -57,
+          -6
+        ]
+      }
+    },
+    "GASPYSAT": {
+      "art": {
+        "Image": "GASPST",
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "asaticon",
+        "Foundation": "2x2",
+        "Height": "5",
+        "Buildup": "GASPSTMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "GASPST_A",
+        "ActiveAnimDamaged": "GASPST_AD",
+        "ActiveAnimZAdjust": "-32",
+        "ActiveAnimYSort": "362",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "AddOccupy1": "-2,-1",
+        "DamageFireOffset0": "25,37",
+        "DamageFireOffset1": "-26,25"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          25,
+          37
+        ],
+        "DamageFireOffset1": [
+          -26,
+          25
+        ]
+      }
+    },
+    "GAGAP": {
+      "art": {
+        "Cameo": "Gapicon",
+        "Remapable": "no",
+        "Foundation": "1x1",
+        "Height": "6",
+        "Buildup": "GAGAPMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "GAGAP_A",
+        "ActiveAnimDamaged": "GAGAP_AD",
+        "ActiveAnimZAdjust": "-120",
+        "ActiveAnimYSort": "362",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "4",
+        "DamageFireOffset0": "-5,11"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -5,
+          11
+        ]
+      }
+    },
+    "GTGCAN": {
+      "art": {
+        "Remapable": "yes",
+        "NewTheater": "yes",
+        "Cameo": "GCANICON",
+        "Foundation": "2x2",
+        "Height": "3",
+        "Buildup": "GTGCANMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "PrimaryFireFLH": "250,0,230",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "DamageFireOffset0": "-1,28"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -1,
+          28
+        ]
+      }
+    },
+    "NANRCT": {
+      "art": {
+        "Normalized": "yes",
+        "Remapable": "yes",
+        "Cameo": "NRCTICON",
+        "Foundation": "4x4",
+        "Height": "4",
+        "Buildup": "NANRCTMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "NANRCT_A",
+        "ActiveAnimDamaged": "NANRCT_AD",
+        "ActiveAnimZAdjust": "-5",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "RemoveOccupy1": "0,-1",
+        "RemoveOccupy2": "-1,1",
+        "RemoveOccupy3": "-1,2",
+        "RemoveOccupy4": "0,2",
+        "RemoveOccupy5": "0,3",
+        "DamageFireOffset0": "72,15",
+        "DamageFireOffset1": "-44,71"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          72,
+          15
+        ],
+        "DamageFireOffset1": [
+          -44,
+          71
+        ]
+      }
+    },
+    "GAPILL": {
+      "art": {
+        "Cameo": "pillicon",
+        "Image": "GAPILL",
+        "Remapable": "yes",
+        "Foundation": "1x1",
+        "Height": "1",
+        "Buildup": "GAPILLMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "PrimaryFirePixelOffset": "0,10",
+        "PrimaryFireFLH": "90,0,40",
+        "PrimaryFireDualOffset": "true",
+        "Recoilless": "yes"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "PrimaryFirePixelOffset": [
+          0,
+          10
+        ]
+      }
+    },
+    "NAFLAK": {
+      "art": {
+        "Cameo": "FLAKICON",
+        "Remapable": "yes",
+        "NewTheater": "yes",
+        "Foundation": "1x1",
+        "PrimaryFireFLH": "130,0,185",
+        "Buildup": "NAFLAKMK",
+        "Height": "4",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "DamageFireOffset0": "-5,13"
+      },
+      "rules": {
+        "Turret": "yes"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -5,
+          13
+        ]
+      }
+    },
+    "NACLON": {
+      "art": {
+        "Remapable": "yes",
+        "Normalized": "yes",
+        "Cameo": "CLONICON",
+        "Foundation": "2x2",
+        "Buildup": "NACLONMK",
+        "Height": "6",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "NACLON_A",
+        "ActiveAnimDamaged": "NACLON_AD",
+        "ActiveAnimZAdjust": "-5",
+        "OccupyHeight": "4",
+        "DamageFireOffset0": "23,27",
+        "CanBeHidden": "False"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          23,
+          27
+        ]
+      }
+    },
+    "GAOREP": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "gorep",
+        "Foundation": "3x3",
+        "Height": "4",
+        "Buildup": "GAOREPMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "GAOREP_A",
+        "ActiveAnimDamaged": "GAOREP_AD",
+        "ActiveAnimZAdjust": "-50",
+        "ActiveAnimYSort": "543",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "1",
+        "DamageFireOffset0": "-20,23",
+        "DamageFireOffset1": "-12,34",
+        "DamageFireOffset2": "6,25",
+        "DamageFireOffset3": "-24,53"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -20,
+          23
+        ],
+        "DamageFireOffset1": [
+          -12,
+          34
+        ],
+        "DamageFireOffset2": [
+          6,
+          25
+        ],
+        "DamageFireOffset3": [
+          -24,
+          53
+        ]
+      }
+    },
+    "GAAIRC": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "HELIICON",
+        "Foundation": "3x2",
+        "Height": "7",
+        "Flat": "yes",
+        "Buildup": "GAAIRCMK",
+        "BibShape": "GAAIRCBB",
+        "ZShapePointMove": "60,30",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "DockingOffset0": "0,-128,0",
+        "DockingOffset1": "0,128,0",
+        "DockingOffset2": "256,-128,0",
+        "DockingOffset3": "256,128,0",
+        "ActiveAnim": "GAAIRC_A",
+        "ActiveAnimDamaged": "GAAIRC_AD",
+        "ActiveAnimZAdjust": "0",
+        "ActiveAnimYSort": "362",
+        "ActiveAnimTwo": "GAAIRC_B",
+        "ActiveAnimTwoDamaged": "GAAIRC_BD",
+        "ActiveAnimTwoZAdjust": "0",
+        "ActiveAnimTwoYSort": "362",
+        "ActiveAnimThree": "GAAIRC_C",
+        "ActiveAnimThreeDamaged": "GAAIRC_CD",
+        "ActiveAnimThreeZAdjust": "-80",
+        "ActiveAnimThreeYSort": "543",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,-1",
+        "AddOccupy2": "-1,0",
+        "AddOccupy3": "-2,-1",
+        "AddOccupy4": "-3,-2",
+        "RemoveOccupy1": "1,0",
+        "RemoveOccupy2": "2,0",
+        "RemoveOccupy3": "1,1",
+        "RemoveOccupy4": "2,2",
+        "DamageFireOffset0": "-36,23",
+        "DamageFireOffset1": "-21,6"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          60,
+          30
+        ],
+        "DockingOffset0": [
+          0,
+          -128,
+          0
+        ],
+        "DockingOffset1": [
+          0,
+          128,
+          0
+        ],
+        "DockingOffset2": [
+          256,
+          -128,
+          0
+        ],
+        "DockingOffset3": [
+          256,
+          128,
+          0
+        ],
+        "DamageFireOffset0": [
+          -36,
+          23
+        ],
+        "DamageFireOffset1": [
+          -21,
+          6
+        ]
+      }
+    },
+    "AMRADR": {
+      "art": {
+        "Remapable": "yes",
+        "Cameo": "HELIICON",
+        "Foundation": "3x2",
+        "Height": "7",
+        "Flat": "yes",
+        "Buildup": "GAAIRCMK",
+        "BibShape": "GAAIRCBB",
+        "ZShapePointMove": "60,30",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "DockingOffset0": "0,-128,0",
+        "DockingOffset1": "0,128,0",
+        "DockingOffset2": "256,-128,0",
+        "DockingOffset3": "256,128,0",
+        "ActiveAnim": "GAAIRC_A",
+        "ActiveAnimDamaged": "GAAIRC_AD",
+        "ActiveAnimZAdjust": "0",
+        "ActiveAnimYSort": "362",
+        "ActiveAnimTwo": "GAAIRC_B",
+        "ActiveAnimTwoDamaged": "GAAIRC_BD",
+        "ActiveAnimTwoZAdjust": "0",
+        "ActiveAnimTwoYSort": "362",
+        "ActiveAnimThree": "GAAIRC_C",
+        "ActiveAnimThreeDamaged": "GAAIRC_CD",
+        "ActiveAnimThreeZAdjust": "-80",
+        "ActiveAnimThreeYSort": "543",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "2",
+        "AddOccupy1": "-1,-1",
+        "AddOccupy2": "-1,0",
+        "AddOccupy3": "-2,-1",
+        "AddOccupy4": "-3,-2",
+        "RemoveOccupy1": "1,0",
+        "RemoveOccupy2": "2,0",
+        "RemoveOccupy3": "1,1",
+        "RemoveOccupy4": "2,2",
+        "DamageFireOffset0": "-36,23",
+        "DamageFireOffset1": "-21,6"
+      },
+      "rules": {},
+      "buildingArtOffsets": {
+        "ZShapePointMove": [
+          60,
+          30
+        ],
+        "DockingOffset0": [
+          0,
+          -128,
+          0
+        ],
+        "DockingOffset1": [
+          0,
+          128,
+          0
+        ],
+        "DockingOffset2": [
+          256,
+          -128,
+          0
+        ],
+        "DockingOffset3": [
+          256,
+          128,
+          0
+        ],
+        "DamageFireOffset0": [
+          -36,
+          23
+        ],
+        "DamageFireOffset1": [
+          -21,
+          6
+        ]
+      }
+    },
+    "GACNST": {
+      "art": {
+        "Remapable": "yes",
+        "Foundation": "4x4",
+        "Height": "4",
+        "AnimActive": "0,26,3",
+        "Buildup": "GACNSTMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "GACNST_A",
+        "ActiveAnimDamaged": "GACNST_AD",
+        "ActiveAnimZAdjust": "-130",
+        "ActiveAnimYSort": "362",
+        "ProductionAnim": "GACNST_B",
+        "ProductionAnimDamaged": "GACNST_BD",
+        "ProductionAnimZAdjust": "-10",
+        "ProductionAnimYSort": "543",
+        "CanHideThings": "True",
+        "CanBeHidden": "False",
+        "OccupyHeight": "3",
+        "DamageFireOffset0": "-24,-1",
+        "DamageFireOffset1": "64,36"
+      },
+      "rules": {
+        "ConstructionYard": "yes"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -24,
+          -1
+        ],
+        "DamageFireOffset1": [
+          64,
+          36
+        ]
+      }
+    },
+    "NACNST": {
+      "art": {
+        "Remapable": "yes",
+        "Foundation": "4x4",
+        "Height": "6",
+        "AnimActive": "0,26,3",
+        "Buildup": "NACNSTMK",
+        "DemandLoadBuildup": "true",
+        "FreeBuildup": "true",
+        "NewTheater": "yes",
+        "ActiveAnim": "NACNST_A",
+        "ActiveAnimDamaged": "NACNST_AD",
+        "ActiveAnimZAdjust": "-77",
+        "IdleAnim": "NACNST_C",
+        "IdleAnimZAdjust": "-35",
+        "IdleAnimYSort": "700",
+        "IdleAnimDamaged": "NACNST_CD",
+        "ProductionAnim": "NACNST_B",
+        "ProductionAnimDamaged": "NACNST_BD",
+        "ProductionAnimZAdjust": "-5",
+        "ProductionAnimYSort": "700",
+        "OccupyHeight": "4",
+        "CanHideThings": "true",
+        "CanBeHidden": "False",
+        "RemoveOccupy1": "-2,-1",
+        "RemoveOccupy2": "2,-1",
+        "RemoveOccupy3": "1,-2",
+        "RemoveOccupy4": "0,-2",
+        "RemoveOccupy5": "-1,-2",
+        "RemoveOccupy6": "-2,-2",
+        "RemoveOccupy7": "-2,0",
+        "RemoveOccupy8": "-2,1",
+        "DamageFireOffset0": "-65,41"
+      },
+      "rules": {
+        "ConstructionYard": "yes"
+      },
+      "buildingArtOffsets": {
+        "DamageFireOffset0": [
+          -65,
+          41
+        ]
+      }
+    }
+  }
+}

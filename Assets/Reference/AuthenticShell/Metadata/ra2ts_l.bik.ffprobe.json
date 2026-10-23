@@ -1,0 +1,16 @@
+{
+  "source": "Assets/Reference/AuthenticShell/Original/ra2ts_l.bik",
+  "source_sha256": "4c73d2b9c5dc1dccab156edf7a48bda9ae11928fa97907c4b20e304d2da7d2a6",
+  "decoder": "/data/storage/el2/base/haps/entry/cache/redalert-authentic-shell/ffmpeg-minimal/bin/ffprobe",
+  "decoder_version": "FFmpeg 7.1.2",
+  "method": "Independent native ffprobe -count_frames over the complete original Bink; exit 0.",
+  "probe_result": {
+    "codec_name": "binkvideo",
+    "width": 632,
+    "height": 570,
+    "r_frame_rate": "15/1",
+    "duration": "28.733333",
+    "nb_read_frames": "431"
+  },
+  "cached_raw_evidence": "/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/verification/bik-full-frame-count.json"
+}

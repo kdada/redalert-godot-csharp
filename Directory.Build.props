@@ -1,0 +1,18 @@
+<Project>
+  <PropertyGroup>
+    <DefaultItemExcludes>$(DefaultItemExcludes);**/obj/**;**/bin/**;**/.godot/**</DefaultItemExcludes>
+  </PropertyGroup>
+  <!-- Each HarmonyOS application has its own /data namespace. Keep NuGet assets
+       and generated files private to that application, even when the project is shared. -->
+  <PropertyGroup Condition="'$(XDG_CACHE_HOME)' != ''">
+    <BaseIntermediateOutputPath>$(XDG_CACHE_HOME)/redalert-command/obj/$(MSBuildProjectName)/</BaseIntermediateOutputPath>
+    <MSBuildProjectExtensionsPath>$(BaseIntermediateOutputPath)</MSBuildProjectExtensionsPath>
+    <RestorePackagesPath>$(XDG_CACHE_HOME)/nuget/</RestorePackagesPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' == 'RedAlert' and '$(XDG_CACHE_HOME)' != ''">
+    <IntermediateOutputPath>$(BaseIntermediateOutputPath)$(Configuration)/</IntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(MSBuildProjectName)' != 'RedAlert' and '$(XDG_CACHE_HOME)' != ''">
+    <BaseOutputPath>$(XDG_CACHE_HOME)/redalert-command/bin/$(MSBuildProjectName)/</BaseOutputPath>
+  </PropertyGroup>
+</Project>

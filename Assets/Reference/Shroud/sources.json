@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "sourceRevision": "acfa5b834899e7fab4c8499ccb4b49c402927b44",
+  "referenceRoot": "Assets/Reference/Shroud",
+  "archiveCatalog": "Offsets/lengths/SHA256 supplied by parent after original MIX catalog verification.",
+  "fetchPolicy": "Only the two exact 88712-byte SHP ranges and two digest-pinned YAML data files. Existing originals must match; changed originals are never overwritten.",
+  "yamlRevisionLimitation": "OpenRA master URLs are mutable; retained snapshot sizes and SHA256 are pinned here and in the tool. Upstream drift fails closed.",
+  "sourceArchiveBytes": 177424,
+  "assets": [
+    {
+      "path": "shroud.shp",
+      "bytes": 88712,
+      "sha256": "9818f7e2685fb1e8ed75ceff568aaf5d36350c747cbd4f30856458bba12e4964",
+      "source_url": "https://raw.githubusercontent.com/toarrntnz/ts-redalert2-assets/acfa5b834899e7fab4c8499ccb4b49c402927b44/game-res/ra2.mix.part00",
+      "request_url": "https://raw.githubusercontent.com/toarrntnz/ts-redalert2-assets/acfa5b834899e7fab4c8499ccb4b49c402927b44/game-res/ra2.mix.part00?range=13778928-88712",
+      "source_archive": "ra2.mix",
+      "nested_archive": "conquer.mix",
+      "archive_offset": 13778928,
+      "http_range": "bytes=13778928-13867639",
+      "original_filename": "SHROUD.SHP",
+      "actual_type": "SHP",
+      "header": {
+        "magic": 0,
+        "width": 60,
+        "height": 30,
+        "frames": 96
+      }
+    },
+    {
+      "path": "fog.shp",
+      "bytes": 88712,
+      "sha256": "b8e3640435140041f0ac3d4ff18ad99b035a2292b685a2fd89c64bf1cc55e73f",
+      "source_url": "https://raw.githubusercontent.com/toarrntnz/ts-redalert2-assets/acfa5b834899e7fab4c8499ccb4b49c402927b44/game-res/ra2.mix.part00",
+      "request_url": "https://raw.githubusercontent.com/toarrntnz/ts-redalert2-assets/acfa5b834899e7fab4c8499ccb4b49c402927b44/game-res/ra2.mix.part00?range=13867648-88712",
+      "source_archive": "ra2.mix",
+      "nested_archive": "conquer.mix",
+      "archive_offset": 13867648,
+      "http_range": "bytes=13867648-13956359",
+      "original_filename": "FOG.SHP",
+      "actual_type": "SHP",
+      "header": {
+        "magic": 0,
+        "width": 60,
+        "height": 30,
+        "frames": 96
+      }
+    },
+    {
+      "path": "palettes.yaml",
+      "bytes": 3870,
+      "sha256": "f8342f975a8d3921f51be3870d0e14d95496eb0c33416b21c9bf1de27fa92b31",
+      "source_url": "https://raw.githubusercontent.com/OpenRA/ra2/master/mods/ra2/rules/palettes.yaml",
+      "actual_type": "YAML",
+      "purpose": "DATA only; shroud palette declaration and extended-neighbor frame map"
+    },
+    {
+      "path": "misc.yaml",
+      "bytes": 14337,
+      "sha256": "28f2182ffa03cf48d6177c572c887e83dc7a59cc317b81a9cdc7403feb46ace7",
+      "source_url": "https://raw.githubusercontent.com/OpenRA/ra2/master/mods/ra2/sequences/misc.yaml",
+      "actual_type": "YAML",
+      "purpose": "DATA only; shroud palette declaration and extended-neighbor frame map"
+    }
+  ]
+}

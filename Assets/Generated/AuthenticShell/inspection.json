@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "source_movie": "Assets/Reference/AuthenticShell/Original/ra2ts_l.bik",
+  "source_sha256": "4c73d2b9c5dc1dccab156edf7a48bda9ae11928fa97907c4b20e304d2da7d2a6",
+  "inspection_method": "Read actual decoded firstframe.png and the native-resolution five-frame contact-sheet.png with read_image; no generated replacement art or legacy PCX was used.",
+  "visually_inspected_frames": [0, 107, 215, 323, 430],
+  "visual_content": {
+    "original_command_and_conquer_red_alert_2_logo_baked_in": true,
+    "silver_crt_bezel_and_panel_baked_in": true,
+    "red_globe_map_radar_grid_baked_in": true,
+    "animated_radar_sweep_and_footage_montage": true,
+    "original_main_menu_command_buttons_baked_in": false,
+    "description": "Authentic gold/red COMMAND & CONQUER RED ALERT 2 branding over a red geographic radar/map display, a sweeping radar beam with occasional war/cutscene footage behind the logo, black curved CRT surround, and silver outer bezel. The representative frames contain no Single Player, Multiplayer, Options, or Exit buttons. The title logo is already part of every inspected frame and must not be added a second time for faithful presentation."
+  },
+  "coordinates": {
+    "system": "Native movie pixels, top-left origin; this is not a full-screen UI coordinate system.",
+    "width": 632,
+    "height": 570,
+    "decorative_regions": [
+      {"name": "Entire original movie, including logo/map/bezel", "rect": [0, 0, 632, 570], "interactive": false}
+    ],
+    "click_targets_inside_movie": [],
+    "original_full_screen_origin": null,
+    "original_button_rectangles": null,
+    "coordinate_evidence": "The Bink header/index encode image dimensions, rate, and frame offsets, but no screen placement or UI input definitions. No original buttons are visible in the five inspected frames. Full-screen button coordinates cannot be recovered from this movie alone.",
+    "godot_input": "Use Control.MouseFilterEnum.Ignore for the TextureRect or VideoStreamPlayer. Independent Godot Button controls supply the actual menu hit targets. The visible logo, globe, radar sweep, CRT glass and bezel are decorative."
+  },
+  "verification": {
+    "original_movie_bytes": 7184828,
+    "original_frame_count": 431,
+    "decoded_frame_count": 431,
+    "unique_decoded_rgb_frames": 431,
+    "decoder_diagnostics": "",
+    "native_width": 632,
+    "native_height": 570,
+    "fps_numerator": 15,
+    "fps_denominator": 1,
+    "duration_seconds": 28.733333333333334,
+    "audio_tracks": 0,
+    "first_and_last_decoded_frames_identical": false,
+    "loop_note": "Repeat the complete authentic sequence without seam smoothing; first and last frames are not byte-identical."
+  },
+  "godot_loop": {
+    "path": "Assets/Generated/AuthenticShell/ra2ts_l/menu-loop.ogv",
+    "bytes": 5490952,
+    "sha256": "694e6daec92dbbea27ae0c827c9c26e70a033d9e348f910a9f9fd2d86ed9a2c6",
+    "codec": "theora",
+    "quality": 9,
+    "independent_full_decode_verified": true,
+    "decoded_frames": 431,
+    "picture_width": 632,
+    "picture_height": 570,
+    "fps": "15/1",
+    "duration_seconds": 28.733333,
+    "video_streams": 1,
+    "audio_streams": 0,
+    "transcoded_first_frame_visual_check": "Passed: decoded the existing OGV with native FFmpeg and inspected the resulting PNG with read_image; original RA2 logo, red map/radar and silver CRT bezel remain intact at native 632x570.",
+    "transcoded_first_frame_png_sha256": "8d236e4a5d92fcf245ebecf0d4f6ef454e84dd4904bebd063b199b264812b341",
+    "transcoded_first_frame_cache_path": "/data/storage/el2/base/haps/entry/cache/ffmpeg-bink-7.1.2-ohos-aarch64/verification/final-ogv-first-frame.png",
+    "encoding": "Lossy Ogg Theora playback derivative of the complete authentic movie; the original Bink and lossless decoded RGB PNG stills are retained."
+  },
+  "images": {
+    "firstframe": "Assets/Generated/AuthenticShell/ra2ts_l/firstframe.png",
+    "firstframe_png_sha256": "503e96e4726895ede143e07859636dd57e37b006b9ce82608531980c3eb45f63",
+    "firstframe_rgb_sha256": "ebf3d8fac1ff338e05f3845fbd524a95794da812a5ee1efc3aa57026347b5867",
+    "contact_sheet": "Assets/Generated/AuthenticShell/ra2ts_l/contact-sheet.png",
+    "contact_sheet_sha256": "6a7469f6ed347a298d5ac79b74b36583557040cd34b0e22cbffce8ca74d1e39f"
+  },
+  "scope": "Original media and standalone conversion tools only. Existing project files, C# application build and Godot were not changed or controlled."
+}

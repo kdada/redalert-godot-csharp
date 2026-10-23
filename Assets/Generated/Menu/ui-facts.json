@@ -1,0 +1,139 @@
+{
+  "source": "Assets/Reference/Menu/Original/local/ui.ini",
+  "sha256": "f946c99eab17813f5e5c7b668f7b2d2e2cdc82145035106557df9b68a9854579",
+  "coordinate_policy": "Only literal original INI values are facts; no screen positions are inferred from artwork.",
+  "sections": {
+    "AdvancedCommandBar": [
+      {
+        "key": "ButtonList",
+        "value": "Team01,Team02,TypeSelect,Deploy,Guard,PlanningMode",
+        "line": 31
+      }
+    ],
+    "MultiplayerAdvancedCommandBar": [
+      {
+        "key": "ButtonList",
+        "value": "Team01,Team02,TypeSelect,Deploy,Guard,PlanningMode,Beacon",
+        "line": 37
+      }
+    ]
+  },
+  "comments": [
+    {
+      "line": 2,
+      "text": "AdvancedCommandBar Entries"
+    },
+    {
+      "line": 3,
+      "text": ""
+    },
+    {
+      "line": 4,
+      "text": "ButtonList"
+    },
+    {
+      "line": 5,
+      "text": "This is a list of buttons that the user might desire on his command bar."
+    },
+    {
+      "line": 6,
+      "text": "This list orders buttons from left to right and right-justifies them."
+    },
+    {
+      "line": 7,
+      "text": "If the user inserts an 'x' into the list (i.e. \"blah,x,thing, ...\")"
+    },
+    {
+      "line": 8,
+      "text": "it will leave an empty slot in the command bar between the appropriate"
+    },
+    {
+      "line": 9,
+      "text": "entries."
+    },
+    {
+      "line": 10,
+      "text": ""
+    },
+    {
+      "line": 11,
+      "text": "The supported entries are as follows:"
+    },
+    {
+      "line": 12,
+      "text": ""
+    },
+    {
+      "line": 13,
+      "text": "AttackMove"
+    },
+    {
+      "line": 14,
+      "text": "AutoDeploy -- Currently unsupported."
+    },
+    {
+      "line": 15,
+      "text": "Beacon"
+    },
+    {
+      "line": 16,
+      "text": "Cheer"
+    },
+    {
+      "line": 17,
+      "text": "Deploy"
+    },
+    {
+      "line": 18,
+      "text": "Guard"
+    },
+    {
+      "line": 19,
+      "text": "PlanningMode"
+    },
+    {
+      "line": 20,
+      "text": "Stop"
+    },
+    {
+      "line": 21,
+      "text": "Team01"
+    },
+    {
+      "line": 22,
+      "text": "Team02"
+    },
+    {
+      "line": 23,
+      "text": "Team03"
+    },
+    {
+      "line": 24,
+      "text": "TypeSelect"
+    },
+    {
+      "line": 27,
+      "text": ""
+    },
+    {
+      "line": 28,
+      "text": "This section is used for solo and skirmish games"
+    },
+    {
+      "line": 29,
+      "text": ""
+    },
+    {
+      "line": 33,
+      "text": ""
+    },
+    {
+      "line": 34,
+      "text": "This section contains the configuration for multiplayer games"
+    },
+    {
+      "line": 35,
+      "text": ""
+    }
+  ]
+}
